@@ -2,6 +2,7 @@
 RAG query pipeline: embed question -> retrieve chunks from Pinecone -> GPT-4o answer.
 """
 import os
+import re
 
 from dotenv import load_dotenv
 from openai import OpenAI
@@ -46,15 +47,20 @@ def _classify_graph_intent(question: str) -> set[str]:
 
 def _resolve_company(kg, session, question: str) -> str | None:
     """Find which issuer the question is about by matching ticker or legal name
-    against the question text."""
+    against the question text. Falls back to the sole issuer if only one exists."""
+    # strip possessives/punctuation: "AAPL's board" -> tokens {"aapl", "s", "board"}
+    tokens = set(re.findall(r"[a-z0-9]+", question.lower()))
     q = question.lower()
-    for issuer in kg.query_issuers(session):
+    issuers = kg.query_issuers(session)
+    for issuer in issuers:
         ticker = (issuer.get("ticker") or "").lower()
         legal = (issuer.get("legal_name") or "").lower()
         # "Apple Inc." -> match on the leading word(s) before the suffix
         legal_short = legal.split(" inc")[0].split(" corp")[0].strip()
-        if (ticker and ticker in q.split()) or (legal_short and legal_short in q):
+        if (ticker and ticker in tokens) or (legal_short and legal_short in q):
             return issuer["ticker"] or issuer["name"]
+    if len(issuers) == 1:
+        return issuers[0]["ticker"] or issuers[0]["name"]
     return None
 
 
@@ -92,9 +98,11 @@ def _fetch_graph_facts(intents: set[str], question: str, company: str = None) ->
 
 
 def format_graph_context(facts: dict) -> str:
-    lines = ["Knowledge Graph Facts (structured, extracted from the filings):"]
+    lines = ["Knowledge Graph Facts (structured, extracted from the most recent filing):"]
     for intent, rows in facts.items():
-        lines.append(f"\n{intent.capitalize()}:")
+        year = next((r["year"] for r in rows if r.get("year")), None)
+        header = f"{intent.capitalize()} (per {year} filing):" if year else f"{intent.capitalize()}:"
+        lines.append(f"\n{header}")
         for r in rows:
             if intent in ("board", "executives"):
                 title = f" — {r['title']}" if r.get("title") else ""

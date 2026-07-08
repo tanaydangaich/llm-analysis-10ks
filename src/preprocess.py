@@ -2,9 +2,9 @@
 Parse SEC filing HTML/PDF, clean text, and chunk into ~500-token pieces with overlap.
 Outputs data/processed/chunks.json with metadata per chunk.
 """
+import hashlib
 import json
 import re
-import uuid
 from pathlib import Path
 
 import tiktoken
@@ -93,7 +93,9 @@ def process_file(path: Path, company: str, filing_type: str) -> list[dict]:
     records = []
     for i, chunk in enumerate(chunks):
         records.append({
-            "id": str(uuid.uuid4()),
+            # deterministic: re-running preprocess + index overwrites Pinecone
+            # vectors instead of duplicating them
+            "id": hashlib.sha1(f"{path}:{i}".encode()).hexdigest(),
             "text": chunk,
             "source": str(path),
             "company": company,
@@ -130,8 +132,17 @@ def process_directory(raw_dir: Path, company: str, out_path: Path) -> None:
 
 
 def process_companies(raw_dir: Path, companies: list[str], out_path: Path) -> None:
-    """Process several companies, write chunks.json once at the end."""
+    """Process several companies. Chunks for companies NOT in this run are
+    preserved from the existing file, so incremental runs don't drop data."""
+    processed = set(c.upper() for c in companies)
     all_chunks = []
+    if out_path.exists():
+        with open(out_path) as f:
+            existing = json.load(f)
+        kept = [c for c in existing if c["company"].upper() not in processed]
+        if kept:
+            print(f"Keeping {len(kept)} existing chunks for other companies")
+        all_chunks.extend(kept)
     for company in companies:
         all_chunks.extend(_collect_company_chunks(raw_dir, company))
     _write_chunks(all_chunks, out_path)

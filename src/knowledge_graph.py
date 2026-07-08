@@ -71,41 +71,41 @@ def upsert_product(tx, name: str):
     tx.run("MERGE (pr:Product {name: $name})", name=name)
 
 
-def upsert_filing(tx, company: str, filing_type: str, source: str):
+def upsert_filing(tx, company: str, filing_type: str, source: str, year: int = 0):
     tx.run(
         """
         MERGE (f:Filing {source: $source})
-        SET f.company = $company, f.filing_type = $filing_type
+        SET f.company = $company, f.filing_type = $filing_type, f.year = $year
         """,
-        company=company, filing_type=filing_type, source=source,
+        company=company, filing_type=filing_type, source=source, year=year,
     )
 
 
-def link_board_member(tx, person: str, org: str, title: str = None):
+def link_board_member(tx, person: str, org: str, title: str = None, year: int = 0):
     tx.run(
         """
         MERGE (p:Person {name: $person})
         MERGE (o:Organization {name: $org})
-        MERGE (p)-[r:BOARD_MEMBER_OF]->(o)
+        MERGE (p)-[r:BOARD_MEMBER_OF {year: $year}]->(o)
         SET r.title = coalesce($title, r.title)
         """,
-        person=_canonicalize(person), org=_canonicalize(org), title=title,
+        person=_canonicalize(person), org=_canonicalize(org), title=title, year=year,
     )
 
 
-def link_executive(tx, person: str, org: str, title: str = None):
+def link_executive(tx, person: str, org: str, title: str = None, year: int = 0):
     tx.run(
         """
         MERGE (p:Person {name: $person})
         MERGE (o:Organization {name: $org})
-        MERGE (p)-[r:EXECUTIVE_OF]->(o)
+        MERGE (p)-[r:EXECUTIVE_OF {year: $year}]->(o)
         SET r.title = coalesce($title, r.title)
         """,
-        person=_canonicalize(person), org=_canonicalize(org), title=title,
+        person=_canonicalize(person), org=_canonicalize(org), title=title, year=year,
     )
 
 
-def link_competitor(tx, org_a: str, org_b: str):
+def link_competitor(tx, org_a: str, org_b: str, year: int = 0):
     a, b = _canonicalize(org_a), _canonicalize(org_b)
     if not a or not b or a == b:
         return
@@ -113,25 +113,25 @@ def link_competitor(tx, org_a: str, org_b: str):
         """
         MERGE (a:Organization {name: $a})
         MERGE (b:Organization {name: $b})
-        MERGE (a)-[:COMPETES_WITH]->(b)
+        MERGE (a)-[:COMPETES_WITH {year: $year}]->(b)
         """,
-        a=a, b=b,
+        a=a, b=b, year=year,
     )
 
 
-def link_shareholder(tx, holder: str, org: str, pct_owned: float = None):
+def link_shareholder(tx, holder: str, org: str, pct_owned: float = None, year: int = 0):
     tx.run(
         """
         MERGE (h:Organization {name: $holder})
         MERGE (o:Organization {name: $org})
-        MERGE (h)-[r:SHAREHOLDER_OF]->(o)
+        MERGE (h)-[r:SHAREHOLDER_OF {year: $year}]->(o)
         SET r.pct_owned = coalesce($pct, r.pct_owned)
         """,
-        holder=_canonicalize(holder), org=_canonicalize(org), pct=pct_owned,
+        holder=_canonicalize(holder), org=_canonicalize(org), pct=pct_owned, year=year,
     )
 
 
-def link_product(tx, product: str, org: str):
+def link_product(tx, product: str, org: str, year: int = 0):
     product = re.sub(r"\s+", " ", product or "").strip()
     if not product:
         return
@@ -139,24 +139,24 @@ def link_product(tx, product: str, org: str):
         """
         MERGE (pr:Product {name: $product})
         MERGE (o:Organization {name: $org})
-        MERGE (pr)-[:PRODUCT_OF]->(o)
+        MERGE (pr)-[:PRODUCT_OF {year: $year}]->(o)
         """,
-        product=product, org=_canonicalize(org),
+        product=product, org=_canonicalize(org), year=year,
     )
 
 
-def link_subsidiary(tx, subsidiary: str, parent: str):
+def link_subsidiary(tx, subsidiary: str, parent: str, year: int = 0):
     tx.run(
         """
         MERGE (s:Organization {name: $sub})
         MERGE (p:Organization {name: $parent})
-        MERGE (s)-[:SUBSIDIARY_OF]->(p)
+        MERGE (s)-[:SUBSIDIARY_OF {year: $year}]->(p)
         """,
-        sub=_canonicalize(subsidiary), parent=_canonicalize(parent),
+        sub=_canonicalize(subsidiary), parent=_canonicalize(parent), year=year,
     )
 
 
-def link_partner(tx, org_a: str, org_b: str):
+def link_partner(tx, org_a: str, org_b: str, year: int = 0):
     a, b = _canonicalize(org_a), _canonicalize(org_b)
     if not a or not b or a == b:
         return
@@ -164,19 +164,22 @@ def link_partner(tx, org_a: str, org_b: str):
         """
         MERGE (a:Organization {name: $a})
         MERGE (b:Organization {name: $b})
-        MERGE (a)-[:PARTNERS_WITH]->(b)
+        MERGE (a)-[:PARTNERS_WITH {year: $year}]->(b)
         """,
-        a=a, b=b,
+        a=a, b=b, year=year,
     )
 
 
-def set_headquarters(tx, org: str, address: str):
+def set_headquarters(tx, org: str, address: str, year: int = 0):
+    # keep the address from the most recent filing only
     tx.run(
         """
         MERGE (o:Organization {name: $org})
-        SET o.headquarters_address = $address
+        WITH o, ($year >= coalesce(o.hq_year, -1)) AS newer
+        FOREACH (_ IN CASE WHEN newer THEN [1] ELSE [] END |
+            SET o.headquarters_address = $address, o.hq_year = $year)
         """,
-        org=_canonicalize(org), address=address.strip(),
+        org=_canonicalize(org), address=address.strip(), year=year,
     )
 
 
@@ -209,14 +212,18 @@ def _load_record(tx, rec: dict):
     rtype = rec.get("type")
     issuer = rec.get("issuer", "")
     source = rec.get("source")
+    year = rec.get("filing_year", 0) or 0
+
+    if source:
+        upsert_filing(tx, issuer, rec.get("filing_type", ""), source, year=year)
 
     if rtype == "person":
         upsert_person(tx, rec["name"])
         rel = rec.get("relationship")
         if rel == "BOARD_MEMBER_OF":
-            link_board_member(tx, rec["name"], issuer, rec.get("title"))
+            link_board_member(tx, rec["name"], issuer, rec.get("title"), year=year)
         elif rel == "EXECUTIVE_OF":
-            link_executive(tx, rec["name"], issuer, rec.get("title"))
+            link_executive(tx, rec["name"], issuer, rec.get("title"), year=year)
         if source:
             link_mentioned_in(tx, "Person", rec["name"], source)
 
@@ -224,23 +231,23 @@ def _load_record(tx, rec: dict):
         upsert_organization(tx, rec["name"], ticker=rec.get("ticker"), role=rec.get("role"))
         rel = rec.get("relationship")
         if rel == "COMPETES_WITH":
-            link_competitor(tx, rec["name"], issuer)
+            link_competitor(tx, rec["name"], issuer, year=year)
         elif rel == "SHAREHOLDER_OF":
-            link_shareholder(tx, rec["name"], issuer, rec.get("pct_owned"))
+            link_shareholder(tx, rec["name"], issuer, rec.get("pct_owned"), year=year)
         elif rel == "SUBSIDIARY_OF":
-            link_subsidiary(tx, rec["name"], issuer)
+            link_subsidiary(tx, rec["name"], issuer, year=year)
         elif rel == "PARTNERS_WITH":
-            link_partner(tx, rec["name"], issuer)
+            link_partner(tx, rec["name"], issuer, year=year)
         if source:
             link_mentioned_in(tx, "Organization", rec["name"], source)
 
     elif rtype == "product":
-        link_product(tx, rec["name"], issuer)
+        link_product(tx, rec["name"], issuer, year=year)
         if source:
             link_mentioned_in(tx, "Product", rec["name"], source)
 
     elif rtype == "headquarters":
-        set_headquarters(tx, issuer, rec["address"])
+        set_headquarters(tx, issuer, rec["address"], year=year)
 
     elif rtype == "issuer":
         upsert_organization(tx, rec["name"], ticker=rec.get("ticker"), role="issuer")
@@ -293,7 +300,10 @@ def query_board(session, company: str) -> list[dict]:
         MATCH (p:Person)-[r:BOARD_MEMBER_OF]->(o:Organization)
         WHERE o.ticker = $company OR toLower(o.name) CONTAINS toLower($company)
            OR toLower(coalesce(o.legal_name, '')) CONTAINS toLower($company)
-        RETURN DISTINCT p.name AS name, r.title AS title, o.name AS org
+        WITH o, max(r.year) AS latest
+        MATCH (p:Person)-[r:BOARD_MEMBER_OF]->(o)
+        WHERE r.year = latest
+        RETURN DISTINCT p.name AS name, r.title AS title, o.name AS org, r.year AS year
         """,
         company=company,
     )
@@ -306,7 +316,10 @@ def query_executives(session, company: str) -> list[dict]:
         MATCH (p:Person)-[r:EXECUTIVE_OF]->(o:Organization)
         WHERE o.ticker = $company OR toLower(o.name) CONTAINS toLower($company)
            OR toLower(coalesce(o.legal_name, '')) CONTAINS toLower($company)
-        RETURN DISTINCT p.name AS name, r.title AS title, o.name AS org
+        WITH o, max(r.year) AS latest
+        MATCH (p:Person)-[r:EXECUTIVE_OF]->(o)
+        WHERE r.year = latest
+        RETURN DISTINCT p.name AS name, r.title AS title, o.name AS org, r.year AS year
         """,
         company=company,
     )
@@ -316,10 +329,13 @@ def query_executives(session, company: str) -> list[dict]:
 def query_competitors(session, company: str) -> list[dict]:
     result = session.run(
         """
-        MATCH (o:Organization)-[:COMPETES_WITH]-(c:Organization)
+        MATCH (o:Organization)-[r:COMPETES_WITH]-(c:Organization)
         WHERE o.ticker = $company OR toLower(o.name) CONTAINS toLower($company)
            OR toLower(coalesce(o.legal_name, '')) CONTAINS toLower($company)
-        RETURN DISTINCT c.name AS name, o.name AS org
+        WITH o, max(r.year) AS latest
+        MATCH (o)-[r:COMPETES_WITH]-(c:Organization)
+        WHERE r.year = latest
+        RETURN DISTINCT c.name AS name, o.name AS org, r.year AS year
         """,
         company=company,
     )
@@ -332,7 +348,10 @@ def query_shareholders(session, company: str) -> list[dict]:
         MATCH (h:Organization)-[r:SHAREHOLDER_OF]->(o:Organization)
         WHERE o.ticker = $company OR toLower(o.name) CONTAINS toLower($company)
            OR toLower(coalesce(o.legal_name, '')) CONTAINS toLower($company)
-        RETURN DISTINCT h.name AS name, r.pct_owned AS pct_owned, o.name AS org
+        WITH o, max(r.year) AS latest
+        MATCH (h:Organization)-[r:SHAREHOLDER_OF]->(o)
+        WHERE r.year = latest
+        RETURN DISTINCT h.name AS name, r.pct_owned AS pct_owned, o.name AS org, r.year AS year
         """,
         company=company,
     )
@@ -346,7 +365,7 @@ def query_headquarters(session, company: str) -> list[dict]:
         WHERE (o.ticker = $company OR toLower(o.name) CONTAINS toLower($company)
                OR toLower(coalesce(o.legal_name, '')) CONTAINS toLower($company))
           AND o.headquarters_address IS NOT NULL
-        RETURN o.name AS org, o.headquarters_address AS address
+        RETURN o.name AS org, o.headquarters_address AS address, o.hq_year AS year
         """,
         company=company,
     )
@@ -356,10 +375,13 @@ def query_headquarters(session, company: str) -> list[dict]:
 def query_products(session, company: str) -> list[dict]:
     result = session.run(
         """
-        MATCH (pr:Product)-[:PRODUCT_OF]->(o:Organization)
+        MATCH (pr:Product)-[r:PRODUCT_OF]->(o:Organization)
         WHERE o.ticker = $company OR toLower(o.name) CONTAINS toLower($company)
            OR toLower(coalesce(o.legal_name, '')) CONTAINS toLower($company)
-        RETURN DISTINCT pr.name AS name, o.name AS org
+        WITH o, max(r.year) AS latest
+        MATCH (pr:Product)-[r:PRODUCT_OF]->(o)
+        WHERE r.year = latest
+        RETURN DISTINCT pr.name AS name, o.name AS org, r.year AS year
         """,
         company=company,
     )
@@ -373,21 +395,6 @@ def query_issuers(session) -> list[dict]:
         MATCH (o:Organization {role: 'issuer'})
         RETURN o.name AS name, o.ticker AS ticker, o.legal_name AS legal_name
         """
-    )
-    return [dict(rec) for rec in result]
-
-
-def query_entity_neighborhood(session, name: str, hops: int = 1) -> list[dict]:
-    result = session.run(
-        f"""
-        MATCH (n)-[r*1..{int(hops)}]-(m)
-        WHERE toLower(n.name) CONTAINS toLower($name)
-          AND NOT m:Filing
-        UNWIND r AS rel
-        RETURN DISTINCT startNode(rel).name AS from, type(rel) AS rel, endNode(rel).name AS to
-        LIMIT 100
-        """,
-        name=name,
     )
     return [dict(rec) for rec in result]
 

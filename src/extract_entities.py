@@ -90,6 +90,13 @@ Rules:
 - Return empty arrays when the excerpt has nothing relevant (financial tables, legal boilerplate)."""
 
 
+def _filing_year(source: str) -> int:
+    """Filing year from the SEC accession number in the source path,
+    e.g. .../0000320193-23-000106/... -> 2023. 0 if underivable."""
+    m = re.search(r"-(\d{2})-\d{6}", source)
+    return 2000 + int(m.group(1)) if m else 0
+
+
 def _group_chunks_into_windows(chunks: list[dict], window_tokens: int = WINDOW_TOKENS) -> list[dict]:
     """Group chunks by source file, concatenate in chunk_index order into larger windows.
 
@@ -181,7 +188,12 @@ def extract_from_window(client: OpenAI, window: dict) -> list[dict]:
         return []
 
     records = []
-    meta = {"issuer": company, "source": window["source"], "filing_type": window["filing_type"]}
+    meta = {
+        "issuer": company,
+        "source": window["source"],
+        "filing_type": window["filing_type"],
+        "filing_year": _filing_year(window["source"]),
+    }
 
     for p in data.get("people", []) or []:
         if not p.get("name"):
@@ -245,21 +257,29 @@ def _clean_records(records: list[dict]) -> list[dict]:
 
 
 def _dedupe(records: list[dict]) -> list[dict]:
-    """Drop exact duplicates across windows (same type+name+issuer+relationship);
-    keep the record with the most fields (e.g. one that has a title)."""
+    """Drop exact duplicates across windows. Keyed per filing year so the same
+    person/org in different filings stays as separate year-scoped records;
+    within a year keep the record with the most fields (e.g. one with a title)."""
     best: dict[tuple, dict] = {}
-    hq_seen: set[str] = set()
-    out = []
+    hq_seen: set[tuple] = set()
     legal_seen: set[str] = set()
+    out = []
     for rec in records:
-        if rec["type"] in ("headquarters", "issuer_legal_name"):
-            seen = hq_seen if rec["type"] == "headquarters" else legal_seen
-            if rec["issuer"] in seen:
+        year = rec.get("filing_year", 0)
+        if rec["type"] == "headquarters":
+            key = (rec["issuer"], year)
+            if key in hq_seen:
                 continue
-            seen.add(rec["issuer"])
+            hq_seen.add(key)
             out.append(rec)
             continue
-        key = (rec["type"], rec["name"].lower(), rec["issuer"], rec.get("relationship"))
+        if rec["type"] == "issuer_legal_name":
+            if rec["issuer"] in legal_seen:
+                continue
+            legal_seen.add(rec["issuer"])
+            out.append(rec)
+            continue
+        key = (rec["type"], rec["name"].lower(), rec["issuer"], rec.get("relationship"), year)
         if key not in best or len(rec) > len(best[key]):
             best[key] = rec
     out.extend(best.values())
@@ -298,6 +318,17 @@ def extract_entities(chunks_path: Path, out_path: Path, companies: list[str] = N
             continue
         all_records.extend(recs)
         print(f"  window {i + 1}/{len(live)} [{w['company']} chunks {w['chunk_range'][0]}-{w['chunk_range'][1]}]: {len(recs)} records")
+
+    # Merge: preserve existing records for companies NOT re-extracted this run,
+    # so incremental runs never silently drop earlier companies.
+    extracted = {w["company"] for w in live}
+    if out_path.exists():
+        with open(out_path) as f:
+            existing = json.load(f)
+        kept = [r for r in existing if r["issuer"] not in extracted]
+        if kept:
+            print(f"Keeping {len(kept)} existing records for other companies")
+        all_records = kept + all_records
 
     deduped = _dedupe(_clean_records(all_records))
     out_path.parent.mkdir(parents=True, exist_ok=True)
