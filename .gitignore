@@ -1,0 +1,15 @@
+# secrets — never commit
+.env
+
+# bulky / regenerable data
+data/raw/
+data/processed/chunks.json
+
+# python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# os
+.DS_Store

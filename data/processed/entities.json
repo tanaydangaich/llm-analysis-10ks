@@ -1,0 +1,1910 @@
+[
+  {
+    "type": "headquarters",
+    "address": "One Apple Park Way Cupertino , California 95014",
+    "issuer": "AAPL",
+    "source": "data/raw/sec-edgar-filings/AAPL/10-K/0000320193-23-000106/full-submission.txt",
+    "filing_type": "10-K"
+  },
+  {
+    "type": "issuer_legal_name",
+    "name": "Apple Inc.",
+    "issuer": "AAPL",
+    "source": "data/raw/sec-edgar-filings/AAPL/10-K/0000320193-23-000106/full-submission.txt",
+    "filing_type": "10-K"
+  },
+  {
+    "type": "issuer_legal_name",
+    "name": "Microsoft Corporation",
+    "issuer": "MSFT",
+    "source": "data/raw/sec-edgar-filings/MSFT/10-K/0000950170-25-100235/full-submission.txt",
+    "filing_type": "10-K"
+  },
+  {
+    "type": "headquarters",
+    "address": "Seattle, Washington",
+    "issuer": "MSFT",
+    "source": "data/raw/sec-edgar-filings/MSFT/10-K/0000950170-25-100235/full-submission.txt",
+    "filing_type": "10-K"
+  },
+  {
+    "type": "issuer_legal_name",
+    "name": "Alphabet Inc.",
+    "issuer": "GOOGL",
+    "source": "data/raw/sec-edgar-filings/GOOGL/10-K/0001652044-26-000018/full-submission.txt",
+    "filing_type": "10-K"
+  },
+  {
+    "type": "headquarters",
+    "address": "Mountain View, California",
+    "issuer": "GOOGL",
+    "source": "data/raw/sec-edgar-filings/GOOGL/10-K/0001652044-26-000018/full-submission.txt",
+    "filing_type": "10-K"
+  },
+  {
+    "type": "issuer",
+    "name": "AAPL",
+    "ticker": "AAPL",
+    "issuer": "AAPL",
+    "source": "data/raw/sec-edgar-filings/AAPL/10-K/0000320193-23-000106/full-submission.txt",
+    "filing_type": "10-K"
+  },
+  {
+    "type": "person",
+    "name": "Deirdre O'Brien",
+    "issuer": "AAPL",
+    "source": "data/raw/sec-edgar-filings/AAPL/10-K/0000320193-23-000106/full-submission.txt",
+    "filing_type": "10-K",
+    "relationship": "EXECUTIVE_OF",
+    "title": "Member"
+  },
+  {
+    "type": "person",
+    "name": "Jeff Williams",
+    "issuer": "AAPL",
+    "source": "data/raw/sec-edgar-filings/AAPL/10-K/0000320193-23-000106/full-submission.txt",
+    "filing_type": "10-K",
+    "relationship": "EXECUTIVE_OF",
+    "title": "Member"
+  },
+  {
+    "type": "product",
+    "name": "iPhone",
+    "issuer": "AAPL",
+    "source": "data/raw/sec-edgar-filings/AAPL/10-K/0000320193-23-000106/full-submission.txt",
+    "filing_type": "10-K"
+  },
+  {
+    "type": "product",
+    "name": "iPhone 15 Pro",
+    "issuer": "AAPL",
+    "source": "data/raw/sec-edgar-filings/AAPL/10-K/0000320193-23-000106/full-submission.txt",
+    "filing_type": "10-K"
+  },
+  {
+    "type": "product",
+    "name": "iPhone 15",
+    "issuer": "AAPL",
+    "source": "data/raw/sec-edgar-filings/AAPL/10-K/0000320193-23-000106/full-submission.txt",
+    "filing_type": "10-K"
+  },
+  {
+    "type": "product",
+    "name": "iPhone 14",
+    "issuer": "AAPL",
+    "source": "data/raw/sec-edgar-filings/AAPL/10-K/0000320193-23-000106/full-submission.txt",
+    "filing_type": "10-K"
+  },
+  {
+    "type": "product",
+    "name": "iPhone 13",
+    "issuer": "AAPL",
+    "source": "data/raw/sec-edgar-filings/AAPL/10-K/0000320193-23-000106/full-submission.txt",
+    "filing_type": "10-K"
+  },
+  {
+    "type": "product",
+    "name": "iPhone SE",
+    "issuer": "AAPL",
+    "source": "data/raw/sec-edgar-filings/AAPL/10-K/0000320193-23-000106/full-submission.txt",
+    "filing_type": "10-K"
+  },
+  {
+    "type": "product",
+    "name": "Mac",
+    "issuer": "AAPL",
+    "source": "data/raw/sec-edgar-filings/AAPL/10-K/0000320193-23-000106/full-submission.txt",
+    "filing_type": "10-K"
+  },
+  {
+    "type": "product",
+    "name": "MacBook Air",
+    "issuer": "AAPL",
+    "source": "data/raw/sec-edgar-filings/AAPL/10-K/0000320193-23-000106/full-submission.txt",
+    "filing_type": "10-K"
+  },
+  {
+    "type": "product",
+    "name": "MacBook Pro",
+    "issuer": "AAPL",
+    "source": "data/raw/sec-edgar-filings/AAPL/10-K/0000320193-23-000106/full-submission.txt",
+    "filing_type": "10-K"
+  },
+  {
+    "type": "product",
+    "name": "iMac",
+    "issuer": "AAPL",
+    "source": "data/raw/sec-edgar-filings/AAPL/10-K/0000320193-23-000106/full-submission.txt",
+    "filing_type": "10-K"
+  },
+  {
+    "type": "product",
+    "name": "Mac mini",
+    "issuer": "AAPL",
+    "source": "data/raw/sec-edgar-filings/AAPL/10-K/0000320193-23-000106/full-submission.txt",
+    "filing_type": "10-K"
+  },
+  {
+    "type": "product",
+    "name": "Mac Studio",
+    "issuer": "AAPL",
+    "source": "data/raw/sec-edgar-filings/AAPL/10-K/0000320193-23-000106/full-submission.txt",
+    "filing_type": "10-K"
+  },
+  {
+    "type": "product",
+    "name": "Mac Pro",
+    "issuer": "AAPL",
+    "source": "data/raw/sec-edgar-filings/AAPL/10-K/0000320193-23-000106/full-submission.txt",
+    "filing_type": "10-K"
+  },
+  {
+    "type": "product",
+    "name": "iPad",
+    "issuer": "AAPL",
+    "source": "data/raw/sec-edgar-filings/AAPL/10-K/0000320193-23-000106/full-submission.txt",
+    "filing_type": "10-K"
+  },
+  {
+    "type": "product",
+    "name": "iPad Pro",
+    "issuer": "AAPL",
+    "source": "data/raw/sec-edgar-filings/AAPL/10-K/0000320193-23-000106/full-submission.txt",
+    "filing_type": "10-K"
+  },
+  {
+    "type": "product",
+    "name": "iPad Air",
+    "issuer": "AAPL",
+    "source": "data/raw/sec-edgar-filings/AAPL/10-K/0000320193-23-000106/full-submission.txt",
+    "filing_type": "10-K"
+  },
+  {
+    "type": "product",
+    "name": "iPad mini",
+    "issuer": "AAPL",
+    "source": "data/raw/sec-edgar-filings/AAPL/10-K/0000320193-23-000106/full-submission.txt",
+    "filing_type": "10-K"
+  },
+  {
+    "type": "product",
+    "name": "Apple Watch Ultra 2",
+    "issuer": "AAPL",
+    "source": "data/raw/sec-edgar-filings/AAPL/10-K/0000320193-23-000106/full-submission.txt",
+    "filing_type": "10-K"
+  },
+  {
+    "type": "product",
+    "name": "Apple Watch Series 9",
+    "issuer": "AAPL",
+    "source": "data/raw/sec-edgar-filings/AAPL/10-K/0000320193-23-000106/full-submission.txt",
+    "filing_type": "10-K"
+  },
+  {
+    "type": "product",
+    "name": "Apple Watch SE",
+    "issuer": "AAPL",
+    "source": "data/raw/sec-edgar-filings/AAPL/10-K/0000320193-23-000106/full-submission.txt",
+    "filing_type": "10-K"
+  },
+  {
+    "type": "product",
+    "name": "AirPods",
+    "issuer": "AAPL",
+    "source": "data/raw/sec-edgar-filings/AAPL/10-K/0000320193-23-000106/full-submission.txt",
+    "filing_type": "10-K"
+  },
+  {
+    "type": "product",
+    "name": "AirPods Pro",
+    "issuer": "AAPL",
+    "source": "data/raw/sec-edgar-filings/AAPL/10-K/0000320193-23-000106/full-submission.txt",
+    "filing_type": "10-K"
+  },
+  {
+    "type": "product",
+    "name": "AirPods Max",
+    "issuer": "AAPL",
+    "source": "data/raw/sec-edgar-filings/AAPL/10-K/0000320193-23-000106/full-submission.txt",
+    "filing_type": "10-K"
+  },
+  {
+    "type": "product",
+    "name": "Beats",
+    "issuer": "AAPL",
+    "source": "data/raw/sec-edgar-filings/AAPL/10-K/0000320193-23-000106/full-submission.txt",
+    "filing_type": "10-K"
+  },
+  {
+    "type": "product",
+    "name": "Apple TV",
+    "issuer": "AAPL",
+    "source": "data/raw/sec-edgar-filings/AAPL/10-K/0000320193-23-000106/full-submission.txt",
+    "filing_type": "10-K"
+  },
+  {
+    "type": "product",
+    "name": "HomePod",
+    "issuer": "AAPL",
+    "source": "data/raw/sec-edgar-filings/AAPL/10-K/0000320193-23-000106/full-submission.txt",
+    "filing_type": "10-K"
+  },
+  {
+    "type": "product",
+    "name": "HomePod mini",
+    "issuer": "AAPL",
+    "source": "data/raw/sec-edgar-filings/AAPL/10-K/0000320193-23-000106/full-submission.txt",
+    "filing_type": "10-K"
+  },
+  {
+    "type": "product",
+    "name": "AppleCare",
+    "issuer": "AAPL",
+    "source": "data/raw/sec-edgar-filings/AAPL/10-K/0000320193-23-000106/full-submission.txt",
+    "filing_type": "10-K"
+  },
+  {
+    "type": "product",
+    "name": "App Store",
+    "issuer": "AAPL",
+    "source": "data/raw/sec-edgar-filings/AAPL/10-K/0000320193-23-000106/full-submission.txt",
+    "filing_type": "10-K"
+  },
+  {
+    "type": "product",
+    "name": "Apple Arcade",
+    "issuer": "AAPL",
+    "source": "data/raw/sec-edgar-filings/AAPL/10-K/0000320193-23-000106/full-submission.txt",
+    "filing_type": "10-K"
+  },
+  {
+    "type": "product",
+    "name": "Apple Fitness+",
+    "issuer": "AAPL",
+    "source": "data/raw/sec-edgar-filings/AAPL/10-K/0000320193-23-000106/full-submission.txt",
+    "filing_type": "10-K"
+  },
+  {
+    "type": "product",
+    "name": "Apple Music",
+    "issuer": "AAPL",
+    "source": "data/raw/sec-edgar-filings/AAPL/10-K/0000320193-23-000106/full-submission.txt",
+    "filing_type": "10-K"
+  },
+  {
+    "type": "product",
+    "name": "Apple News+",
+    "issuer": "AAPL",
+    "source": "data/raw/sec-edgar-filings/AAPL/10-K/0000320193-23-000106/full-submission.txt",
+    "filing_type": "10-K"
+  },
+  {
+    "type": "product",
+    "name": "Apple TV+",
+    "issuer": "AAPL",
+    "source": "data/raw/sec-edgar-filings/AAPL/10-K/0000320193-23-000106/full-submission.txt",
+    "filing_type": "10-K"
+  },
+  {
+    "type": "organization",
+    "name": "Epic Games, Inc.",
+    "role": "other",
+    "issuer": "AAPL",
+    "source": "data/raw/sec-edgar-filings/AAPL/10-K/0000320193-23-000106/full-submission.txt",
+    "filing_type": "10-K"
+  },
+  {
+    "type": "organization",
+    "name": "Masimo Corporation",
+    "role": "other",
+    "issuer": "AAPL",
+    "source": "data/raw/sec-edgar-filings/AAPL/10-K/0000320193-23-000106/full-submission.txt",
+    "filing_type": "10-K"
+  },
+  {
+    "type": "organization",
+    "name": "Cercacor Laboratories, Inc.",
+    "role": "other",
+    "issuer": "AAPL",
+    "source": "data/raw/sec-edgar-filings/AAPL/10-K/0000320193-23-000106/full-submission.txt",
+    "filing_type": "10-K"
+  },
+  {
+    "type": "product",
+    "name": "Apple TV 4K",
+    "issuer": "AAPL",
+    "source": "data/raw/sec-edgar-filings/AAPL/10-K/0000320193-23-000106/full-submission.txt",
+    "filing_type": "10-K"
+  },
+  {
+    "type": "product",
+    "name": "MLS Season Pass",
+    "issuer": "AAPL",
+    "source": "data/raw/sec-edgar-filings/AAPL/10-K/0000320193-23-000106/full-submission.txt",
+    "filing_type": "10-K"
+  },
+  {
+    "type": "product",
+    "name": "MacBook Pro 14\u201d",
+    "issuer": "AAPL",
+    "source": "data/raw/sec-edgar-filings/AAPL/10-K/0000320193-23-000106/full-submission.txt",
+    "filing_type": "10-K"
+  },
+  {
+    "type": "product",
+    "name": "MacBook Pro 16\u201d",
+    "issuer": "AAPL",
+    "source": "data/raw/sec-edgar-filings/AAPL/10-K/0000320193-23-000106/full-submission.txt",
+    "filing_type": "10-K"
+  },
+  {
+    "type": "product",
+    "name": "MacBook Air 15\u201d",
+    "issuer": "AAPL",
+    "source": "data/raw/sec-edgar-filings/AAPL/10-K/0000320193-23-000106/full-submission.txt",
+    "filing_type": "10-K"
+  },
+  {
+    "type": "product",
+    "name": "Apple Vision Pro\u2122",
+    "issuer": "AAPL",
+    "source": "data/raw/sec-edgar-filings/AAPL/10-K/0000320193-23-000106/full-submission.txt",
+    "filing_type": "10-K"
+  },
+  {
+    "type": "product",
+    "name": "iOS 17",
+    "issuer": "AAPL",
+    "source": "data/raw/sec-edgar-filings/AAPL/10-K/0000320193-23-000106/full-submission.txt",
+    "filing_type": "10-K"
+  },
+  {
+    "type": "product",
+    "name": "macOS Sonoma",
+    "issuer": "AAPL",
+    "source": "data/raw/sec-edgar-filings/AAPL/10-K/0000320193-23-000106/full-submission.txt",
+    "filing_type": "10-K"
+  },
+  {
+    "type": "product",
+    "name": "iPadOS 17",
+    "issuer": "AAPL",
+    "source": "data/raw/sec-edgar-filings/AAPL/10-K/0000320193-23-000106/full-submission.txt",
+    "filing_type": "10-K"
+  },
+  {
+    "type": "product",
+    "name": "tvOS 17",
+    "issuer": "AAPL",
+    "source": "data/raw/sec-edgar-filings/AAPL/10-K/0000320193-23-000106/full-submission.txt",
+    "filing_type": "10-K"
+  },
+  {
+    "type": "product",
+    "name": "watchOS 10",
+    "issuer": "AAPL",
+    "source": "data/raw/sec-edgar-filings/AAPL/10-K/0000320193-23-000106/full-submission.txt",
+    "filing_type": "10-K"
+  },
+  {
+    "type": "product",
+    "name": "iPhone 15 Plus",
+    "issuer": "AAPL",
+    "source": "data/raw/sec-edgar-filings/AAPL/10-K/0000320193-23-000106/full-submission.txt",
+    "filing_type": "10-K"
+  },
+  {
+    "type": "product",
+    "name": "iPhone 15 Pro Max",
+    "issuer": "AAPL",
+    "source": "data/raw/sec-edgar-filings/AAPL/10-K/0000320193-23-000106/full-submission.txt",
+    "filing_type": "10-K"
+  },
+  {
+    "type": "product",
+    "name": "Wearables, Home and Accessories",
+    "issuer": "AAPL",
+    "source": "data/raw/sec-edgar-filings/AAPL/10-K/0000320193-23-000106/full-submission.txt",
+    "filing_type": "10-K"
+  },
+  {
+    "type": "product",
+    "name": "Services",
+    "issuer": "AAPL",
+    "source": "data/raw/sec-edgar-filings/AAPL/10-K/0000320193-23-000106/full-submission.txt",
+    "filing_type": "10-K"
+  },
+  {
+    "type": "organization",
+    "name": "Ernst & Young LLP",
+    "role": "other",
+    "issuer": "AAPL",
+    "source": "data/raw/sec-edgar-filings/AAPL/10-K/0000320193-23-000106/full-submission.txt",
+    "filing_type": "10-K"
+  },
+  {
+    "type": "person",
+    "name": "Luca Maestri",
+    "issuer": "AAPL",
+    "source": "data/raw/sec-edgar-filings/AAPL/10-K/0000320193-23-000106/full-submission.txt",
+    "filing_type": "10-K",
+    "relationship": "EXECUTIVE_OF",
+    "title": "Senior Vice President, Chief Financial Officer"
+  },
+  {
+    "type": "person",
+    "name": "Timothy D. Cook",
+    "issuer": "AAPL",
+    "source": "data/raw/sec-edgar-filings/AAPL/10-K/0000320193-23-000106/full-submission.txt",
+    "filing_type": "10-K"
+  },
+  {
+    "type": "organization",
+    "name": "The Bank of New York Mellon Trust Company, N.A.",
+    "role": "other",
+    "issuer": "AAPL",
+    "source": "data/raw/sec-edgar-filings/AAPL/10-K/0000320193-23-000106/full-submission.txt",
+    "filing_type": "10-K"
+  },
+  {
+    "type": "product",
+    "name": "Apple Watch",
+    "issuer": "AAPL",
+    "source": "data/raw/sec-edgar-filings/AAPL/10-K/0000320193-24-000123/full-submission.txt",
+    "filing_type": "10-K"
+  },
+  {
+    "type": "product",
+    "name": "Apple Vision Pro",
+    "issuer": "AAPL",
+    "source": "data/raw/sec-edgar-filings/AAPL/10-K/0000320193-24-000123/full-submission.txt",
+    "filing_type": "10-K"
+  },
+  {
+    "type": "product",
+    "name": "Apple Card",
+    "issuer": "AAPL",
+    "source": "data/raw/sec-edgar-filings/AAPL/10-K/0000320193-24-000123/full-submission.txt",
+    "filing_type": "10-K"
+  },
+  {
+    "type": "product",
+    "name": "Apple Pay",
+    "issuer": "AAPL",
+    "source": "data/raw/sec-edgar-filings/AAPL/10-K/0000320193-24-000123/full-submission.txt",
+    "filing_type": "10-K"
+  },
+  {
+    "type": "organization",
+    "name": "Google LLC",
+    "role": "other",
+    "issuer": "AAPL",
+    "source": "data/raw/sec-edgar-filings/AAPL/10-K/0000320193-24-000123/full-submission.txt",
+    "filing_type": "10-K",
+    "relationship": "PARTNERS_WITH"
+  },
+  {
+    "type": "product",
+    "name": "iOS",
+    "issuer": "AAPL",
+    "source": "data/raw/sec-edgar-filings/AAPL/10-K/0000320193-24-000123/full-submission.txt",
+    "filing_type": "10-K"
+  },
+  {
+    "type": "product",
+    "name": "iPadOS",
+    "issuer": "AAPL",
+    "source": "data/raw/sec-edgar-filings/AAPL/10-K/0000320193-24-000123/full-submission.txt",
+    "filing_type": "10-K"
+  },
+  {
+    "type": "product",
+    "name": "Safari",
+    "issuer": "AAPL",
+    "source": "data/raw/sec-edgar-filings/AAPL/10-K/0000320193-24-000123/full-submission.txt",
+    "filing_type": "10-K"
+  },
+  {
+    "type": "product",
+    "name": "MacBook Pro 14-in.",
+    "issuer": "AAPL",
+    "source": "data/raw/sec-edgar-filings/AAPL/10-K/0000320193-24-000123/full-submission.txt",
+    "filing_type": "10-K"
+  },
+  {
+    "type": "product",
+    "name": "MacBook Pro 16-in.",
+    "issuer": "AAPL",
+    "source": "data/raw/sec-edgar-filings/AAPL/10-K/0000320193-24-000123/full-submission.txt",
+    "filing_type": "10-K"
+  },
+  {
+    "type": "product",
+    "name": "MacBook Air 13-in.",
+    "issuer": "AAPL",
+    "source": "data/raw/sec-edgar-filings/AAPL/10-K/0000320193-24-000123/full-submission.txt",
+    "filing_type": "10-K"
+  },
+  {
+    "type": "product",
+    "name": "MacBook Air 15-in.",
+    "issuer": "AAPL",
+    "source": "data/raw/sec-edgar-filings/AAPL/10-K/0000320193-24-000123/full-submission.txt",
+    "filing_type": "10-K"
+  },
+  {
+    "type": "product",
+    "name": "iOS 18",
+    "issuer": "AAPL",
+    "source": "data/raw/sec-edgar-filings/AAPL/10-K/0000320193-24-000123/full-submission.txt",
+    "filing_type": "10-K"
+  },
+  {
+    "type": "product",
+    "name": "macOS Sequoia",
+    "issuer": "AAPL",
+    "source": "data/raw/sec-edgar-filings/AAPL/10-K/0000320193-24-000123/full-submission.txt",
+    "filing_type": "10-K"
+  },
+  {
+    "type": "product",
+    "name": "iPadOS 18",
+    "issuer": "AAPL",
+    "source": "data/raw/sec-edgar-filings/AAPL/10-K/0000320193-24-000123/full-submission.txt",
+    "filing_type": "10-K"
+  },
+  {
+    "type": "product",
+    "name": "watchOS 11",
+    "issuer": "AAPL",
+    "source": "data/raw/sec-edgar-filings/AAPL/10-K/0000320193-24-000123/full-submission.txt",
+    "filing_type": "10-K"
+  },
+  {
+    "type": "product",
+    "name": "visionOS 2",
+    "issuer": "AAPL",
+    "source": "data/raw/sec-edgar-filings/AAPL/10-K/0000320193-24-000123/full-submission.txt",
+    "filing_type": "10-K"
+  },
+  {
+    "type": "product",
+    "name": "tvOS 18",
+    "issuer": "AAPL",
+    "source": "data/raw/sec-edgar-filings/AAPL/10-K/0000320193-24-000123/full-submission.txt",
+    "filing_type": "10-K"
+  },
+  {
+    "type": "product",
+    "name": "Apple Intelligence\u2122",
+    "issuer": "AAPL",
+    "source": "data/raw/sec-edgar-filings/AAPL/10-K/0000320193-24-000123/full-submission.txt",
+    "filing_type": "10-K"
+  },
+  {
+    "type": "product",
+    "name": "Apple Intelligence",
+    "issuer": "AAPL",
+    "source": "data/raw/sec-edgar-filings/AAPL/10-K/0000320193-24-000123/full-submission.txt",
+    "filing_type": "10-K"
+  },
+  {
+    "type": "product",
+    "name": "iPhone 16",
+    "issuer": "AAPL",
+    "source": "data/raw/sec-edgar-filings/AAPL/10-K/0000320193-24-000123/full-submission.txt",
+    "filing_type": "10-K"
+  },
+  {
+    "type": "product",
+    "name": "iPhone 16 Plus",
+    "issuer": "AAPL",
+    "source": "data/raw/sec-edgar-filings/AAPL/10-K/0000320193-24-000123/full-submission.txt",
+    "filing_type": "10-K"
+  },
+  {
+    "type": "product",
+    "name": "iPhone 16 Pro",
+    "issuer": "AAPL",
+    "source": "data/raw/sec-edgar-filings/AAPL/10-K/0000320193-24-000123/full-submission.txt",
+    "filing_type": "10-K"
+  },
+  {
+    "type": "product",
+    "name": "iPhone 16 Pro Max",
+    "issuer": "AAPL",
+    "source": "data/raw/sec-edgar-filings/AAPL/10-K/0000320193-24-000123/full-submission.txt",
+    "filing_type": "10-K"
+  },
+  {
+    "type": "product",
+    "name": "Apple Watch Series 10",
+    "issuer": "AAPL",
+    "source": "data/raw/sec-edgar-filings/AAPL/10-K/0000320193-24-000123/full-submission.txt",
+    "filing_type": "10-K"
+  },
+  {
+    "type": "product",
+    "name": "AirPods 4",
+    "issuer": "AAPL",
+    "source": "data/raw/sec-edgar-filings/AAPL/10-K/0000320193-24-000123/full-submission.txt",
+    "filing_type": "10-K"
+  },
+  {
+    "type": "person",
+    "name": "Timothy D. Cook",
+    "issuer": "AAPL",
+    "source": "data/raw/sec-edgar-filings/AAPL/10-K/0000320193-24-000123/full-submission.txt",
+    "filing_type": "10-K",
+    "relationship": "EXECUTIVE_OF",
+    "title": "Chief Executive Officer and Director (Principal Executive Officer)"
+  },
+  {
+    "type": "person",
+    "name": "Chris Kondo",
+    "issuer": "AAPL",
+    "source": "data/raw/sec-edgar-filings/AAPL/10-K/0000320193-24-000123/full-submission.txt",
+    "filing_type": "10-K",
+    "relationship": "EXECUTIVE_OF",
+    "title": "Senior Director of Corporate Accounting (Principal Accounting Officer)"
+  },
+  {
+    "type": "person",
+    "name": "Wanda Austin",
+    "issuer": "AAPL",
+    "source": "data/raw/sec-edgar-filings/AAPL/10-K/0000320193-24-000123/full-submission.txt",
+    "filing_type": "10-K",
+    "relationship": "BOARD_MEMBER_OF",
+    "title": "Director"
+  },
+  {
+    "type": "person",
+    "name": "Alex Gorsky",
+    "issuer": "AAPL",
+    "source": "data/raw/sec-edgar-filings/AAPL/10-K/0000320193-24-000123/full-submission.txt",
+    "filing_type": "10-K",
+    "relationship": "BOARD_MEMBER_OF",
+    "title": "Director"
+  },
+  {
+    "type": "person",
+    "name": "Andrea Jung",
+    "issuer": "AAPL",
+    "source": "data/raw/sec-edgar-filings/AAPL/10-K/0000320193-24-000123/full-submission.txt",
+    "filing_type": "10-K",
+    "relationship": "BOARD_MEMBER_OF",
+    "title": "Director"
+  },
+  {
+    "type": "product",
+    "name": "iPhone 17 Pro",
+    "issuer": "AAPL",
+    "source": "data/raw/sec-edgar-filings/AAPL/10-K/0000320193-25-000079/full-submission.txt",
+    "filing_type": "10-K"
+  },
+  {
+    "type": "product",
+    "name": "iPhone Air",
+    "issuer": "AAPL",
+    "source": "data/raw/sec-edgar-filings/AAPL/10-K/0000320193-25-000079/full-submission.txt",
+    "filing_type": "10-K"
+  },
+  {
+    "type": "product",
+    "name": "iPhone 17",
+    "issuer": "AAPL",
+    "source": "data/raw/sec-edgar-filings/AAPL/10-K/0000320193-25-000079/full-submission.txt",
+    "filing_type": "10-K"
+  },
+  {
+    "type": "product",
+    "name": "iPhone 16e",
+    "issuer": "AAPL",
+    "source": "data/raw/sec-edgar-filings/AAPL/10-K/0000320193-25-000079/full-submission.txt",
+    "filing_type": "10-K"
+  },
+  {
+    "type": "product",
+    "name": "Apple Watch Series 11",
+    "issuer": "AAPL",
+    "source": "data/raw/sec-edgar-filings/AAPL/10-K/0000320193-25-000079/full-submission.txt",
+    "filing_type": "10-K"
+  },
+  {
+    "type": "product",
+    "name": "Apple Watch SE 3",
+    "issuer": "AAPL",
+    "source": "data/raw/sec-edgar-filings/AAPL/10-K/0000320193-25-000079/full-submission.txt",
+    "filing_type": "10-K"
+  },
+  {
+    "type": "product",
+    "name": "Apple Watch Ultra 3",
+    "issuer": "AAPL",
+    "source": "data/raw/sec-edgar-filings/AAPL/10-K/0000320193-25-000079/full-submission.txt",
+    "filing_type": "10-K"
+  },
+  {
+    "type": "organization",
+    "name": "U.S. Department of Justice",
+    "role": "other",
+    "issuer": "AAPL",
+    "source": "data/raw/sec-edgar-filings/AAPL/10-K/0000320193-25-000079/full-submission.txt",
+    "filing_type": "10-K"
+  },
+  {
+    "type": "organization",
+    "name": "D.C. District Court",
+    "role": "other",
+    "issuer": "AAPL",
+    "source": "data/raw/sec-edgar-filings/AAPL/10-K/0000320193-25-000079/full-submission.txt",
+    "filing_type": "10-K"
+  },
+  {
+    "type": "organization",
+    "name": "Organisation for Economic Co-operation and Development",
+    "role": "other",
+    "issuer": "AAPL",
+    "source": "data/raw/sec-edgar-filings/AAPL/10-K/0000320193-25-000079/full-submission.txt",
+    "filing_type": "10-K"
+  },
+  {
+    "type": "organization",
+    "name": "Ireland",
+    "role": "other",
+    "issuer": "AAPL",
+    "source": "data/raw/sec-edgar-filings/AAPL/10-K/0000320193-25-000079/full-submission.txt",
+    "filing_type": "10-K"
+  },
+  {
+    "type": "organization",
+    "name": "Singapore",
+    "role": "other",
+    "issuer": "AAPL",
+    "source": "data/raw/sec-edgar-filings/AAPL/10-K/0000320193-25-000079/full-submission.txt",
+    "filing_type": "10-K"
+  },
+  {
+    "type": "organization",
+    "name": "U.S. Internal Revenue Service",
+    "role": "other",
+    "issuer": "AAPL",
+    "source": "data/raw/sec-edgar-filings/AAPL/10-K/0000320193-25-000079/full-submission.txt",
+    "filing_type": "10-K"
+  },
+  {
+    "type": "product",
+    "name": "iOS 26",
+    "issuer": "AAPL",
+    "source": "data/raw/sec-edgar-filings/AAPL/10-K/0000320193-25-000079/full-submission.txt",
+    "filing_type": "10-K"
+  },
+  {
+    "type": "product",
+    "name": "macOS Tahoe 26",
+    "issuer": "AAPL",
+    "source": "data/raw/sec-edgar-filings/AAPL/10-K/0000320193-25-000079/full-submission.txt",
+    "filing_type": "10-K"
+  },
+  {
+    "type": "product",
+    "name": "iPadOS 26",
+    "issuer": "AAPL",
+    "source": "data/raw/sec-edgar-filings/AAPL/10-K/0000320193-25-000079/full-submission.txt",
+    "filing_type": "10-K"
+  },
+  {
+    "type": "product",
+    "name": "watchOS 26",
+    "issuer": "AAPL",
+    "source": "data/raw/sec-edgar-filings/AAPL/10-K/0000320193-25-000079/full-submission.txt",
+    "filing_type": "10-K"
+  },
+  {
+    "type": "product",
+    "name": "visionOS 26",
+    "issuer": "AAPL",
+    "source": "data/raw/sec-edgar-filings/AAPL/10-K/0000320193-25-000079/full-submission.txt",
+    "filing_type": "10-K"
+  },
+  {
+    "type": "product",
+    "name": "tvOS 26",
+    "issuer": "AAPL",
+    "source": "data/raw/sec-edgar-filings/AAPL/10-K/0000320193-25-000079/full-submission.txt",
+    "filing_type": "10-K"
+  },
+  {
+    "type": "product",
+    "name": "Air",
+    "issuer": "AAPL",
+    "source": "data/raw/sec-edgar-filings/AAPL/10-K/0000320193-25-000079/full-submission.txt",
+    "filing_type": "10-K"
+  },
+  {
+    "type": "product",
+    "name": "iPhone 17 Pro Max",
+    "issuer": "AAPL",
+    "source": "data/raw/sec-edgar-filings/AAPL/10-K/0000320193-25-000079/full-submission.txt",
+    "filing_type": "10-K"
+  },
+  {
+    "type": "product",
+    "name": "AirPods Pro 3",
+    "issuer": "AAPL",
+    "source": "data/raw/sec-edgar-filings/AAPL/10-K/0000320193-25-000079/full-submission.txt",
+    "filing_type": "10-K"
+  },
+  {
+    "type": "organization",
+    "name": "Financial Accounting Standards Board",
+    "role": "other",
+    "issuer": "AAPL",
+    "source": "data/raw/sec-edgar-filings/AAPL/10-K/0000320193-25-000079/full-submission.txt",
+    "filing_type": "10-K"
+  },
+  {
+    "type": "organization",
+    "name": "TCJA",
+    "role": "other",
+    "issuer": "AAPL",
+    "source": "data/raw/sec-edgar-filings/AAPL/10-K/0000320193-25-000079/full-submission.txt",
+    "filing_type": "10-K"
+  },
+  {
+    "type": "product",
+    "name": "iCloud",
+    "issuer": "AAPL",
+    "source": "data/raw/sec-edgar-filings/AAPL/10-K/0000320193-25-000079/full-submission.txt",
+    "filing_type": "10-K"
+  },
+  {
+    "type": "product",
+    "name": "Siri",
+    "issuer": "AAPL",
+    "source": "data/raw/sec-edgar-filings/AAPL/10-K/0000320193-25-000079/full-submission.txt",
+    "filing_type": "10-K"
+  },
+  {
+    "type": "product",
+    "name": "Maps",
+    "issuer": "AAPL",
+    "source": "data/raw/sec-edgar-filings/AAPL/10-K/0000320193-25-000079/full-submission.txt",
+    "filing_type": "10-K"
+  },
+  {
+    "type": "person",
+    "name": "Ben Borders",
+    "issuer": "AAPL",
+    "source": "data/raw/sec-edgar-filings/AAPL/10-K/0000320193-25-000079/full-submission.txt",
+    "filing_type": "10-K",
+    "relationship": "EXECUTIVE_OF",
+    "title": "Director of Technical Accounting"
+  },
+  {
+    "type": "person",
+    "name": "Kevan Parekh",
+    "issuer": "AAPL",
+    "source": "data/raw/sec-edgar-filings/AAPL/10-K/0000320193-25-000079/full-submission.txt",
+    "filing_type": "10-K",
+    "relationship": "EXECUTIVE_OF",
+    "title": "Chief Financial Officer"
+  },
+  {
+    "type": "person",
+    "name": "Arthur D. Levinson",
+    "issuer": "AAPL",
+    "source": "data/raw/sec-edgar-filings/AAPL/10-K/0000320193-25-000079/full-submission.txt",
+    "filing_type": "10-K",
+    "relationship": "BOARD_MEMBER_OF",
+    "title": "Director and Chair of the Board"
+  },
+  {
+    "type": "person",
+    "name": "Monica Lozano",
+    "issuer": "AAPL",
+    "source": "data/raw/sec-edgar-filings/AAPL/10-K/0000320193-25-000079/full-submission.txt",
+    "filing_type": "10-K",
+    "relationship": "BOARD_MEMBER_OF",
+    "title": "Director"
+  },
+  {
+    "type": "person",
+    "name": "Ronald D. Sugar",
+    "issuer": "AAPL",
+    "source": "data/raw/sec-edgar-filings/AAPL/10-K/0000320193-25-000079/full-submission.txt",
+    "filing_type": "10-K",
+    "relationship": "BOARD_MEMBER_OF",
+    "title": "Director"
+  },
+  {
+    "type": "person",
+    "name": "Susan L. Wagner",
+    "issuer": "AAPL",
+    "source": "data/raw/sec-edgar-filings/AAPL/10-K/0000320193-25-000079/full-submission.txt",
+    "filing_type": "10-K",
+    "relationship": "BOARD_MEMBER_OF",
+    "title": "Director"
+  },
+  {
+    "type": "issuer",
+    "name": "MSFT",
+    "ticker": "MSFT",
+    "issuer": "MSFT",
+    "source": "data/raw/sec-edgar-filings/MSFT/10-K/0000950170-25-100235/full-submission.txt",
+    "filing_type": "10-K"
+  },
+  {
+    "type": "product",
+    "name": "Microsoft 365",
+    "issuer": "MSFT",
+    "source": "data/raw/sec-edgar-filings/MSFT/10-K/0000950170-25-100235/full-submission.txt",
+    "filing_type": "10-K"
+  },
+  {
+    "type": "product",
+    "name": "Microsoft Teams",
+    "issuer": "MSFT",
+    "source": "data/raw/sec-edgar-filings/MSFT/10-K/0000950170-25-100235/full-submission.txt",
+    "filing_type": "10-K"
+  },
+  {
+    "type": "product",
+    "name": "Microsoft Edge",
+    "issuer": "MSFT",
+    "source": "data/raw/sec-edgar-filings/MSFT/10-K/0000950170-25-100235/full-submission.txt",
+    "filing_type": "10-K"
+  },
+  {
+    "type": "product",
+    "name": "Bing",
+    "issuer": "MSFT",
+    "source": "data/raw/sec-edgar-filings/MSFT/10-K/0000950170-25-100235/full-submission.txt",
+    "filing_type": "10-K"
+  },
+  {
+    "type": "product",
+    "name": "Microsoft 365 Consumer",
+    "issuer": "MSFT",
+    "source": "data/raw/sec-edgar-filings/MSFT/10-K/0000950170-25-100235/full-submission.txt",
+    "filing_type": "10-K"
+  },
+  {
+    "type": "product",
+    "name": "Xbox Game Pass",
+    "issuer": "MSFT",
+    "source": "data/raw/sec-edgar-filings/MSFT/10-K/0000950170-25-100235/full-submission.txt",
+    "filing_type": "10-K"
+  },
+  {
+    "type": "organization",
+    "name": "LinkedIn",
+    "role": "other",
+    "issuer": "MSFT",
+    "source": "data/raw/sec-edgar-filings/MSFT/10-K/0000950170-25-100235/full-submission.txt",
+    "filing_type": "10-K"
+  },
+  {
+    "type": "organization",
+    "name": "Azure",
+    "role": "other",
+    "issuer": "MSFT",
+    "source": "data/raw/sec-edgar-filings/MSFT/10-K/0000950170-25-100235/full-submission.txt",
+    "filing_type": "10-K"
+  },
+  {
+    "type": "organization",
+    "name": "Microsoft",
+    "role": "other",
+    "issuer": "MSFT",
+    "source": "data/raw/sec-edgar-filings/MSFT/10-K/0000950170-25-100235/full-submission.txt",
+    "filing_type": "10-K"
+  },
+  {
+    "type": "product",
+    "name": "Microsoft 365 Commercial",
+    "issuer": "MSFT",
+    "source": "data/raw/sec-edgar-filings/MSFT/10-K/0000950170-25-100235/full-submission.txt",
+    "filing_type": "10-K"
+  },
+  {
+    "type": "product",
+    "name": "LinkedIn Talent Solutions",
+    "issuer": "MSFT",
+    "source": "data/raw/sec-edgar-filings/MSFT/10-K/0000950170-25-100235/full-submission.txt",
+    "filing_type": "10-K"
+  },
+  {
+    "type": "product",
+    "name": "LinkedIn Marketing Solutions",
+    "issuer": "MSFT",
+    "source": "data/raw/sec-edgar-filings/MSFT/10-K/0000950170-25-100235/full-submission.txt",
+    "filing_type": "10-K"
+  },
+  {
+    "type": "product",
+    "name": "LinkedIn Premium Subscriptions",
+    "issuer": "MSFT",
+    "source": "data/raw/sec-edgar-filings/MSFT/10-K/0000950170-25-100235/full-submission.txt",
+    "filing_type": "10-K"
+  },
+  {
+    "type": "product",
+    "name": "LinkedIn Sales Solutions",
+    "issuer": "MSFT",
+    "source": "data/raw/sec-edgar-filings/MSFT/10-K/0000950170-25-100235/full-submission.txt",
+    "filing_type": "10-K"
+  },
+  {
+    "type": "product",
+    "name": "Dynamics 365",
+    "issuer": "MSFT",
+    "source": "data/raw/sec-edgar-filings/MSFT/10-K/0000950170-25-100235/full-submission.txt",
+    "filing_type": "10-K"
+  },
+  {
+    "type": "product",
+    "name": "Power Apps",
+    "issuer": "MSFT",
+    "source": "data/raw/sec-edgar-filings/MSFT/10-K/0000950170-25-100235/full-submission.txt",
+    "filing_type": "10-K"
+  },
+  {
+    "type": "product",
+    "name": "Power Automate",
+    "issuer": "MSFT",
+    "source": "data/raw/sec-edgar-filings/MSFT/10-K/0000950170-25-100235/full-submission.txt",
+    "filing_type": "10-K"
+  },
+  {
+    "type": "product",
+    "name": "Microsoft Defender for Endpoint",
+    "issuer": "MSFT",
+    "source": "data/raw/sec-edgar-filings/MSFT/10-K/0000950170-25-100235/full-submission.txt",
+    "filing_type": "10-K"
+  },
+  {
+    "type": "product",
+    "name": "Xbox",
+    "issuer": "MSFT",
+    "source": "data/raw/sec-edgar-filings/MSFT/10-K/0000950170-25-100235/full-submission.txt",
+    "filing_type": "10-K"
+  },
+  {
+    "type": "product",
+    "name": "Copilot",
+    "issuer": "MSFT",
+    "source": "data/raw/sec-edgar-filings/MSFT/10-K/0000950170-25-100235/full-submission.txt",
+    "filing_type": "10-K"
+  },
+  {
+    "type": "product",
+    "name": "Microsoft News",
+    "issuer": "MSFT",
+    "source": "data/raw/sec-edgar-filings/MSFT/10-K/0000950170-25-100235/full-submission.txt",
+    "filing_type": "10-K"
+  },
+  {
+    "type": "product",
+    "name": "Surface",
+    "issuer": "MSFT",
+    "source": "data/raw/sec-edgar-filings/MSFT/10-K/0000950170-25-100235/full-submission.txt",
+    "filing_type": "10-K"
+  },
+  {
+    "type": "organization",
+    "name": "Dell",
+    "role": "other",
+    "issuer": "MSFT",
+    "source": "data/raw/sec-edgar-filings/MSFT/10-K/0000950170-25-100235/full-submission.txt",
+    "filing_type": "10-K"
+  },
+  {
+    "type": "organization",
+    "name": "Hewlett-Packard",
+    "role": "other",
+    "issuer": "MSFT",
+    "source": "data/raw/sec-edgar-filings/MSFT/10-K/0000950170-25-100235/full-submission.txt",
+    "filing_type": "10-K"
+  },
+  {
+    "type": "organization",
+    "name": "Lenovo",
+    "role": "other",
+    "issuer": "MSFT",
+    "source": "data/raw/sec-edgar-filings/MSFT/10-K/0000950170-25-100235/full-submission.txt",
+    "filing_type": "10-K"
+  },
+  {
+    "type": "product",
+    "name": "Microsoft Copilot",
+    "issuer": "MSFT",
+    "source": "data/raw/sec-edgar-filings/MSFT/10-K/0000950170-25-100235/full-submission.txt",
+    "filing_type": "10-K"
+  },
+  {
+    "type": "product",
+    "name": "Windows",
+    "issuer": "MSFT",
+    "source": "data/raw/sec-edgar-filings/MSFT/10-K/0000950170-25-100235/full-submission.txt",
+    "filing_type": "10-K"
+  },
+  {
+    "type": "product",
+    "name": "Office",
+    "issuer": "MSFT",
+    "source": "data/raw/sec-edgar-filings/MSFT/10-K/0000950170-25-100235/full-submission.txt",
+    "filing_type": "10-K"
+  },
+  {
+    "type": "person",
+    "name": "Satya Nadella",
+    "issuer": "MSFT",
+    "source": "data/raw/sec-edgar-filings/MSFT/10-K/0000950170-25-100235/full-submission.txt",
+    "filing_type": "10-K",
+    "relationship": "EXECUTIVE_OF",
+    "title": "Chairman and Chief Executive Officer"
+  },
+  {
+    "type": "person",
+    "name": "Judson B. Althoff",
+    "issuer": "MSFT",
+    "source": "data/raw/sec-edgar-filings/MSFT/10-K/0000950170-25-100235/full-submission.txt",
+    "filing_type": "10-K",
+    "relationship": "EXECUTIVE_OF",
+    "title": "Executive Vice President and Chief Commercial Officer"
+  },
+  {
+    "type": "person",
+    "name": "Amy L. Coleman",
+    "issuer": "MSFT",
+    "source": "data/raw/sec-edgar-filings/MSFT/10-K/0000950170-25-100235/full-submission.txt",
+    "filing_type": "10-K",
+    "relationship": "EXECUTIVE_OF",
+    "title": "Executive Vice President and Chief Human Resources Officer"
+  },
+  {
+    "type": "person",
+    "name": "Kathleen T. Hogan",
+    "issuer": "MSFT",
+    "source": "data/raw/sec-edgar-filings/MSFT/10-K/0000950170-25-100235/full-submission.txt",
+    "filing_type": "10-K",
+    "relationship": "EXECUTIVE_OF",
+    "title": "Executive Vice President, Office of Strategy and Transformation"
+  },
+  {
+    "type": "person",
+    "name": "Amy E. Hood",
+    "issuer": "MSFT",
+    "source": "data/raw/sec-edgar-filings/MSFT/10-K/0000950170-25-100235/full-submission.txt",
+    "filing_type": "10-K",
+    "relationship": "EXECUTIVE_OF",
+    "title": "Executive Vice President and Chief Financial Officer"
+  },
+  {
+    "type": "person",
+    "name": "Takeshi Numoto",
+    "issuer": "MSFT",
+    "source": "data/raw/sec-edgar-filings/MSFT/10-K/0000950170-25-100235/full-submission.txt",
+    "filing_type": "10-K",
+    "relationship": "EXECUTIVE_OF",
+    "title": "Executive Vice President and Chief Marketing Officer"
+  },
+  {
+    "type": "person",
+    "name": "Bradford L. Smith",
+    "issuer": "MSFT",
+    "source": "data/raw/sec-edgar-filings/MSFT/10-K/0000950170-25-100235/full-submission.txt",
+    "filing_type": "10-K",
+    "relationship": "EXECUTIVE_OF",
+    "title": "Vice Chair and President"
+  },
+  {
+    "type": "organization",
+    "name": "Ecolab Inc.",
+    "role": "other",
+    "issuer": "MSFT",
+    "source": "data/raw/sec-edgar-filings/MSFT/10-K/0000950170-25-100235/full-submission.txt",
+    "filing_type": "10-K",
+    "relationship": "BOARD_MEMBER_OF"
+  },
+  {
+    "type": "organization",
+    "name": "Alaska Air Group, Inc.",
+    "role": "other",
+    "issuer": "MSFT",
+    "source": "data/raw/sec-edgar-filings/MSFT/10-K/0000950170-25-100235/full-submission.txt",
+    "filing_type": "10-K",
+    "relationship": "BOARD_MEMBER_OF"
+  },
+  {
+    "type": "organization",
+    "name": "Netflix, Inc.",
+    "role": "other",
+    "issuer": "MSFT",
+    "source": "data/raw/sec-edgar-filings/MSFT/10-K/0000950170-25-100235/full-submission.txt",
+    "filing_type": "10-K",
+    "relationship": "BOARD_MEMBER_OF"
+  },
+  {
+    "type": "organization",
+    "name": "Activision Blizzard, Inc.",
+    "role": "other",
+    "issuer": "MSFT",
+    "source": "data/raw/sec-edgar-filings/MSFT/10-K/0000950170-25-100235/full-submission.txt",
+    "filing_type": "10-K"
+  },
+  {
+    "type": "organization",
+    "name": "OpenAI",
+    "role": "other",
+    "issuer": "MSFT",
+    "source": "data/raw/sec-edgar-filings/MSFT/10-K/0000950170-25-100235/full-submission.txt",
+    "filing_type": "10-K"
+  },
+  {
+    "type": "product",
+    "name": "Xbox consoles",
+    "issuer": "MSFT",
+    "source": "data/raw/sec-edgar-filings/MSFT/10-K/0000950170-25-100235/full-submission.txt",
+    "filing_type": "10-K"
+  },
+  {
+    "type": "product",
+    "name": "Surface devices",
+    "issuer": "MSFT",
+    "source": "data/raw/sec-edgar-filings/MSFT/10-K/0000950170-25-100235/full-submission.txt",
+    "filing_type": "10-K"
+  },
+  {
+    "type": "product",
+    "name": "Secure Future Initiative",
+    "issuer": "MSFT",
+    "source": "data/raw/sec-edgar-filings/MSFT/10-K/0000950170-25-100235/full-submission.txt",
+    "filing_type": "10-K"
+  },
+  {
+    "type": "product",
+    "name": "Security Development Lifecycle",
+    "issuer": "MSFT",
+    "source": "data/raw/sec-edgar-filings/MSFT/10-K/0000950170-25-100235/full-submission.txt",
+    "filing_type": "10-K"
+  },
+  {
+    "type": "organization",
+    "name": "OpenAI",
+    "role": "other",
+    "issuer": "MSFT",
+    "source": "data/raw/sec-edgar-filings/MSFT/10-K/0000950170-25-100235/full-submission.txt",
+    "filing_type": "10-K",
+    "relationship": "PARTNERS_WITH"
+  },
+  {
+    "type": "product",
+    "name": "Microsoft Cloud",
+    "issuer": "MSFT",
+    "source": "data/raw/sec-edgar-filings/MSFT/10-K/0000950170-25-100235/full-submission.txt",
+    "filing_type": "10-K"
+  },
+  {
+    "type": "product",
+    "name": "LinkedIn",
+    "issuer": "MSFT",
+    "source": "data/raw/sec-edgar-filings/MSFT/10-K/0000950170-25-100235/full-submission.txt",
+    "filing_type": "10-K"
+  },
+  {
+    "type": "product",
+    "name": "Azure",
+    "issuer": "MSFT",
+    "source": "data/raw/sec-edgar-filings/MSFT/10-K/0000950170-25-100235/full-submission.txt",
+    "filing_type": "10-K"
+  },
+  {
+    "type": "product",
+    "name": "Windows OEM",
+    "issuer": "MSFT",
+    "source": "data/raw/sec-edgar-filings/MSFT/10-K/0000950170-25-100235/full-submission.txt",
+    "filing_type": "10-K"
+  },
+  {
+    "type": "product",
+    "name": "Azure OpenAI Service",
+    "issuer": "MSFT",
+    "source": "data/raw/sec-edgar-filings/MSFT/10-K/0000950170-25-100235/full-submission.txt",
+    "filing_type": "10-K"
+  },
+  {
+    "type": "product",
+    "name": "Office 2024",
+    "issuer": "MSFT",
+    "source": "data/raw/sec-edgar-filings/MSFT/10-K/0000950170-25-100235/full-submission.txt",
+    "filing_type": "10-K"
+  },
+  {
+    "type": "person",
+    "name": "Alice L. Jolla",
+    "issuer": "MSFT",
+    "source": "data/raw/sec-edgar-filings/MSFT/10-K/0000950170-25-100235/full-submission.txt",
+    "filing_type": "10-K",
+    "relationship": "EXECUTIVE_OF",
+    "title": "Corporate Vice President and Chief Accounting Officer"
+  },
+  {
+    "type": "organization",
+    "name": "Deloitte & Touche LLP",
+    "role": "other",
+    "issuer": "MSFT",
+    "source": "data/raw/sec-edgar-filings/MSFT/10-K/0000950170-25-100235/full-submission.txt",
+    "filing_type": "10-K"
+  },
+  {
+    "type": "product",
+    "name": "Office 365",
+    "issuer": "MSFT",
+    "source": "data/raw/sec-edgar-filings/MSFT/10-K/0000950170-25-100235/full-submission.txt",
+    "filing_type": "10-K"
+  },
+  {
+    "type": "organization",
+    "name": "OpenAI Global, LLC",
+    "role": "other",
+    "issuer": "MSFT",
+    "source": "data/raw/sec-edgar-filings/MSFT/10-K/0000950170-25-100235/full-submission.txt",
+    "filing_type": "10-K"
+  },
+  {
+    "type": "person",
+    "name": "Reid Hoffman",
+    "issuer": "MSFT",
+    "source": "data/raw/sec-edgar-filings/MSFT/10-K/0000950170-25-100235/full-submission.txt",
+    "filing_type": "10-K",
+    "relationship": "BOARD_MEMBER_OF",
+    "title": "Director"
+  },
+  {
+    "type": "organization",
+    "name": "Inflection AI, Inc.",
+    "role": "other",
+    "issuer": "MSFT",
+    "source": "data/raw/sec-edgar-filings/MSFT/10-K/0000950170-25-100235/full-submission.txt",
+    "filing_type": "10-K"
+  },
+  {
+    "type": "organization",
+    "name": "Reprogrammed Interchange LLC",
+    "role": "institutional_investor",
+    "issuer": "MSFT",
+    "source": "data/raw/sec-edgar-filings/MSFT/10-K/0000950170-25-100235/full-submission.txt",
+    "filing_type": "10-K",
+    "relationship": "SHAREHOLDER_OF",
+    "pct_owned": 10
+  },
+  {
+    "type": "organization",
+    "name": "Greylock Ventures",
+    "role": "institutional_investor",
+    "issuer": "MSFT",
+    "source": "data/raw/sec-edgar-filings/MSFT/10-K/0000950170-25-100235/full-submission.txt",
+    "filing_type": "10-K",
+    "relationship": "SHAREHOLDER_OF",
+    "pct_owned": 10
+  },
+  {
+    "type": "product",
+    "name": "GitHub",
+    "issuer": "MSFT",
+    "source": "data/raw/sec-edgar-filings/MSFT/10-K/0000950170-25-100235/full-submission.txt",
+    "filing_type": "10-K"
+  },
+  {
+    "type": "product",
+    "name": "Nuance Healthcare",
+    "issuer": "MSFT",
+    "source": "data/raw/sec-edgar-filings/MSFT/10-K/0000950170-25-100235/full-submission.txt",
+    "filing_type": "10-K"
+  },
+  {
+    "type": "organization",
+    "name": "The Bank of New York Mellon Trust Company, N.A.",
+    "role": "other",
+    "issuer": "MSFT",
+    "source": "data/raw/sec-edgar-filings/MSFT/10-K/0000950170-25-100235/full-submission.txt",
+    "filing_type": "10-K"
+  },
+  {
+    "type": "organization",
+    "name": "U.S. Bank National Association",
+    "role": "other",
+    "issuer": "MSFT",
+    "source": "data/raw/sec-edgar-filings/MSFT/10-K/0000950170-25-100235/full-submission.txt",
+    "filing_type": "10-K"
+  },
+  {
+    "type": "issuer",
+    "name": "GOOGL",
+    "ticker": "GOOGL",
+    "issuer": "GOOGL",
+    "source": "data/raw/sec-edgar-filings/GOOGL/10-K/0001652044-26-000018/full-submission.txt",
+    "filing_type": "10-K"
+  },
+  {
+    "type": "person",
+    "name": "Sundar Pichai",
+    "issuer": "GOOGL",
+    "source": "data/raw/sec-edgar-filings/GOOGL/10-K/0001652044-26-000018/full-submission.txt",
+    "filing_type": "10-K",
+    "relationship": "EXECUTIVE_OF",
+    "title": "CEO"
+  },
+  {
+    "type": "organization",
+    "name": "Waymo",
+    "role": "other",
+    "issuer": "GOOGL",
+    "source": "data/raw/sec-edgar-filings/GOOGL/10-K/0001652044-26-000018/full-submission.txt",
+    "filing_type": "10-K"
+  },
+  {
+    "type": "organization",
+    "name": "Isomorphic Labs",
+    "role": "other",
+    "issuer": "GOOGL",
+    "source": "data/raw/sec-edgar-filings/GOOGL/10-K/0001652044-26-000018/full-submission.txt",
+    "filing_type": "10-K"
+  },
+  {
+    "type": "product",
+    "name": "Google Search",
+    "issuer": "GOOGL",
+    "source": "data/raw/sec-edgar-filings/GOOGL/10-K/0001652044-26-000018/full-submission.txt",
+    "filing_type": "10-K"
+  },
+  {
+    "type": "product",
+    "name": "YouTube",
+    "issuer": "GOOGL",
+    "source": "data/raw/sec-edgar-filings/GOOGL/10-K/0001652044-26-000018/full-submission.txt",
+    "filing_type": "10-K"
+  },
+  {
+    "type": "product",
+    "name": "Google Cloud",
+    "issuer": "GOOGL",
+    "source": "data/raw/sec-edgar-filings/GOOGL/10-K/0001652044-26-000018/full-submission.txt",
+    "filing_type": "10-K"
+  },
+  {
+    "type": "product",
+    "name": "Google Gemini",
+    "issuer": "GOOGL",
+    "source": "data/raw/sec-edgar-filings/GOOGL/10-K/0001652044-26-000018/full-submission.txt",
+    "filing_type": "10-K"
+  },
+  {
+    "type": "product",
+    "name": "Google Play",
+    "issuer": "GOOGL",
+    "source": "data/raw/sec-edgar-filings/GOOGL/10-K/0001652044-26-000018/full-submission.txt",
+    "filing_type": "10-K"
+  },
+  {
+    "type": "product",
+    "name": "Gmail",
+    "issuer": "GOOGL",
+    "source": "data/raw/sec-edgar-filings/GOOGL/10-K/0001652044-26-000018/full-submission.txt",
+    "filing_type": "10-K"
+  },
+  {
+    "type": "product",
+    "name": "Google Drive",
+    "issuer": "GOOGL",
+    "source": "data/raw/sec-edgar-filings/GOOGL/10-K/0001652044-26-000018/full-submission.txt",
+    "filing_type": "10-K"
+  },
+  {
+    "type": "product",
+    "name": "Google Maps",
+    "issuer": "GOOGL",
+    "source": "data/raw/sec-edgar-filings/GOOGL/10-K/0001652044-26-000018/full-submission.txt",
+    "filing_type": "10-K"
+  },
+  {
+    "type": "product",
+    "name": "Google Photos",
+    "issuer": "GOOGL",
+    "source": "data/raw/sec-edgar-filings/GOOGL/10-K/0001652044-26-000018/full-submission.txt",
+    "filing_type": "10-K"
+  },
+  {
+    "type": "product",
+    "name": "Android",
+    "issuer": "GOOGL",
+    "source": "data/raw/sec-edgar-filings/GOOGL/10-K/0001652044-26-000018/full-submission.txt",
+    "filing_type": "10-K"
+  },
+  {
+    "type": "product",
+    "name": "Chrome",
+    "issuer": "GOOGL",
+    "source": "data/raw/sec-edgar-filings/GOOGL/10-K/0001652044-26-000018/full-submission.txt",
+    "filing_type": "10-K"
+  },
+  {
+    "type": "product",
+    "name": "Pixel 10 series",
+    "issuer": "GOOGL",
+    "source": "data/raw/sec-edgar-filings/GOOGL/10-K/0001652044-26-000018/full-submission.txt",
+    "filing_type": "10-K"
+  },
+  {
+    "type": "product",
+    "name": "Pixel Watch 4",
+    "issuer": "GOOGL",
+    "source": "data/raw/sec-edgar-filings/GOOGL/10-K/0001652044-26-000018/full-submission.txt",
+    "filing_type": "10-K"
+  },
+  {
+    "type": "organization",
+    "name": "X",
+    "role": "other",
+    "issuer": "GOOGL",
+    "source": "data/raw/sec-edgar-filings/GOOGL/10-K/0001652044-26-000018/full-submission.txt",
+    "filing_type": "10-K"
+  },
+  {
+    "type": "product",
+    "name": "Google One",
+    "issuer": "GOOGL",
+    "source": "data/raw/sec-edgar-filings/GOOGL/10-K/0001652044-26-000018/full-submission.txt",
+    "filing_type": "10-K"
+  },
+  {
+    "type": "product",
+    "name": "Gemini",
+    "issuer": "GOOGL",
+    "source": "data/raw/sec-edgar-filings/GOOGL/10-K/0001652044-26-000018/full-submission.txt",
+    "filing_type": "10-K"
+  },
+  {
+    "type": "product",
+    "name": "Pixel family of devices",
+    "issuer": "GOOGL",
+    "source": "data/raw/sec-edgar-filings/GOOGL/10-K/0001652044-26-000018/full-submission.txt",
+    "filing_type": "10-K"
+  },
+  {
+    "type": "product",
+    "name": "Google Cloud Platform",
+    "issuer": "GOOGL",
+    "source": "data/raw/sec-edgar-filings/GOOGL/10-K/0001652044-26-000018/full-submission.txt",
+    "filing_type": "10-K"
+  },
+  {
+    "type": "product",
+    "name": "Google Workspace",
+    "issuer": "GOOGL",
+    "source": "data/raw/sec-edgar-filings/GOOGL/10-K/0001652044-26-000018/full-submission.txt",
+    "filing_type": "10-K"
+  },
+  {
+    "type": "product",
+    "name": "Vertex AI",
+    "issuer": "GOOGL",
+    "source": "data/raw/sec-edgar-filings/GOOGL/10-K/0001652044-26-000018/full-submission.txt",
+    "filing_type": "10-K"
+  },
+  {
+    "type": "product",
+    "name": "Gemini Enterprise",
+    "issuer": "GOOGL",
+    "source": "data/raw/sec-edgar-filings/GOOGL/10-K/0001652044-26-000018/full-submission.txt",
+    "filing_type": "10-K"
+  },
+  {
+    "type": "product",
+    "name": "Gemini for Google Workspace",
+    "issuer": "GOOGL",
+    "source": "data/raw/sec-edgar-filings/GOOGL/10-K/0001652044-26-000018/full-submission.txt",
+    "filing_type": "10-K"
+  },
+  {
+    "type": "product",
+    "name": "TPUs",
+    "issuer": "GOOGL",
+    "source": "data/raw/sec-edgar-filings/GOOGL/10-K/0001652044-26-000018/full-submission.txt",
+    "filing_type": "10-K"
+  },
+  {
+    "type": "person",
+    "name": "Larry Page",
+    "issuer": "GOOGL",
+    "source": "data/raw/sec-edgar-filings/GOOGL/10-K/0001652044-26-000018/full-submission.txt",
+    "filing_type": "10-K",
+    "relationship": "EXECUTIVE_OF",
+    "title": "Co-founder"
+  },
+  {
+    "type": "person",
+    "name": "Sergey Brin",
+    "issuer": "GOOGL",
+    "source": "data/raw/sec-edgar-filings/GOOGL/10-K/0001652044-26-000018/full-submission.txt",
+    "filing_type": "10-K",
+    "relationship": "EXECUTIVE_OF",
+    "title": "Co-founder"
+  },
+  {
+    "type": "organization",
+    "name": "S&P",
+    "role": "other",
+    "issuer": "GOOGL",
+    "source": "data/raw/sec-edgar-filings/GOOGL/10-K/0001652044-26-000018/full-submission.txt",
+    "filing_type": "10-K"
+  },
+  {
+    "type": "organization",
+    "name": "The McGraw-Hill Companies Inc.",
+    "role": "other",
+    "issuer": "GOOGL",
+    "source": "data/raw/sec-edgar-filings/GOOGL/10-K/0001652044-26-000018/full-submission.txt",
+    "filing_type": "10-K"
+  },
+  {
+    "type": "organization",
+    "name": "Google",
+    "role": "other",
+    "issuer": "GOOGL",
+    "source": "data/raw/sec-edgar-filings/GOOGL/10-K/0001652044-26-000018/full-submission.txt",
+    "filing_type": "10-K"
+  },
+  {
+    "type": "organization",
+    "name": "Alphabet Inc.",
+    "role": "other",
+    "issuer": "GOOGL",
+    "source": "data/raw/sec-edgar-filings/GOOGL/10-K/0001652044-26-000018/full-submission.txt",
+    "filing_type": "10-K"
+  },
+  {
+    "type": "product",
+    "name": "Class C capital stock",
+    "issuer": "GOOGL",
+    "source": "data/raw/sec-edgar-filings/GOOGL/10-K/0001652044-26-000018/full-submission.txt",
+    "filing_type": "10-K"
+  },
+  {
+    "type": "product",
+    "name": "AI Overviews",
+    "issuer": "GOOGL",
+    "source": "data/raw/sec-edgar-filings/GOOGL/10-K/0001652044-26-000018/full-submission.txt",
+    "filing_type": "10-K"
+  },
+  {
+    "type": "product",
+    "name": "AI Mode in Search",
+    "issuer": "GOOGL",
+    "source": "data/raw/sec-edgar-filings/GOOGL/10-K/0001652044-26-000018/full-submission.txt",
+    "filing_type": "10-K"
+  },
+  {
+    "type": "product",
+    "name": "YouTube TV",
+    "issuer": "GOOGL",
+    "source": "data/raw/sec-edgar-filings/GOOGL/10-K/0001652044-26-000018/full-submission.txt",
+    "filing_type": "10-K"
+  },
+  {
+    "type": "product",
+    "name": "YouTube Music",
+    "issuer": "GOOGL",
+    "source": "data/raw/sec-edgar-filings/GOOGL/10-K/0001652044-26-000018/full-submission.txt",
+    "filing_type": "10-K"
+  },
+  {
+    "type": "product",
+    "name": "Premium",
+    "issuer": "GOOGL",
+    "source": "data/raw/sec-edgar-filings/GOOGL/10-K/0001652044-26-000018/full-submission.txt",
+    "filing_type": "10-K"
+  },
+  {
+    "type": "product",
+    "name": "NFL Sunday Ticket",
+    "issuer": "GOOGL",
+    "source": "data/raw/sec-edgar-filings/GOOGL/10-K/0001652044-26-000018/full-submission.txt",
+    "filing_type": "10-K"
+  },
+  {
+    "type": "product",
+    "name": "Vertex AI platform",
+    "issuer": "GOOGL",
+    "source": "data/raw/sec-edgar-filings/GOOGL/10-K/0001652044-26-000018/full-submission.txt",
+    "filing_type": "10-K"
+  },
+  {
+    "type": "organization",
+    "name": "Wiz",
+    "role": "other",
+    "issuer": "GOOGL",
+    "source": "data/raw/sec-edgar-filings/GOOGL/10-K/0001652044-26-000018/full-submission.txt",
+    "filing_type": "10-K"
+  },
+  {
+    "type": "organization",
+    "name": "Intersect",
+    "role": "other",
+    "issuer": "GOOGL",
+    "source": "data/raw/sec-edgar-filings/GOOGL/10-K/0001652044-26-000018/full-submission.txt",
+    "filing_type": "10-K"
+  },
+  {
+    "type": "product",
+    "name": "Google Search & other",
+    "issuer": "GOOGL",
+    "source": "data/raw/sec-edgar-filings/GOOGL/10-K/0001652044-26-000018/full-submission.txt",
+    "filing_type": "10-K"
+  },
+  {
+    "type": "product",
+    "name": "YouTube ads",
+    "issuer": "GOOGL",
+    "source": "data/raw/sec-edgar-filings/GOOGL/10-K/0001652044-26-000018/full-submission.txt",
+    "filing_type": "10-K"
+  },
+  {
+    "type": "product",
+    "name": "Google Network",
+    "issuer": "GOOGL",
+    "source": "data/raw/sec-edgar-filings/GOOGL/10-K/0001652044-26-000018/full-submission.txt",
+    "filing_type": "10-K"
+  },
+  {
+    "type": "product",
+    "name": "Google advertising",
+    "issuer": "GOOGL",
+    "source": "data/raw/sec-edgar-filings/GOOGL/10-K/0001652044-26-000018/full-submission.txt",
+    "filing_type": "10-K"
+  },
+  {
+    "type": "product",
+    "name": "Google subscriptions, platforms, and devices",
+    "issuer": "GOOGL",
+    "source": "data/raw/sec-edgar-filings/GOOGL/10-K/0001652044-26-000018/full-submission.txt",
+    "filing_type": "10-K"
+  },
+  {
+    "type": "person",
+    "name": "Board of Directors",
+    "issuer": "GOOGL",
+    "source": "data/raw/sec-edgar-filings/GOOGL/10-K/0001652044-26-000018/full-submission.txt",
+    "filing_type": "10-K",
+    "title": "Board of Directors"
+  },
+  {
+    "type": "organization",
+    "name": "Wiz, Inc.",
+    "role": "other",
+    "issuer": "GOOGL",
+    "source": "data/raw/sec-edgar-filings/GOOGL/10-K/0001652044-26-000018/full-submission.txt",
+    "filing_type": "10-K"
+  },
+  {
+    "type": "product",
+    "name": "YouTube Premium",
+    "issuer": "GOOGL",
+    "source": "data/raw/sec-edgar-filings/GOOGL/10-K/0001652044-26-000018/full-submission.txt",
+    "filing_type": "10-K"
+  },
+  {
+    "type": "product",
+    "name": "Pixel",
+    "issuer": "GOOGL",
+    "source": "data/raw/sec-edgar-filings/GOOGL/10-K/0001652044-26-000018/full-submission.txt",
+    "filing_type": "10-K"
+  },
+  {
+    "type": "organization",
+    "name": "Financial Accounting Standards Board (FASB)",
+    "role": "other",
+    "issuer": "GOOGL",
+    "source": "data/raw/sec-edgar-filings/GOOGL/10-K/0001652044-26-000018/full-submission.txt",
+    "filing_type": "10-K"
+  },
+  {
+    "type": "person",
+    "name": "Board of Directors",
+    "issuer": "GOOGL",
+    "source": "data/raw/sec-edgar-filings/GOOGL/10-K/0001652044-26-000018/full-submission.txt",
+    "filing_type": "10-K",
+    "relationship": "BOARD_MEMBER_OF",
+    "title": "Board of Directors"
+  },
+  {
+    "type": "product",
+    "name": "Google Services",
+    "issuer": "GOOGL",
+    "source": "data/raw/sec-edgar-filings/GOOGL/10-K/0001652044-26-000018/full-submission.txt",
+    "filing_type": "10-K"
+  },
+  {
+    "type": "product",
+    "name": "Other Bets",
+    "issuer": "GOOGL",
+    "source": "data/raw/sec-edgar-filings/GOOGL/10-K/0001652044-26-000018/full-submission.txt",
+    "filing_type": "10-K"
+  },
+  {
+    "type": "person",
+    "name": "John Hennessy",
+    "issuer": "GOOGL",
+    "source": "data/raw/sec-edgar-filings/GOOGL/10-K/0001652044-26-000018/full-submission.txt",
+    "filing_type": "10-K",
+    "relationship": "BOARD_MEMBER_OF",
+    "title": "Chair of the Board of Directors"
+  },
+  {
+    "type": "person",
+    "name": "Ruth M. Porat",
+    "issuer": "GOOGL",
+    "source": "data/raw/sec-edgar-filings/GOOGL/10-K/0001652044-26-000018/full-submission.txt",
+    "filing_type": "10-K",
+    "relationship": "EXECUTIVE_OF",
+    "title": "President and Chief Investment Officer"
+  },
+  {
+    "type": "organization",
+    "name": "Google LLC",
+    "role": "subsidiary",
+    "issuer": "GOOGL",
+    "source": "data/raw/sec-edgar-filings/GOOGL/10-K/0001652044-26-000018/full-submission.txt",
+    "filing_type": "10-K"
+  },
+  {
+    "type": "person",
+    "name": "Larry Page",
+    "issuer": "GOOGL",
+    "source": "data/raw/sec-edgar-filings/GOOGL/10-K/0001652044-26-000018/full-submission.txt",
+    "filing_type": "10-K"
+  },
+  {
+    "type": "person",
+    "name": "Sergey Brin",
+    "issuer": "GOOGL",
+    "source": "data/raw/sec-edgar-filings/GOOGL/10-K/0001652044-26-000018/full-submission.txt",
+    "filing_type": "10-K"
+  },
+  {
+    "type": "person",
+    "name": "Eric E. Schmidt",
+    "issuer": "GOOGL",
+    "source": "data/raw/sec-edgar-filings/GOOGL/10-K/0001652044-26-000018/full-submission.txt",
+    "filing_type": "10-K"
+  },
+  {
+    "type": "person",
+    "name": "Anat Ashkenazi",
+    "issuer": "GOOGL",
+    "source": "data/raw/sec-edgar-filings/GOOGL/10-K/0001652044-26-000018/full-submission.txt",
+    "filing_type": "10-K"
+  }
+]
