@@ -62,7 +62,9 @@ fetch (multi-ticker) → preprocess → chunks.json
 pip install -r requirements.txt
 ```
 
-**2. Neo4j** — install [Neo4j Desktop](https://neo4j.com/download/), create and start a local database. Default URI is `bolt://localhost:7687`.
+**2. Neo4j** — either works:
+- **Local**: install [Neo4j Desktop](https://neo4j.com/download/), create and start a database. URI is `bolt://localhost:7687`, user `neo4j`.
+- **Cloud**: create a free [AuraDB](https://console.neo4j.io) instance. URI is `neo4j+s://<id>.databases.neo4j.io`. **Careful:** newer Aura instances use the *instance ID as the username*, not `neo4j` — copy `NEO4J_USERNAME` from the credentials file Aura downloads at creation, and put it under `NEO4J_USER` (the name this codebase reads). Resetting the password invalidates the creation-file password.
 
 **3. Keys and credentials**
 ```bash
@@ -73,9 +75,9 @@ Fill in `.env`:
 OPENAI_API_KEY=sk-...
 PINECONE_API_KEY=...
 PINECONE_INDEX_NAME=10k-filings
-NEO4J_URI=bolt://localhost:7687
-NEO4J_USER=neo4j
-NEO4J_PASSWORD=<password from Neo4j Desktop>
+NEO4J_URI=bolt://localhost:7687      # or neo4j+s://<id>.databases.neo4j.io
+NEO4J_USER=neo4j                     # Aura: the instance ID, not neo4j
+NEO4J_PASSWORD=<password>
 ```
 
 ---
@@ -137,6 +139,20 @@ MATCH (p:Person)-[r]->(o:Organization) RETURN p, r, o
 | `--types` | `10-K 10-Q` | Filing types to fetch |
 | `--limit` | `3` | Filings per type |
 | `--entities` | `data/processed/entities.json` | Extraction output path |
+
+---
+
+## Deployment (Streamlit Community Cloud)
+
+The app runs on Streamlit Community Cloud, wired to this repo: **every push to `main` auto-redeploys** (~1–2 min; check "Manage app" in the running app for build logs and the active commit).
+
+How the pieces split:
+- **Repo** — code + the pre-indexed demo dataset (`data/processed/chunks.json` is committed for this reason).
+- **Dashboard Secrets (TOML)** — all credentials; `app.py` bridges `st.secrets` into `os.environ` at startup so the pipeline modules work unchanged. Set `OPENAI_API_KEY`, `PINECONE_API_KEY`, `PINECONE_INDEX_NAME`, `NEO4J_URI`, `NEO4J_USER`, `NEO4J_PASSWORD`, and `APP_PASSWORD`.
+- **Pinecone + AuraDB** — persistent stores; the container connects at runtime.
+- **Container disk is ephemeral** — tickers ingested through the UI persist in Pinecone/Aura, but the updated `chunks.json` is lost on restart. The company dropdown falls back to graph issuer nodes when the file is stale.
+
+Access: set `APP_PASSWORD` in secrets to gate the whole UI (skip it locally for no gate), and set the app's sharing to *public* in the dashboard — the password is the barrier, not Streamlit's viewer login. Deploy settings: repo `main`, entrypoint `app.py`, Python 3.11+.
 
 ---
 
