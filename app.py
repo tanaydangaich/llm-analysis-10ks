@@ -222,6 +222,84 @@ st.markdown(
     unsafe_allow_html=True,
 )
 
+_NODE_COLOR = {"Organization": "#D4A24C", "Person": "#5FA776", "Product": "#8B9099"}
+
+
+_INTENT_REL = {
+    "board": ("Person", "board member of", False),
+    "executives": ("Person", "executive of", False),
+    "competitors": ("Organization", "competes with", True),
+    "shareholders": ("Organization", "shareholder of", False),
+    "products": ("Product", "product of", False),
+}
+
+
+def render_graph_viz(graph_facts: dict) -> None:
+    """Builds the visual straight from the already-fetched, intent-scoped graph_facts
+    (not a fresh full-neighborhood query) so it only ever shows what was actually asked."""
+    from streamlit_agraph import Config, Edge, Node, agraph
+
+    nodes = {}
+    seen_edges = set()
+    edges = []
+    hq_notes = {}
+
+    org_counts: dict[str, int] = {}
+    for rows in graph_facts.values():
+        for r in rows:
+            if r.get("org"):
+                org_counts[r["org"]] = org_counts.get(r["org"], 0) + 1
+    if not org_counts:
+        return
+    center = max(org_counts, key=org_counts.get)
+
+    def add_node(name: str, label: str, size: int) -> None:
+        if name not in nodes:
+            nodes[name] = Node(
+                id=name, label=name, size=size, color=_NODE_COLOR.get(label, "#8B9099"),
+                font={"color": "#E8E6DE"},
+            )
+        elif size > nodes[name].size:
+            nodes[name].size = size
+
+    def add_edge(a: str, b: str, rel: str) -> None:
+        key = (a, b, rel)
+        if key not in seen_edges:
+            seen_edges.add(key)
+            edges.append(Edge(source=a, target=b, title=rel))  # title = hover tooltip, not a canvas label
+
+    for intent, rows in graph_facts.items():
+        if intent == "headquarters":
+            for r in rows:
+                hq_notes[r["org"]] = r.get("address")
+                add_node(r["org"], "Organization", 22 if r["org"] == center else 14)
+            continue
+        spec = _INTENT_REL.get(intent)
+        if not spec:
+            continue
+        neighbor_label, rel, org_to_org = spec
+        for r in rows:
+            org = r.get("org")
+            org_size = 22 if org == center else 14
+            add_node(org, "Organization", org_size)
+            add_node(r["name"], neighbor_label, 14)
+            if org_to_org:
+                add_edge(org, r["name"], rel)
+            else:
+                add_edge(r["name"], org, rel)
+
+    if not nodes:
+        return
+    for org, addr in hq_notes.items():
+        if org in nodes:
+            nodes[org].title = f"HQ: {addr}"
+
+    config = Config(height=480, width=860, directed=True, physics=True, hierarchical=False)
+    config.physics["barnesHut"] = {"springLength": 170, "springConstant": 0.02, "damping": 0.5, "avoidOverlap": 1}
+
+    with st.expander("§ Knowledge graph visual", expanded=True):
+        agraph(nodes=list(nodes.values()), edges=edges, config=config)
+
 
 def render_graph_facts(graph_facts: dict) -> None:
     with st.expander("§ Knowledge graph facts"):
@@ -286,5 +364,6 @@ for i, turn in reversed(list(enumerate(history, start=1))):
     )
     if turn.get("graph_facts"):
         render_graph_facts(turn["graph_facts"])
+        render_graph_viz(turn["graph_facts"])
     if turn.get("sources"):
         render_sources(turn["sources"])

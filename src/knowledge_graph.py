@@ -388,6 +388,8 @@ def query_products(session, company: str) -> list[dict]:
     return [dict(rec) for rec in result]
 
 
+
+
 def query_issuers(session) -> list[dict]:
     """All issuer organizations — used to resolve which company a question is about."""
     result = session.run(
