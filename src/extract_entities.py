@@ -141,6 +141,10 @@ def _is_low_signal(text: str) -> bool:
     Heuristics: very low ratio of alphabetic words to tokens, or dominated by
     xbrl/iso4217-style identifiers."""
     sample = text[:4000]
+    # Signature pages list every director but read as tag soup to the ratio
+    # heuristics (spaced small-caps names, exhibit numbers) — always keep them.
+    if "/s/" in text or re.search(r"pursuant to the requirements of section 13", text, re.IGNORECASE):
+        return False
     if re.search(r"(iso4217|xbrli|us-gaap|dei:|xmlns)", sample, re.IGNORECASE):
         # XBRL identifiers present — check whether prose still dominates
         words = re.findall(r"[A-Za-z]{3,}", sample)
@@ -234,7 +238,15 @@ _TITLE_WORDS = {
     "officer", "executive", "chief", "chair", "chairman", "chairperson", "head",
     "heads", "counsel", "president", "committee", "member", "compliance",
     "audit", "accounting", "assurance", "secretary", "treasurer", "controller",
-    "evp", "svp", "cvp", "vp",
+    "evp", "svp", "cvp", "vp", "board", "director", "directors",
+}
+
+# The model occasionally returns relationships outside the tool-schema enum
+# (e.g. BOARD_MEMBER_OF on an organization); those records make no graph edges
+# but pollute entities.json.
+_ALLOWED_RELATIONSHIPS = {
+    "person": {"BOARD_MEMBER_OF", "EXECUTIVE_OF"},
+    "organization": {"COMPETES_WITH", "SHAREHOLDER_OF", "SUBSIDIARY_OF", "PARTNERS_WITH"},
 }
 
 
@@ -252,7 +264,32 @@ def _clean_records(records: list[dict]) -> list[dict]:
             rec["name"] = rec["name"].replace("’", "'").replace("‘", "'")
         if rec["type"] == "person" and _looks_like_title_not_name(rec["name"]):
             continue
+        allowed = _ALLOWED_RELATIONSHIPS.get(rec["type"])
+        if allowed is not None and rec.get("relationship") and rec["relationship"] not in allowed:
+            rec = {k: v for k, v in rec.items() if k != "relationship"}
         out.append(rec)
+    return out
+
+
+def _merge_name_variants(records: list[dict]) -> list[dict]:
+    """Collapse 'Reid Hoffman' / 'Reid G. Hoffman' style duplicates: persons with
+    the same issuer, year, relationship, and first+last name keep only the
+    longest (most complete) name. Full coreference stays out of scope."""
+    groups: dict[tuple, list[dict]] = {}
+    out = []
+    for rec in records:
+        if rec["type"] != "person":
+            out.append(rec)
+            continue
+        tokens = rec["name"].split()
+        if len(tokens) < 2:
+            out.append(rec)
+            continue
+        key = (rec["issuer"], rec.get("filing_year", 0), rec.get("relationship"),
+               tokens[0].lower(), tokens[-1].lower())
+        groups.setdefault(key, []).append(rec)
+    for variants in groups.values():
+        out.append(max(variants, key=lambda r: len(r["name"])))
     return out
 
 
@@ -330,7 +367,7 @@ def extract_entities(chunks_path: Path, out_path: Path, companies: list[str] = N
             print(f"Keeping {len(kept)} existing records for other companies")
         all_records = kept + all_records
 
-    deduped = _dedupe(_clean_records(all_records))
+    deduped = _merge_name_variants(_dedupe(_clean_records(all_records)))
     out_path.parent.mkdir(parents=True, exist_ok=True)
     with open(out_path, "w") as f:
         json.dump(deduped, f, indent=2)
