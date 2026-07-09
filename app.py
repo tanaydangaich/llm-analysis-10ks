@@ -5,6 +5,14 @@ from pathlib import Path
 
 import streamlit as st
 
+# Streamlit Cloud provides credentials via st.secrets; the pipeline modules read
+# os.environ. Bridge them before any src import triggers an env lookup.
+try:
+    for _k, _v in st.secrets.items():
+        os.environ.setdefault(_k, str(_v))
+except Exception:
+    pass  # no secrets file — local dev uses .env via dotenv
+
 from src.rag_query import answer
 
 RAW_DIR = Path("data/raw")
@@ -14,14 +22,38 @@ INDEX_NAME = os.getenv("PINECONE_INDEX_NAME", "10k-filings")
 
 st.title("10-K / 10-Q Analyst")
 
+if os.getenv("APP_PASSWORD") and not st.session_state.get("authed"):
+    pw = st.text_input("Password", type="password")
+    if pw:
+        if pw == os.environ["APP_PASSWORD"]:
+            st.session_state["authed"] = True
+            st.rerun()
+        else:
+            st.error("Wrong password.")
+    st.stop()
+
 
 @st.cache_data
 def list_companies() -> list[str]:
-    if not CHUNKS_PATH.exists():
-        return []
-    with open(CHUNKS_PATH) as f:
-        chunks = json.load(f)
-    return sorted({c["company"] for c in chunks})
+    if CHUNKS_PATH.exists():
+        with open(CHUNKS_PATH) as f:
+            chunks = json.load(f)
+        return sorted({c["company"] for c in chunks})
+    # Cloud disk is ephemeral: chunks.json can vanish on restart while the graph
+    # persists — fall back to issuer nodes so the dropdown stays usable.
+    if os.getenv("NEO4J_URI"):
+        from src import knowledge_graph as kg
+        try:
+            driver = kg.get_driver()
+            try:
+                with driver.session() as session:
+                    issuers = kg.query_issuers(session)
+            finally:
+                kg.close_driver(driver)
+            return sorted({i["ticker"] or i["name"] for i in issuers})
+        except Exception:
+            pass
+    return []
 
 
 def ingest(tickers: list[str], filing_types: list[str], limit: int) -> None:

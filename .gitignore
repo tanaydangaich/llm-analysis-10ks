@@ -3,7 +3,6 @@
 
 # bulky / regenerable data
 data/raw/
-data/processed/chunks.json
 
 # python
 __pycache__/
