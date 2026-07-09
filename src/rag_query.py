@@ -62,7 +62,12 @@ _RISK_CATEGORY_KEYWORDS = {
 
 def _classify_graph_intent(question: str) -> set[str]:
     q = question.lower()
-    return {intent for intent, kws in _GRAPH_INTENTS.items() if any(kw in q for kw in kws)}
+    intents = {intent for intent, kws in _GRAPH_INTENTS.items() if any(kw in q for kw in kws)}
+    # A question naming a specific risk category ("cybersecurity", "data breaches")
+    # should route to the graph even without a generic word like "risk" in it.
+    if _match_risk_category(question):
+        intents.add("risk_factors")
+    return intents
 
 
 def _match_risk_category(question: str) -> str | None:
