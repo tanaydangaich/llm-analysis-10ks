@@ -222,7 +222,7 @@ st.markdown(
     unsafe_allow_html=True,
 )
 
-_NODE_COLOR = {"Organization": "#D4A24C", "Person": "#5FA776", "Product": "#8B9099"}
+_NODE_COLOR = {"Organization": "#D4A24C", "Person": "#5FA776", "Product": "#8B9099", "RiskFactor": "#C1584F"}
 
 
 _INTENT_REL = {
@@ -231,13 +231,41 @@ _INTENT_REL = {
     "competitors": ("Organization", "competes with", True),
     "shareholders": ("Organization", "shareholder of", False),
     "products": ("Product", "product of", False),
+    "risk_factors": ("RiskFactor", "exposed to", False),
 }
+
+
+def _render_cross_company_risk_viz(rows: list) -> None:
+    """Category-centric star: one RiskFactor node, an org leaf per exposed company.
+    Different shape from the org-centric views below — there's no single company here."""
+    from streamlit_agraph import Config, Edge, Node, agraph
+
+    if not rows:
+        return
+    category = rows[0]["category"]
+    nodes = {category: Node(id=category, label=category, size=22, color=_NODE_COLOR["RiskFactor"], font={"color": "#E8E6DE"})}
+    edges = []
+    for r in rows:
+        org = r["org"]
+        if org not in nodes:
+            nodes[org] = Node(id=org, label=org, size=14, color=_NODE_COLOR["Organization"], font={"color": "#E8E6DE"})
+        nodes[org].title = r.get("summary")
+        edges.append(Edge(source=org, target=category, title="exposed to"))
+
+    config = Config(height=420, width=860, directed=True, physics=True, hierarchical=False)
+    config.physics["barnesHut"] = {"springLength": 170, "springConstant": 0.02, "damping": 0.5, "avoidOverlap": 1}
+    with st.expander("§ Knowledge graph visual", expanded=True):
+        agraph(nodes=list(nodes.values()), edges=edges, config=config)
 
 
 def render_graph_viz(graph_facts: dict) -> None:
     """Builds the visual straight from the already-fetched, intent-scoped graph_facts
     (not a fresh full-neighborhood query) so it only ever shows what was actually asked."""
     from streamlit_agraph import Config, Edge, Node, agraph
+
+    if "risk_factors_cross_company" in graph_facts:
+        _render_cross_company_risk_viz(graph_facts["risk_factors_cross_company"])
+        return
 
     nodes = {}
     seen_edges = set()
@@ -301,16 +329,23 @@ def render_graph_viz(graph_facts: dict) -> None:
         agraph(nodes=list(nodes.values()), edges=edges, config=config)
 
 
+_INTENT_TITLES = {"risk_factors_cross_company": "Companies exposed to this risk"}
+
+
 def render_graph_facts(graph_facts: dict) -> None:
     with st.expander("§ Knowledge graph facts"):
         for intent, rows in graph_facts.items():
-            st.markdown(f"**{intent.capitalize()}**")
+            st.markdown(f"**{_INTENT_TITLES.get(intent, intent.replace('_', ' ').capitalize())}**")
             for r in rows:
                 if intent in ("board", "executives"):
                     title = f" — {r['title']}" if r.get("title") else ""
                     st.write(f"- {r['name']}{title} ({r['org']})")
                 elif intent == "headquarters":
                     st.write(f"- {r['org']}: {r['address']}")
+                elif intent == "risk_factors":
+                    st.write(f"- **{r['name']}**: {r['summary']} ({r['org']})")
+                elif intent == "risk_factors_cross_company":
+                    st.write(f"- {r['org']}: {r['summary']}")
                 else:
                     st.write(f"- {r['name']} ({r['org']})")
 

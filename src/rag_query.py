@@ -19,7 +19,7 @@ SYSTEM_PROMPT = """You are a financial analyst assistant that answers questions 
 
 Rules:
 - Answer ONLY from the provided context chunks. Do not use prior knowledge.
-- If a "Knowledge Graph Facts" block is provided, treat it as ground truth for entity/relationship questions (people, competitors, ownership, headquarters, products) — prefer it over inference from prose.
+- If a "Knowledge Graph Facts" block is provided, treat it as ground truth for entity/relationship questions (people, competitors, ownership, headquarters, products, risk factors) — prefer it over inference from prose.
 - Always cite which filing section or source the information comes from.
 - If the answer is not present in the context, say: "This information is not found in the provided filings."
 - Be precise with numbers and dates.
@@ -37,12 +37,40 @@ _GRAPH_INTENTS = {
                      "address", "located", "where is"],
     "products": ["product", "products", "brand", "brands", "services offered",
                  "what does", "sell"],
+    "risk_factors": ["risk factor", "risk factors", "main risks", "key risks",
+                     "exposed to", "exposure to", "vulnerable to", "which companies face",
+                     "which companies have", "companies exposed"],
+}
+
+# Keyword -> RISK_CATEGORIES match, used only for the cross-company route (no
+# single company resolved). Best-effort heuristic, same spirit as _GRAPH_INTENTS.
+_RISK_CATEGORY_KEYWORDS = {
+    "Cybersecurity & Data Breaches": ["cybersecurity", "cyber", "data breach", "hack", "hacking"],
+    "Competition": ["competition", "competitor", "compete", "rival"],
+    "Supply Chain & Manufacturing": ["supply chain", "manufactur", "component shortage", "single source"],
+    "Regulatory & Legal Compliance": ["regulat", "compliance", "antitrust", "tax law"],
+    "Litigation": ["litigation", "lawsuit", "legal proceeding", "sued", "sue "],
+    "Intellectual Property": ["intellectual property", "patent", "trademark", "copyright"],
+    "Macroeconomic & Market Conditions": ["macroeconomic", "recession", "inflation", "economic condition"],
+    "Foreign Operations & Geopolitical Risk": ["geopolitic", "foreign operation", "tariff", "trade war", "war "],
+    "Talent & Labor": ["talent", "labor", "workforce", "key personnel", "employee retention"],
+    "Product Quality & Liability": ["product liability", "product defect", "product quality", "recall"],
+    "Debt & Liquidity": ["debt", "liquidity", "interest rate", "currency", "foreign exchange", "fx risk"],
+    "Reputation & Brand": ["reputation", "brand damage", "brand risk"],
 }
 
 
 def _classify_graph_intent(question: str) -> set[str]:
     q = question.lower()
     return {intent for intent, kws in _GRAPH_INTENTS.items() if any(kw in q for kw in kws)}
+
+
+def _match_risk_category(question: str) -> str | None:
+    q = question.lower()
+    for category, kws in _RISK_CATEGORY_KEYWORDS.items():
+        if any(kw in q for kw in kws):
+            return category
+    return None
 
 
 def _resolve_company(kg, session, question: str) -> str | None:
@@ -81,13 +109,23 @@ def _fetch_graph_facts(intents: set[str], question: str, company: str = None) ->
         "shareholders": kg.query_shareholders,
         "headquarters": kg.query_headquarters,
         "products": kg.query_products,
+        "risk_factors": kg.query_risk_factors,
     }
     facts = {}
     try:
         with driver.session() as session:
             target = company or _resolve_company(kg, session, question)
+            # "risk_factors" is the one intent that still resolves without a single
+            # company in view: "which companies face X risk" has no target, but is
+            # exactly the cross-company join a graph is for (RAG can't do it at all).
+            if not target and "risk_factors" in intents:
+                category = _match_risk_category(question)
+                if category:
+                    rows = kg.query_companies_by_risk(session, category)
+                    if rows:
+                        facts["risk_factors_cross_company"] = rows
             if not target:
-                return {}
+                return facts
             for intent in intents:
                 rows = query_fns[intent](session, target)
                 if rows:
@@ -97,21 +135,29 @@ def _fetch_graph_facts(intents: set[str], question: str, company: str = None) ->
     return facts
 
 
+_INTENT_TITLES = {"risk_factors_cross_company": "Companies exposed to this risk"}
+
+
 def format_graph_context(facts: dict) -> str:
     lines = ["Knowledge Graph Facts (structured, extracted from the most recent filing):"]
     for intent, rows in facts.items():
         year = next((r["year"] for r in rows if r.get("year")), None)
-        header = f"{intent.capitalize()} (per {year} filing):" if year else f"{intent.capitalize()}:"
+        title = _INTENT_TITLES.get(intent, intent.replace("_", " ").capitalize())
+        header = f"{title} (per {year} filing):" if year else f"{title}:"
         lines.append(f"\n{header}")
         for r in rows:
             if intent in ("board", "executives"):
-                title = f" — {r['title']}" if r.get("title") else ""
-                lines.append(f"  - {r['name']}{title} ({r['org']})")
+                title_ = f" — {r['title']}" if r.get("title") else ""
+                lines.append(f"  - {r['name']}{title_} ({r['org']})")
             elif intent == "headquarters":
                 lines.append(f"  - {r['org']}: {r['address']}")
             elif intent == "shareholders":
                 pct = f" ({r['pct_owned']}% owned)" if r.get("pct_owned") is not None else ""
                 lines.append(f"  - {r['name']}{pct} -> {r['org']}")
+            elif intent == "risk_factors":
+                lines.append(f"  - {r['name']}: {r['summary']} ({r['org']})")
+            elif intent == "risk_factors_cross_company":
+                lines.append(f"  - {r['org']}: {r['summary']}")
             else:
                 lines.append(f"  - {r['name']} ({r['org']})")
     return "\n".join(lines)

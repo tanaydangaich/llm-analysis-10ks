@@ -16,6 +16,24 @@ _ORG_SUFFIX_RE = re.compile(
     r"[,.]?\s+(Inc|Incorporated|Corp|Corporation|LLC|L\.L\.C|Ltd|Limited|Co|Company|PLC|plc|LP|L\.P)\.?$"
 )
 
+# Fixed vocabulary so RiskFactor nodes are shared across companies (cross-company
+# queries only work if two issuers' risks land on the *same* node). Kept broad —
+# validated against real 10-K text; a longer list would fragment overlap.
+RISK_CATEGORIES = [
+    "Cybersecurity & Data Breaches",
+    "Competition",
+    "Supply Chain & Manufacturing",
+    "Regulatory & Legal Compliance",
+    "Litigation",
+    "Intellectual Property",
+    "Macroeconomic & Market Conditions",
+    "Foreign Operations & Geopolitical Risk",
+    "Talent & Labor",
+    "Product Quality & Liability",
+    "Debt & Liquidity",
+    "Reputation & Brand",
+]
+
 
 def get_driver():
     uri = os.environ["NEO4J_URI"]
@@ -170,6 +188,20 @@ def link_partner(tx, org_a: str, org_b: str, year: int = 0):
     )
 
 
+def link_risk_factor(tx, org: str, category: str, summary: str = None, year: int = 0):
+    if category not in RISK_CATEGORIES:
+        return
+    tx.run(
+        """
+        MERGE (o:Organization {name: $org})
+        MERGE (r:RiskFactor {name: $category})
+        MERGE (o)-[rel:EXPOSED_TO {year: $year}]->(r)
+        SET rel.summary = coalesce($summary, rel.summary)
+        """,
+        org=_canonicalize(org), category=category, summary=summary, year=year,
+    )
+
+
 def set_headquarters(tx, org: str, address: str, year: int = 0):
     # keep the address from the most recent filing only
     tx.run(
@@ -185,9 +217,9 @@ def set_headquarters(tx, org: str, address: str, year: int = 0):
 
 def link_mentioned_in(tx, node_label: str, node_name: str, source: str):
     """Provenance edge: entity -> Filing it was extracted from."""
-    if node_label not in ("Person", "Organization", "Product"):
+    if node_label not in ("Person", "Organization", "Product", "RiskFactor"):
         return
-    name = node_name if node_label == "Product" else _canonicalize(node_name)
+    name = node_name if node_label in ("Product", "RiskFactor") else _canonicalize(node_name)
     tx.run(
         f"""
         MERGE (n:{node_label} {{name: $name}})
@@ -245,6 +277,11 @@ def _load_record(tx, rec: dict):
         link_product(tx, rec["name"], issuer, year=year)
         if source:
             link_mentioned_in(tx, "Product", rec["name"], source)
+
+    elif rtype == "risk_factor":
+        link_risk_factor(tx, issuer, rec["name"], rec.get("summary"), year=year)
+        if source:
+            link_mentioned_in(tx, "RiskFactor", rec["name"], source)
 
     elif rtype == "headquarters":
         set_headquarters(tx, issuer, rec["address"], year=year)
@@ -388,6 +425,39 @@ def query_products(session, company: str) -> list[dict]:
     return [dict(rec) for rec in result]
 
 
+def query_risk_factors(session, company: str) -> list[dict]:
+    result = session.run(
+        """
+        MATCH (o:Organization)-[r:EXPOSED_TO]->(rf:RiskFactor)
+        WHERE o.ticker = $company OR toLower(o.name) CONTAINS toLower($company)
+           OR toLower(coalesce(o.legal_name, '')) CONTAINS toLower($company)
+        WITH o, rf, max(r.year) AS latest
+        MATCH (o)-[r:EXPOSED_TO]->(rf)
+        WHERE r.year = latest
+        RETURN DISTINCT rf.name AS name, r.summary AS summary, o.name AS org, r.year AS year
+        ORDER BY rf.name
+        """,
+        company=company,
+    )
+    return [dict(rec) for rec in result]
+
+
+def query_companies_by_risk(session, category: str) -> list[dict]:
+    """Cross-company: which issuers are exposed to a given risk category — the
+    query plain RAG can't answer since it can't join across separate filings."""
+    result = session.run(
+        """
+        MATCH (o:Organization {role: 'issuer'})-[r:EXPOSED_TO]->(rf:RiskFactor {name: $category})
+        WITH o, rf, max(r.year) AS latest
+        MATCH (o)-[r:EXPOSED_TO]->(rf)
+        WHERE r.year = latest
+        RETURN DISTINCT o.name AS org, o.ticker AS ticker, rf.name AS category,
+               r.summary AS summary, r.year AS year
+        ORDER BY o.name
+        """,
+        category=category,
+    )
+    return [dict(rec) for rec in result]
 
 
 def query_issuers(session) -> list[dict]:

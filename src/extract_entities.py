@@ -11,6 +11,8 @@ import tiktoken
 from dotenv import load_dotenv
 from openai import OpenAI
 
+from src.knowledge_graph import RISK_CATEGORIES
+
 load_dotenv()
 
 EXTRACT_MODEL = "gpt-4o-mini"
@@ -74,6 +76,25 @@ EXTRACTION_TOOL = {
                     "type": "string",
                     "description": "The filing company's exact legal name (e.g. 'Apple Inc.'), only if stated in this excerpt.",
                 },
+                "risk_factors": {
+                    "type": "array",
+                    "items": {
+                        "type": "object",
+                        "properties": {
+                            "category": {
+                                "type": "string",
+                                "enum": RISK_CATEGORIES,
+                                "description": "Closest matching category from the fixed list. Skip the risk entirely if none fit well.",
+                            },
+                            "summary": {
+                                "type": "string",
+                                "description": "One sentence, in this filing's own language/specifics, of the risk discussed.",
+                            },
+                        },
+                        "required": ["category", "summary"],
+                    },
+                    "description": "Risk factors discussed in the excerpt (typically Item 1A-style content).",
+                },
             },
             "required": ["people", "organizations", "products"],
         },
@@ -87,6 +108,8 @@ Rules:
 - The filing company (issuer) is given; do not list it as an organization.
 - Skip generic references ("our suppliers", "certain competitors") — named entities only.
 - People: only those affiliated with the issuer (directors, officers, signatories).
+- Risk factors: classify each into the closest fixed category; skip ones that don't fit well.
+  Summarize each in one sentence using this filing's own language.
 - Return empty arrays when the excerpt has nothing relevant (financial tables, legal boilerplate)."""
 
 
@@ -222,6 +245,10 @@ def extract_from_window(client: OpenAI, window: dict) -> list[dict]:
     for prod in data.get("products", []) or []:
         if prod and isinstance(prod, str):
             records.append({"type": "product", "name": prod, **meta})
+
+    for rf in data.get("risk_factors", []) or []:
+        if rf.get("category") in RISK_CATEGORIES and rf.get("summary"):
+            records.append({"type": "risk_factor", "name": rf["category"], "summary": rf["summary"], **meta})
 
     hq = data.get("headquarters_address")
     if hq and isinstance(hq, str) and hq.strip():

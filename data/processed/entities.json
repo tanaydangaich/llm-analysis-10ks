@@ -32,38 +32,6 @@
     "filing_year": 2025
   },
   {
-    "type": "headquarters",
-    "address": "Santa Clara, California",
-    "issuer": "NVDA",
-    "source": "data/raw/sec-edgar-filings/NVDA/10-K/0001045810-24-000029/full-submission.txt",
-    "filing_type": "10-K",
-    "filing_year": 2024
-  },
-  {
-    "type": "issuer_legal_name",
-    "name": "NVIDIA Corporation",
-    "issuer": "NVDA",
-    "source": "data/raw/sec-edgar-filings/NVDA/10-K/0001045810-24-000029/full-submission.txt",
-    "filing_type": "10-K",
-    "filing_year": 2024
-  },
-  {
-    "type": "headquarters",
-    "address": "Santa Clara, California",
-    "issuer": "NVDA",
-    "source": "data/raw/sec-edgar-filings/NVDA/10-K/0001045810-25-000023/full-submission.txt",
-    "filing_type": "10-K",
-    "filing_year": 2025
-  },
-  {
-    "type": "headquarters",
-    "address": "Santa Clara, California",
-    "issuer": "NVDA",
-    "source": "data/raw/sec-edgar-filings/NVDA/10-K/0001045810-26-000021/full-submission.txt",
-    "filing_type": "10-K",
-    "filing_year": 2026
-  },
-  {
     "type": "issuer_legal_name",
     "name": "Microsoft Corporation",
     "issuer": "MSFT",
@@ -96,6 +64,38 @@
     "filing_year": 2026
   },
   {
+    "type": "headquarters",
+    "address": "Santa Clara, California",
+    "issuer": "NVDA",
+    "source": "data/raw/sec-edgar-filings/NVDA/10-K/0001045810-24-000029/full-submission.txt",
+    "filing_type": "10-K",
+    "filing_year": 2024
+  },
+  {
+    "type": "issuer_legal_name",
+    "name": "NVIDIA Corporation",
+    "issuer": "NVDA",
+    "source": "data/raw/sec-edgar-filings/NVDA/10-K/0001045810-24-000029/full-submission.txt",
+    "filing_type": "10-K",
+    "filing_year": 2024
+  },
+  {
+    "type": "headquarters",
+    "address": "Santa Clara, California",
+    "issuer": "NVDA",
+    "source": "data/raw/sec-edgar-filings/NVDA/10-K/0001045810-25-000023/full-submission.txt",
+    "filing_type": "10-K",
+    "filing_year": 2025
+  },
+  {
+    "type": "headquarters",
+    "address": "Santa Clara, California",
+    "issuer": "NVDA",
+    "source": "data/raw/sec-edgar-filings/NVDA/10-K/0001045810-26-000021/full-submission.txt",
+    "filing_type": "10-K",
+    "filing_year": 2026
+  },
+  {
     "type": "issuer",
     "name": "AAPL",
     "ticker": "AAPL",
@@ -104,48 +104,17 @@
     "filing_type": "10-K"
   },
   {
+    "type": "risk_factor",
+    "name": "Macroeconomic & Market Conditions",
+    "summary": "Statements in this Form 10-K regarding the potential future impact of macroeconomic conditions on the Company\u2019s business and results of operations are forward-looking statements.",
+    "issuer": "AAPL",
+    "source": "data/raw/sec-edgar-filings/AAPL/10-K/0000320193-23-000106/full-submission.txt",
+    "filing_type": "10-K",
+    "filing_year": 2023
+  },
+  {
     "type": "product",
     "name": "iPhone",
-    "issuer": "AAPL",
-    "source": "data/raw/sec-edgar-filings/AAPL/10-K/0000320193-23-000106/full-submission.txt",
-    "filing_type": "10-K",
-    "filing_year": 2023
-  },
-  {
-    "type": "product",
-    "name": "iPhone 15 Pro",
-    "issuer": "AAPL",
-    "source": "data/raw/sec-edgar-filings/AAPL/10-K/0000320193-23-000106/full-submission.txt",
-    "filing_type": "10-K",
-    "filing_year": 2023
-  },
-  {
-    "type": "product",
-    "name": "iPhone 15",
-    "issuer": "AAPL",
-    "source": "data/raw/sec-edgar-filings/AAPL/10-K/0000320193-23-000106/full-submission.txt",
-    "filing_type": "10-K",
-    "filing_year": 2023
-  },
-  {
-    "type": "product",
-    "name": "iPhone 14",
-    "issuer": "AAPL",
-    "source": "data/raw/sec-edgar-filings/AAPL/10-K/0000320193-23-000106/full-submission.txt",
-    "filing_type": "10-K",
-    "filing_year": 2023
-  },
-  {
-    "type": "product",
-    "name": "iPhone 13",
-    "issuer": "AAPL",
-    "source": "data/raw/sec-edgar-filings/AAPL/10-K/0000320193-23-000106/full-submission.txt",
-    "filing_type": "10-K",
-    "filing_year": 2023
-  },
-  {
-    "type": "product",
-    "name": "iPhone SE",
     "issuer": "AAPL",
     "source": "data/raw/sec-edgar-filings/AAPL/10-K/0000320193-23-000106/full-submission.txt",
     "filing_type": "10-K",
@@ -161,54 +130,6 @@
   },
   {
     "type": "product",
-    "name": "MacBook Air",
-    "issuer": "AAPL",
-    "source": "data/raw/sec-edgar-filings/AAPL/10-K/0000320193-23-000106/full-submission.txt",
-    "filing_type": "10-K",
-    "filing_year": 2023
-  },
-  {
-    "type": "product",
-    "name": "MacBook Pro",
-    "issuer": "AAPL",
-    "source": "data/raw/sec-edgar-filings/AAPL/10-K/0000320193-23-000106/full-submission.txt",
-    "filing_type": "10-K",
-    "filing_year": 2023
-  },
-  {
-    "type": "product",
-    "name": "iMac",
-    "issuer": "AAPL",
-    "source": "data/raw/sec-edgar-filings/AAPL/10-K/0000320193-23-000106/full-submission.txt",
-    "filing_type": "10-K",
-    "filing_year": 2023
-  },
-  {
-    "type": "product",
-    "name": "Mac mini",
-    "issuer": "AAPL",
-    "source": "data/raw/sec-edgar-filings/AAPL/10-K/0000320193-23-000106/full-submission.txt",
-    "filing_type": "10-K",
-    "filing_year": 2023
-  },
-  {
-    "type": "product",
-    "name": "Mac Studio",
-    "issuer": "AAPL",
-    "source": "data/raw/sec-edgar-filings/AAPL/10-K/0000320193-23-000106/full-submission.txt",
-    "filing_type": "10-K",
-    "filing_year": 2023
-  },
-  {
-    "type": "product",
-    "name": "Mac Pro",
-    "issuer": "AAPL",
-    "source": "data/raw/sec-edgar-filings/AAPL/10-K/0000320193-23-000106/full-submission.txt",
-    "filing_type": "10-K",
-    "filing_year": 2023
-  },
-  {
-    "type": "product",
     "name": "iPad",
     "issuer": "AAPL",
     "source": "data/raw/sec-edgar-filings/AAPL/10-K/0000320193-23-000106/full-submission.txt",
@@ -217,47 +138,7 @@
   },
   {
     "type": "product",
-    "name": "iPad Pro",
-    "issuer": "AAPL",
-    "source": "data/raw/sec-edgar-filings/AAPL/10-K/0000320193-23-000106/full-submission.txt",
-    "filing_type": "10-K",
-    "filing_year": 2023
-  },
-  {
-    "type": "product",
-    "name": "iPad Air",
-    "issuer": "AAPL",
-    "source": "data/raw/sec-edgar-filings/AAPL/10-K/0000320193-23-000106/full-submission.txt",
-    "filing_type": "10-K",
-    "filing_year": 2023
-  },
-  {
-    "type": "product",
-    "name": "iPad mini",
-    "issuer": "AAPL",
-    "source": "data/raw/sec-edgar-filings/AAPL/10-K/0000320193-23-000106/full-submission.txt",
-    "filing_type": "10-K",
-    "filing_year": 2023
-  },
-  {
-    "type": "product",
-    "name": "Apple Watch Ultra 2",
-    "issuer": "AAPL",
-    "source": "data/raw/sec-edgar-filings/AAPL/10-K/0000320193-23-000106/full-submission.txt",
-    "filing_type": "10-K",
-    "filing_year": 2023
-  },
-  {
-    "type": "product",
-    "name": "Apple Watch Series 9",
-    "issuer": "AAPL",
-    "source": "data/raw/sec-edgar-filings/AAPL/10-K/0000320193-23-000106/full-submission.txt",
-    "filing_type": "10-K",
-    "filing_year": 2023
-  },
-  {
-    "type": "product",
-    "name": "Apple Watch SE",
+    "name": "Apple Watch",
     "issuer": "AAPL",
     "source": "data/raw/sec-edgar-filings/AAPL/10-K/0000320193-23-000106/full-submission.txt",
     "filing_type": "10-K",
@@ -266,22 +147,6 @@
   {
     "type": "product",
     "name": "AirPods",
-    "issuer": "AAPL",
-    "source": "data/raw/sec-edgar-filings/AAPL/10-K/0000320193-23-000106/full-submission.txt",
-    "filing_type": "10-K",
-    "filing_year": 2023
-  },
-  {
-    "type": "product",
-    "name": "AirPods Pro",
-    "issuer": "AAPL",
-    "source": "data/raw/sec-edgar-filings/AAPL/10-K/0000320193-23-000106/full-submission.txt",
-    "filing_type": "10-K",
-    "filing_year": 2023
-  },
-  {
-    "type": "product",
-    "name": "AirPods Max",
     "issuer": "AAPL",
     "source": "data/raw/sec-edgar-filings/AAPL/10-K/0000320193-23-000106/full-submission.txt",
     "filing_type": "10-K",
@@ -298,22 +163,6 @@
   {
     "type": "product",
     "name": "Apple TV",
-    "issuer": "AAPL",
-    "source": "data/raw/sec-edgar-filings/AAPL/10-K/0000320193-23-000106/full-submission.txt",
-    "filing_type": "10-K",
-    "filing_year": 2023
-  },
-  {
-    "type": "product",
-    "name": "HomePod",
-    "issuer": "AAPL",
-    "source": "data/raw/sec-edgar-filings/AAPL/10-K/0000320193-23-000106/full-submission.txt",
-    "filing_type": "10-K",
-    "filing_year": 2023
-  },
-  {
-    "type": "product",
-    "name": "HomePod mini",
     "issuer": "AAPL",
     "source": "data/raw/sec-edgar-filings/AAPL/10-K/0000320193-23-000106/full-submission.txt",
     "filing_type": "10-K",
@@ -392,6 +241,87 @@
     "filing_year": 2023
   },
   {
+    "type": "risk_factor",
+    "name": "Competition",
+    "summary": "The markets for the Company\u2019s products and services are highly competitive, characterized by aggressive price competition and resulting downward pressure on gross margins.",
+    "issuer": "AAPL",
+    "source": "data/raw/sec-edgar-filings/AAPL/10-K/0000320193-23-000106/full-submission.txt",
+    "filing_type": "10-K",
+    "filing_year": 2023
+  },
+  {
+    "type": "risk_factor",
+    "name": "Supply Chain & Manufacturing",
+    "summary": "Certain components are currently obtained from single or limited sources, and many components are subject to industry-wide shortages and significant commodity pricing fluctuations.",
+    "issuer": "AAPL",
+    "source": "data/raw/sec-edgar-filings/AAPL/10-K/0000320193-23-000106/full-submission.txt",
+    "filing_type": "10-K",
+    "filing_year": 2023
+  },
+  {
+    "type": "risk_factor",
+    "name": "Intellectual Property",
+    "summary": "The Company holds a broad collection of intellectual property rights, and while it believes ownership is important, it relies on the innovative skills and technical competence of its personnel.",
+    "issuer": "AAPL",
+    "source": "data/raw/sec-edgar-filings/AAPL/10-K/0000320193-23-000106/full-submission.txt",
+    "filing_type": "10-K",
+    "filing_year": 2023
+  },
+  {
+    "type": "risk_factor",
+    "name": "Talent & Labor",
+    "summary": "The Company believes it has a talented, motivated, and dedicated team, and works to create an inclusive, safe, and supportive environment for all of its team members.",
+    "issuer": "AAPL",
+    "source": "data/raw/sec-edgar-filings/AAPL/10-K/0000320193-23-000106/full-submission.txt",
+    "filing_type": "10-K",
+    "filing_year": 2023
+  },
+  {
+    "type": "risk_factor",
+    "name": "Foreign Operations & Geopolitical Risk",
+    "summary": "Political events, trade and other international disputes, war, terrorism, natural disasters, public health issues, industrial accidents and other business interruptions can harm or disrupt international commerce and the global economy, and could have a material adverse effect on the Company and its customers, suppliers, contract manufacturers, logistics providers, distributors, cellular network carriers and other channel partners.",
+    "issuer": "AAPL",
+    "source": "data/raw/sec-edgar-filings/AAPL/10-K/0000320193-23-000106/full-submission.txt",
+    "filing_type": "10-K",
+    "filing_year": 2023
+  },
+  {
+    "type": "risk_factor",
+    "name": "Product Quality & Liability",
+    "summary": "While the Company\u2019s suppliers are required to maintain safe working environments and operations, an industrial accident could occur and could result in serious injuries or loss of life, disruption to the Company\u2019s business, and harm to the Company\u2019s reputation.",
+    "issuer": "AAPL",
+    "source": "data/raw/sec-edgar-filings/AAPL/10-K/0000320193-23-000106/full-submission.txt",
+    "filing_type": "10-K",
+    "filing_year": 2023
+  },
+  {
+    "type": "risk_factor",
+    "name": "Debt & Liquidity",
+    "summary": "The Company is exposed to the risk of write-downs on the value of its inventory and other assets, in addition to purchase commitment cancellation risk.",
+    "issuer": "AAPL",
+    "source": "data/raw/sec-edgar-filings/AAPL/10-K/0000320193-23-000106/full-submission.txt",
+    "filing_type": "10-K",
+    "filing_year": 2023
+  },
+  {
+    "type": "risk_factor",
+    "name": "Cybersecurity & Data Breaches",
+    "summary": "Losses or unauthorized access to or releases of confidential information, including personal information, could subject the Company to significant reputational, financial, legal and operational consequences.",
+    "issuer": "AAPL",
+    "source": "data/raw/sec-edgar-filings/AAPL/10-K/0000320193-23-000106/full-submission.txt",
+    "filing_type": "10-K",
+    "filing_year": 2023
+  },
+  {
+    "type": "risk_factor",
+    "name": "Regulatory & Legal Compliance",
+    "summary": "The Company is subject to various claims, legal proceedings and government investigations that have arisen in the ordinary course of business and have not yet been fully resolved.",
+    "issuer": "AAPL",
+    "source": "data/raw/sec-edgar-filings/AAPL/10-K/0000320193-23-000106/full-submission.txt",
+    "filing_type": "10-K",
+    "filing_year": 2023
+  },
+  {
     "type": "organization",
     "name": "Epic Games, Inc.",
     "role": "other",
@@ -413,6 +343,14 @@
     "type": "organization",
     "name": "Cercacor Laboratories, Inc.",
     "role": "other",
+    "issuer": "AAPL",
+    "source": "data/raw/sec-edgar-filings/AAPL/10-K/0000320193-23-000106/full-submission.txt",
+    "filing_type": "10-K",
+    "filing_year": 2023
+  },
+  {
+    "type": "product",
+    "name": "iPad Pro",
     "issuer": "AAPL",
     "source": "data/raw/sec-edgar-filings/AAPL/10-K/0000320193-23-000106/full-submission.txt",
     "filing_type": "10-K",
@@ -452,7 +390,48 @@
   },
   {
     "type": "product",
+    "name": "Mac mini",
+    "issuer": "AAPL",
+    "source": "data/raw/sec-edgar-filings/AAPL/10-K/0000320193-23-000106/full-submission.txt",
+    "filing_type": "10-K",
+    "filing_year": 2023
+  },
+  {
+    "type": "product",
+    "name": "HomePod",
+    "issuer": "AAPL",
+    "source": "data/raw/sec-edgar-filings/AAPL/10-K/0000320193-23-000106/full-submission.txt",
+    "filing_type": "10-K",
+    "filing_year": 2023
+  },
+  {
+    "type": "product",
     "name": "MacBook Air 15\u201d",
+    "issuer": "AAPL",
+    "source": "data/raw/sec-edgar-filings/AAPL/10-K/0000320193-23-000106/full-submission.txt",
+    "filing_type": "10-K",
+    "filing_year": 2023
+  },
+  {
+    "type": "product",
+    "name": "Mac Studio",
+    "issuer": "AAPL",
+    "source": "data/raw/sec-edgar-filings/AAPL/10-K/0000320193-23-000106/full-submission.txt",
+    "filing_type": "10-K",
+    "filing_year": 2023
+  },
+  {
+    "type": "risk_factor",
+    "name": "Litigation",
+    "summary": "Epic Games, Inc. filed a lawsuit against the Company alleging violations of federal and state antitrust laws and California\u2019s unfair competition law.",
+    "issuer": "AAPL",
+    "source": "data/raw/sec-edgar-filings/AAPL/10-K/0000320193-23-000106/full-submission.txt",
+    "filing_type": "10-K",
+    "filing_year": 2023
+  },
+  {
+    "type": "product",
+    "name": "Mac Pro",
     "issuer": "AAPL",
     "source": "data/raw/sec-edgar-filings/AAPL/10-K/0000320193-23-000106/full-submission.txt",
     "filing_type": "10-K",
@@ -508,6 +487,14 @@
   },
   {
     "type": "product",
+    "name": "iPhone 15",
+    "issuer": "AAPL",
+    "source": "data/raw/sec-edgar-filings/AAPL/10-K/0000320193-23-000106/full-submission.txt",
+    "filing_type": "10-K",
+    "filing_year": 2023
+  },
+  {
+    "type": "product",
     "name": "iPhone 15 Plus",
     "issuer": "AAPL",
     "source": "data/raw/sec-edgar-filings/AAPL/10-K/0000320193-23-000106/full-submission.txt",
@@ -516,7 +503,31 @@
   },
   {
     "type": "product",
+    "name": "iPhone 15 Pro",
+    "issuer": "AAPL",
+    "source": "data/raw/sec-edgar-filings/AAPL/10-K/0000320193-23-000106/full-submission.txt",
+    "filing_type": "10-K",
+    "filing_year": 2023
+  },
+  {
+    "type": "product",
     "name": "iPhone 15 Pro Max",
+    "issuer": "AAPL",
+    "source": "data/raw/sec-edgar-filings/AAPL/10-K/0000320193-23-000106/full-submission.txt",
+    "filing_type": "10-K",
+    "filing_year": 2023
+  },
+  {
+    "type": "product",
+    "name": "Apple Watch Series 9",
+    "issuer": "AAPL",
+    "source": "data/raw/sec-edgar-filings/AAPL/10-K/0000320193-23-000106/full-submission.txt",
+    "filing_type": "10-K",
+    "filing_year": 2023
+  },
+  {
+    "type": "product",
+    "name": "Apple Watch Ultra 2",
     "issuer": "AAPL",
     "source": "data/raw/sec-edgar-filings/AAPL/10-K/0000320193-23-000106/full-submission.txt",
     "filing_type": "10-K",
@@ -701,6 +712,96 @@
     "filing_year": 2024
   },
   {
+    "type": "risk_factor",
+    "name": "Macroeconomic & Market Conditions",
+    "summary": "The Company\u2019s operations and performance depend significantly on global and regional economic conditions and adverse economic conditions can materially adversely affect the Company\u2019s business, results of operations and financial condition.",
+    "issuer": "AAPL",
+    "source": "data/raw/sec-edgar-filings/AAPL/10-K/0000320193-24-000123/full-submission.txt",
+    "filing_type": "10-K",
+    "filing_year": 2024
+  },
+  {
+    "type": "risk_factor",
+    "name": "Competition",
+    "summary": "The markets for the Company\u2019s products and services are highly competitive, characterized by aggressive price competition and resulting downward pressure on gross margins.",
+    "issuer": "AAPL",
+    "source": "data/raw/sec-edgar-filings/AAPL/10-K/0000320193-24-000123/full-submission.txt",
+    "filing_type": "10-K",
+    "filing_year": 2024
+  },
+  {
+    "type": "risk_factor",
+    "name": "Supply Chain & Manufacturing",
+    "summary": "Although most components essential to the Company\u2019s business are generally available from multiple sources, certain components are currently obtained from single or limited sources.",
+    "issuer": "AAPL",
+    "source": "data/raw/sec-edgar-filings/AAPL/10-K/0000320193-24-000123/full-submission.txt",
+    "filing_type": "10-K",
+    "filing_year": 2024
+  },
+  {
+    "type": "risk_factor",
+    "name": "Intellectual Property",
+    "summary": "The Company currently holds a broad collection of intellectual property rights relating to certain aspects of its hardware, accessories, software and services.",
+    "issuer": "AAPL",
+    "source": "data/raw/sec-edgar-filings/AAPL/10-K/0000320193-24-000123/full-submission.txt",
+    "filing_type": "10-K",
+    "filing_year": 2024
+  },
+  {
+    "type": "risk_factor",
+    "name": "Foreign Operations & Geopolitical Risk",
+    "summary": "Political events, trade disputes, and geopolitical tensions can materially adversely affect the Company and its customers, employees, and suppliers.",
+    "issuer": "AAPL",
+    "source": "data/raw/sec-edgar-filings/AAPL/10-K/0000320193-24-000123/full-submission.txt",
+    "filing_type": "10-K",
+    "filing_year": 2024
+  },
+  {
+    "type": "risk_factor",
+    "name": "Talent & Labor",
+    "summary": "The Company\u2019s operations are subject to risks of industrial accidents at its suppliers and contract manufacturers, which could disrupt the Company\u2019s business.",
+    "issuer": "AAPL",
+    "source": "data/raw/sec-edgar-filings/AAPL/10-K/0000320193-24-000123/full-submission.txt",
+    "filing_type": "10-K",
+    "filing_year": 2024
+  },
+  {
+    "type": "risk_factor",
+    "name": "Product Quality & Liability",
+    "summary": "The Company\u2019s products and services may be affected from time to time by design and manufacturing defects that could materially adversely affect the Company\u2019s business and result in harm to the Company\u2019s reputation.",
+    "issuer": "AAPL",
+    "source": "data/raw/sec-edgar-filings/AAPL/10-K/0000320193-24-000123/full-submission.txt",
+    "filing_type": "10-K",
+    "filing_year": 2024
+  },
+  {
+    "type": "risk_factor",
+    "name": "Debt & Liquidity",
+    "summary": "The Company is exposed to the risk of write-downs on the value of its inventory and other assets, in addition to purchase commitment cancellation risk.",
+    "issuer": "AAPL",
+    "source": "data/raw/sec-edgar-filings/AAPL/10-K/0000320193-24-000123/full-submission.txt",
+    "filing_type": "10-K",
+    "filing_year": 2024
+  },
+  {
+    "type": "risk_factor",
+    "name": "Regulatory & Legal Compliance",
+    "summary": "The Company has implemented changes to comply with the Digital Markets Act (the \u201cDMA\u201d), including new business terms and alternative fee structures for iOS and iPadOS apps.",
+    "issuer": "AAPL",
+    "source": "data/raw/sec-edgar-filings/AAPL/10-K/0000320193-24-000123/full-submission.txt",
+    "filing_type": "10-K",
+    "filing_year": 2024
+  },
+  {
+    "type": "risk_factor",
+    "name": "Cybersecurity & Data Breaches",
+    "summary": "The Company\u2019s business and reputation are impacted by information technology system failures and network disruptions.",
+    "issuer": "AAPL",
+    "source": "data/raw/sec-edgar-filings/AAPL/10-K/0000320193-24-000123/full-submission.txt",
+    "filing_type": "10-K",
+    "filing_year": 2024
+  },
+  {
     "type": "organization",
     "name": "Google LLC",
     "role": "other",
@@ -711,24 +812,9 @@
     "relationship": "PARTNERS_WITH"
   },
   {
-    "type": "product",
-    "name": "iOS",
-    "issuer": "AAPL",
-    "source": "data/raw/sec-edgar-filings/AAPL/10-K/0000320193-24-000123/full-submission.txt",
-    "filing_type": "10-K",
-    "filing_year": 2024
-  },
-  {
-    "type": "product",
-    "name": "iPadOS",
-    "issuer": "AAPL",
-    "source": "data/raw/sec-edgar-filings/AAPL/10-K/0000320193-24-000123/full-submission.txt",
-    "filing_type": "10-K",
-    "filing_year": 2024
-  },
-  {
-    "type": "product",
-    "name": "Safari",
+    "type": "risk_factor",
+    "name": "Litigation",
+    "summary": "The Company is currently subject to antitrust investigations and litigation in various jurisdictions around the world, which can result in legal proceedings and claims against the Company.",
     "issuer": "AAPL",
     "source": "data/raw/sec-edgar-filings/AAPL/10-K/0000320193-24-000123/full-submission.txt",
     "filing_type": "10-K",
@@ -921,23 +1007,7 @@
   },
   {
     "type": "product",
-    "name": "iCloud",
-    "issuer": "AAPL",
-    "source": "data/raw/sec-edgar-filings/AAPL/10-K/0000320193-24-000123/full-submission.txt",
-    "filing_type": "10-K",
-    "filing_year": 2024
-  },
-  {
-    "type": "product",
-    "name": "Siri",
-    "issuer": "AAPL",
-    "source": "data/raw/sec-edgar-filings/AAPL/10-K/0000320193-24-000123/full-submission.txt",
-    "filing_type": "10-K",
-    "filing_year": 2024
-  },
-  {
-    "type": "product",
-    "name": "Maps",
+    "name": "Services",
     "issuer": "AAPL",
     "source": "data/raw/sec-edgar-filings/AAPL/10-K/0000320193-24-000123/full-submission.txt",
     "filing_type": "10-K",
@@ -946,6 +1016,15 @@
   {
     "type": "organization",
     "name": "Ernst & Young LLP",
+    "role": "other",
+    "issuer": "AAPL",
+    "source": "data/raw/sec-edgar-filings/AAPL/10-K/0000320193-24-000123/full-submission.txt",
+    "filing_type": "10-K",
+    "filing_year": 2024
+  },
+  {
+    "type": "organization",
+    "name": "The Bank of New York Mellon Trust Company, N.A.",
     "role": "other",
     "issuer": "AAPL",
     "source": "data/raw/sec-edgar-filings/AAPL/10-K/0000320193-24-000123/full-submission.txt",
@@ -962,95 +1041,7 @@
   },
   {
     "type": "product",
-    "name": "iPhone 17 Pro",
-    "issuer": "AAPL",
-    "source": "data/raw/sec-edgar-filings/AAPL/10-K/0000320193-25-000079/full-submission.txt",
-    "filing_type": "10-K",
-    "filing_year": 2025
-  },
-  {
-    "type": "product",
-    "name": "iPhone Air",
-    "issuer": "AAPL",
-    "source": "data/raw/sec-edgar-filings/AAPL/10-K/0000320193-25-000079/full-submission.txt",
-    "filing_type": "10-K",
-    "filing_year": 2025
-  },
-  {
-    "type": "product",
-    "name": "iPhone 17",
-    "issuer": "AAPL",
-    "source": "data/raw/sec-edgar-filings/AAPL/10-K/0000320193-25-000079/full-submission.txt",
-    "filing_type": "10-K",
-    "filing_year": 2025
-  },
-  {
-    "type": "product",
-    "name": "iPhone 16",
-    "issuer": "AAPL",
-    "source": "data/raw/sec-edgar-filings/AAPL/10-K/0000320193-25-000079/full-submission.txt",
-    "filing_type": "10-K",
-    "filing_year": 2025
-  },
-  {
-    "type": "product",
-    "name": "iPhone 16e",
-    "issuer": "AAPL",
-    "source": "data/raw/sec-edgar-filings/AAPL/10-K/0000320193-25-000079/full-submission.txt",
-    "filing_type": "10-K",
-    "filing_year": 2025
-  },
-  {
-    "type": "product",
     "name": "Mac",
-    "issuer": "AAPL",
-    "source": "data/raw/sec-edgar-filings/AAPL/10-K/0000320193-25-000079/full-submission.txt",
-    "filing_type": "10-K",
-    "filing_year": 2025
-  },
-  {
-    "type": "product",
-    "name": "MacBook Air",
-    "issuer": "AAPL",
-    "source": "data/raw/sec-edgar-filings/AAPL/10-K/0000320193-25-000079/full-submission.txt",
-    "filing_type": "10-K",
-    "filing_year": 2025
-  },
-  {
-    "type": "product",
-    "name": "MacBook Pro",
-    "issuer": "AAPL",
-    "source": "data/raw/sec-edgar-filings/AAPL/10-K/0000320193-25-000079/full-submission.txt",
-    "filing_type": "10-K",
-    "filing_year": 2025
-  },
-  {
-    "type": "product",
-    "name": "iMac",
-    "issuer": "AAPL",
-    "source": "data/raw/sec-edgar-filings/AAPL/10-K/0000320193-25-000079/full-submission.txt",
-    "filing_type": "10-K",
-    "filing_year": 2025
-  },
-  {
-    "type": "product",
-    "name": "Mac mini",
-    "issuer": "AAPL",
-    "source": "data/raw/sec-edgar-filings/AAPL/10-K/0000320193-25-000079/full-submission.txt",
-    "filing_type": "10-K",
-    "filing_year": 2025
-  },
-  {
-    "type": "product",
-    "name": "Mac Studio",
-    "issuer": "AAPL",
-    "source": "data/raw/sec-edgar-filings/AAPL/10-K/0000320193-25-000079/full-submission.txt",
-    "filing_type": "10-K",
-    "filing_year": 2025
-  },
-  {
-    "type": "product",
-    "name": "Mac Pro",
     "issuer": "AAPL",
     "source": "data/raw/sec-edgar-filings/AAPL/10-K/0000320193-25-000079/full-submission.txt",
     "filing_type": "10-K",
@@ -1066,30 +1057,6 @@
   },
   {
     "type": "product",
-    "name": "iPad Pro",
-    "issuer": "AAPL",
-    "source": "data/raw/sec-edgar-filings/AAPL/10-K/0000320193-25-000079/full-submission.txt",
-    "filing_type": "10-K",
-    "filing_year": 2025
-  },
-  {
-    "type": "product",
-    "name": "iPad Air",
-    "issuer": "AAPL",
-    "source": "data/raw/sec-edgar-filings/AAPL/10-K/0000320193-25-000079/full-submission.txt",
-    "filing_type": "10-K",
-    "filing_year": 2025
-  },
-  {
-    "type": "product",
-    "name": "iPad mini",
-    "issuer": "AAPL",
-    "source": "data/raw/sec-edgar-filings/AAPL/10-K/0000320193-25-000079/full-submission.txt",
-    "filing_type": "10-K",
-    "filing_year": 2025
-  },
-  {
-    "type": "product",
     "name": "Apple Watch",
     "issuer": "AAPL",
     "source": "data/raw/sec-edgar-filings/AAPL/10-K/0000320193-25-000079/full-submission.txt",
@@ -1098,47 +1065,7 @@
   },
   {
     "type": "product",
-    "name": "Apple Watch Series 11",
-    "issuer": "AAPL",
-    "source": "data/raw/sec-edgar-filings/AAPL/10-K/0000320193-25-000079/full-submission.txt",
-    "filing_type": "10-K",
-    "filing_year": 2025
-  },
-  {
-    "type": "product",
-    "name": "Apple Watch SE",
-    "issuer": "AAPL",
-    "source": "data/raw/sec-edgar-filings/AAPL/10-K/0000320193-25-000079/full-submission.txt",
-    "filing_type": "10-K",
-    "filing_year": 2025
-  },
-  {
-    "type": "product",
-    "name": "Apple Watch Ultra",
-    "issuer": "AAPL",
-    "source": "data/raw/sec-edgar-filings/AAPL/10-K/0000320193-25-000079/full-submission.txt",
-    "filing_type": "10-K",
-    "filing_year": 2025
-  },
-  {
-    "type": "product",
     "name": "AirPods",
-    "issuer": "AAPL",
-    "source": "data/raw/sec-edgar-filings/AAPL/10-K/0000320193-25-000079/full-submission.txt",
-    "filing_type": "10-K",
-    "filing_year": 2025
-  },
-  {
-    "type": "product",
-    "name": "AirPods Pro",
-    "issuer": "AAPL",
-    "source": "data/raw/sec-edgar-filings/AAPL/10-K/0000320193-25-000079/full-submission.txt",
-    "filing_type": "10-K",
-    "filing_year": 2025
-  },
-  {
-    "type": "product",
-    "name": "AirPods Max",
     "issuer": "AAPL",
     "source": "data/raw/sec-edgar-filings/AAPL/10-K/0000320193-25-000079/full-submission.txt",
     "filing_type": "10-K",
@@ -1171,14 +1098,6 @@
   {
     "type": "product",
     "name": "HomePod",
-    "issuer": "AAPL",
-    "source": "data/raw/sec-edgar-filings/AAPL/10-K/0000320193-25-000079/full-submission.txt",
-    "filing_type": "10-K",
-    "filing_year": 2025
-  },
-  {
-    "type": "product",
-    "name": "HomePod mini",
     "issuer": "AAPL",
     "source": "data/raw/sec-edgar-filings/AAPL/10-K/0000320193-25-000079/full-submission.txt",
     "filing_type": "10-K",
@@ -1257,6 +1176,87 @@
     "filing_year": 2025
   },
   {
+    "type": "risk_factor",
+    "name": "Macroeconomic & Market Conditions",
+    "summary": "The Company\u2019s operations and performance depend significantly on global and regional economic conditions and adverse economic conditions can materially adversely affect the Company\u2019s business, results of operations, financial condition and stock price.",
+    "issuer": "AAPL",
+    "source": "data/raw/sec-edgar-filings/AAPL/10-K/0000320193-25-000079/full-submission.txt",
+    "filing_type": "10-K",
+    "filing_year": 2025
+  },
+  {
+    "type": "risk_factor",
+    "name": "Competition",
+    "summary": "The markets for the Company\u2019s products and services are highly competitive and are characterized by aggressive price competition, downward pressure on gross margins, continual improvement in product performance, and price sensitivity on the part of consumers and businesses.",
+    "issuer": "AAPL",
+    "source": "data/raw/sec-edgar-filings/AAPL/10-K/0000320193-25-000079/full-submission.txt",
+    "filing_type": "10-K",
+    "filing_year": 2025
+  },
+  {
+    "type": "risk_factor",
+    "name": "Supply Chain & Manufacturing",
+    "summary": "Certain components are currently obtained from single or limited sources, and the Company may not be able to extend or renew agreements for the supply of components on similar terms, or at all.",
+    "issuer": "AAPL",
+    "source": "data/raw/sec-edgar-filings/AAPL/10-K/0000320193-25-000079/full-submission.txt",
+    "filing_type": "10-K",
+    "filing_year": 2025
+  },
+  {
+    "type": "risk_factor",
+    "name": "Intellectual Property",
+    "summary": "The Company currently holds a broad collection of intellectual property rights relating to certain aspects of its hardware, software and services.",
+    "issuer": "AAPL",
+    "source": "data/raw/sec-edgar-filings/AAPL/10-K/0000320193-25-000079/full-submission.txt",
+    "filing_type": "10-K",
+    "filing_year": 2025
+  },
+  {
+    "type": "risk_factor",
+    "name": "Talent & Labor",
+    "summary": "The Company\u2019s ability to compete successfully depends on ensuring the continuing and timely introduction of innovative new products, services and technologies to the marketplace.",
+    "issuer": "AAPL",
+    "source": "data/raw/sec-edgar-filings/AAPL/10-K/0000320193-25-000079/full-submission.txt",
+    "filing_type": "10-K",
+    "filing_year": 2025
+  },
+  {
+    "type": "risk_factor",
+    "name": "Product Quality & Liability",
+    "summary": "While the Company maintains insurance coverage for certain types of losses, such insurance coverage may be insufficient to cover all losses that may arise.",
+    "issuer": "AAPL",
+    "source": "data/raw/sec-edgar-filings/AAPL/10-K/0000320193-25-000079/full-submission.txt",
+    "filing_type": "10-K",
+    "filing_year": 2025
+  },
+  {
+    "type": "risk_factor",
+    "name": "Regulatory & Legal Compliance",
+    "summary": "Regulatory requirements, government investigations and litigation can force the Company to withdraw from, or modify its products and services for, certain countries.",
+    "issuer": "AAPL",
+    "source": "data/raw/sec-edgar-filings/AAPL/10-K/0000320193-25-000079/full-submission.txt",
+    "filing_type": "10-K",
+    "filing_year": 2025
+  },
+  {
+    "type": "risk_factor",
+    "name": "Debt & Liquidity",
+    "summary": "The Company may not be able to extend or renew agreements for the supply of components on similar terms, or at all.",
+    "issuer": "AAPL",
+    "source": "data/raw/sec-edgar-filings/AAPL/10-K/0000320193-25-000079/full-submission.txt",
+    "filing_type": "10-K",
+    "filing_year": 2025
+  },
+  {
+    "type": "risk_factor",
+    "name": "Cybersecurity & Data Breaches",
+    "summary": "Losses or unauthorized access to or releases of confidential information, including personal information, could subject the Company to significant reputational, financial, legal and operational consequences.",
+    "issuer": "AAPL",
+    "source": "data/raw/sec-edgar-filings/AAPL/10-K/0000320193-25-000079/full-submission.txt",
+    "filing_type": "10-K",
+    "filing_year": 2025
+  },
+  {
     "type": "organization",
     "name": "Google LLC",
     "role": "other",
@@ -1268,8 +1268,99 @@
   },
   {
     "type": "organization",
+    "name": "U.S. Department of Justice",
+    "role": "other",
+    "issuer": "AAPL",
+    "source": "data/raw/sec-edgar-filings/AAPL/10-K/0000320193-25-000079/full-submission.txt",
+    "filing_type": "10-K",
+    "filing_year": 2025
+  },
+  {
+    "type": "organization",
+    "name": "U.S. District Court for the District of Columbia",
+    "role": "other",
+    "issuer": "AAPL",
+    "source": "data/raw/sec-edgar-filings/AAPL/10-K/0000320193-25-000079/full-submission.txt",
+    "filing_type": "10-K",
+    "filing_year": 2025
+  },
+  {
+    "type": "risk_factor",
+    "name": "Reputation & Brand",
+    "summary": "Changes to the Company\u2019s business practices to comply with new laws and regulations or in connection with legal proceedings can negatively impact the reputation of the Company\u2019s products for privacy and security.",
+    "issuer": "AAPL",
+    "source": "data/raw/sec-edgar-filings/AAPL/10-K/0000320193-25-000079/full-submission.txt",
+    "filing_type": "10-K",
+    "filing_year": 2025
+  },
+  {
+    "type": "organization",
     "name": "Epic Games, Inc.",
     "role": "other",
+    "issuer": "AAPL",
+    "source": "data/raw/sec-edgar-filings/AAPL/10-K/0000320193-25-000079/full-submission.txt",
+    "filing_type": "10-K",
+    "filing_year": 2025
+  },
+  {
+    "type": "product",
+    "name": "MacBook Pro",
+    "issuer": "AAPL",
+    "source": "data/raw/sec-edgar-filings/AAPL/10-K/0000320193-25-000079/full-submission.txt",
+    "filing_type": "10-K",
+    "filing_year": 2025
+  },
+  {
+    "type": "product",
+    "name": "Mac mini",
+    "issuer": "AAPL",
+    "source": "data/raw/sec-edgar-filings/AAPL/10-K/0000320193-25-000079/full-submission.txt",
+    "filing_type": "10-K",
+    "filing_year": 2025
+  },
+  {
+    "type": "product",
+    "name": "iMac",
+    "issuer": "AAPL",
+    "source": "data/raw/sec-edgar-filings/AAPL/10-K/0000320193-25-000079/full-submission.txt",
+    "filing_type": "10-K",
+    "filing_year": 2025
+  },
+  {
+    "type": "product",
+    "name": "iPad mini",
+    "issuer": "AAPL",
+    "source": "data/raw/sec-edgar-filings/AAPL/10-K/0000320193-25-000079/full-submission.txt",
+    "filing_type": "10-K",
+    "filing_year": 2025
+  },
+  {
+    "type": "product",
+    "name": "iPhone 16e",
+    "issuer": "AAPL",
+    "source": "data/raw/sec-edgar-filings/AAPL/10-K/0000320193-25-000079/full-submission.txt",
+    "filing_type": "10-K",
+    "filing_year": 2025
+  },
+  {
+    "type": "product",
+    "name": "iPad Air",
+    "issuer": "AAPL",
+    "source": "data/raw/sec-edgar-filings/AAPL/10-K/0000320193-25-000079/full-submission.txt",
+    "filing_type": "10-K",
+    "filing_year": 2025
+  },
+  {
+    "type": "product",
+    "name": "MacBook Air",
+    "issuer": "AAPL",
+    "source": "data/raw/sec-edgar-filings/AAPL/10-K/0000320193-25-000079/full-submission.txt",
+    "filing_type": "10-K",
+    "filing_year": 2025
+  },
+  {
+    "type": "product",
+    "name": "Mac Studio",
     "issuer": "AAPL",
     "source": "data/raw/sec-edgar-filings/AAPL/10-K/0000320193-25-000079/full-submission.txt",
     "filing_type": "10-K",
@@ -1325,7 +1416,32 @@
   },
   {
     "type": "product",
-    "name": "Air",
+    "name": "iPhone 17",
+    "issuer": "AAPL",
+    "source": "data/raw/sec-edgar-filings/AAPL/10-K/0000320193-25-000079/full-submission.txt",
+    "filing_type": "10-K",
+    "filing_year": 2025
+  },
+  {
+    "type": "risk_factor",
+    "name": "Litigation",
+    "summary": "The Company is involved in various legal proceedings, including a civil antitrust lawsuit filed by the DOJ alleging monopolization in the smartphone market.",
+    "issuer": "AAPL",
+    "source": "data/raw/sec-edgar-filings/AAPL/10-K/0000320193-25-000079/full-submission.txt",
+    "filing_type": "10-K",
+    "filing_year": 2025
+  },
+  {
+    "type": "product",
+    "name": "iPhone Air",
+    "issuer": "AAPL",
+    "source": "data/raw/sec-edgar-filings/AAPL/10-K/0000320193-25-000079/full-submission.txt",
+    "filing_type": "10-K",
+    "filing_year": 2025
+  },
+  {
+    "type": "product",
+    "name": "iPhone 17 Pro",
     "issuer": "AAPL",
     "source": "data/raw/sec-edgar-filings/AAPL/10-K/0000320193-25-000079/full-submission.txt",
     "filing_type": "10-K",
@@ -1334,6 +1450,14 @@
   {
     "type": "product",
     "name": "iPhone 17 Pro Max",
+    "issuer": "AAPL",
+    "source": "data/raw/sec-edgar-filings/AAPL/10-K/0000320193-25-000079/full-submission.txt",
+    "filing_type": "10-K",
+    "filing_year": 2025
+  },
+  {
+    "type": "product",
+    "name": "Apple Watch Series 11",
     "issuer": "AAPL",
     "source": "data/raw/sec-edgar-filings/AAPL/10-K/0000320193-25-000079/full-submission.txt",
     "filing_type": "10-K",
@@ -1358,24 +1482,6 @@
   {
     "type": "product",
     "name": "AirPods Pro 3",
-    "issuer": "AAPL",
-    "source": "data/raw/sec-edgar-filings/AAPL/10-K/0000320193-25-000079/full-submission.txt",
-    "filing_type": "10-K",
-    "filing_year": 2025
-  },
-  {
-    "type": "organization",
-    "name": "Financial Accounting Standards Board",
-    "role": "other",
-    "issuer": "AAPL",
-    "source": "data/raw/sec-edgar-filings/AAPL/10-K/0000320193-25-000079/full-submission.txt",
-    "filing_type": "10-K",
-    "filing_year": 2025
-  },
-  {
-    "type": "organization",
-    "name": "TCJA",
-    "role": "other",
     "issuer": "AAPL",
     "source": "data/raw/sec-edgar-filings/AAPL/10-K/0000320193-25-000079/full-submission.txt",
     "filing_type": "10-K",
@@ -1422,6 +1528,15 @@
     "filing_year": 2025
   },
   {
+    "type": "risk_factor",
+    "name": "Foreign Operations & Geopolitical Risk",
+    "summary": "The Company may use forwards, options or other instruments to protect gross margins from fluctuations in foreign exchange rates.",
+    "issuer": "AAPL",
+    "source": "data/raw/sec-edgar-filings/AAPL/10-K/0000320193-25-000079/full-submission.txt",
+    "filing_type": "10-K",
+    "filing_year": 2025
+  },
+  {
     "type": "organization",
     "name": "Ernst & Young LLP",
     "role": "other",
@@ -1438,6 +1553,1182 @@
     "source": "data/raw/sec-edgar-filings/AAPL/10-K/0000320193-25-000079/full-submission.txt",
     "filing_type": "10-K",
     "filing_year": 2025
+  },
+  {
+    "type": "issuer",
+    "name": "MSFT",
+    "ticker": "MSFT",
+    "issuer": "MSFT",
+    "source": "data/raw/sec-edgar-filings/MSFT/10-K/0000950170-25-100235/full-submission.txt",
+    "filing_type": "10-K"
+  },
+  {
+    "type": "product",
+    "name": "Microsoft 365",
+    "issuer": "MSFT",
+    "source": "data/raw/sec-edgar-filings/MSFT/10-K/0000950170-25-100235/full-submission.txt",
+    "filing_type": "10-K",
+    "filing_year": 2025
+  },
+  {
+    "type": "product",
+    "name": "Microsoft Teams",
+    "issuer": "MSFT",
+    "source": "data/raw/sec-edgar-filings/MSFT/10-K/0000950170-25-100235/full-submission.txt",
+    "filing_type": "10-K",
+    "filing_year": 2025
+  },
+  {
+    "type": "product",
+    "name": "Power BI",
+    "issuer": "MSFT",
+    "source": "data/raw/sec-edgar-filings/MSFT/10-K/0000950170-25-100235/full-submission.txt",
+    "filing_type": "10-K",
+    "filing_year": 2025
+  },
+  {
+    "type": "product",
+    "name": "Windows Commercial",
+    "issuer": "MSFT",
+    "source": "data/raw/sec-edgar-filings/MSFT/10-K/0000950170-25-100235/full-submission.txt",
+    "filing_type": "10-K",
+    "filing_year": 2025
+  },
+  {
+    "type": "product",
+    "name": "Enterprise Mobility + Security",
+    "issuer": "MSFT",
+    "source": "data/raw/sec-edgar-filings/MSFT/10-K/0000950170-25-100235/full-submission.txt",
+    "filing_type": "10-K",
+    "filing_year": 2025
+  },
+  {
+    "type": "organization",
+    "name": "LinkedIn",
+    "role": "other",
+    "issuer": "MSFT",
+    "source": "data/raw/sec-edgar-filings/MSFT/10-K/0000950170-25-100235/full-submission.txt",
+    "filing_type": "10-K",
+    "filing_year": 2025
+  },
+  {
+    "type": "organization",
+    "name": "Azure",
+    "role": "other",
+    "issuer": "MSFT",
+    "source": "data/raw/sec-edgar-filings/MSFT/10-K/0000950170-25-100235/full-submission.txt",
+    "filing_type": "10-K",
+    "filing_year": 2025
+  },
+  {
+    "type": "organization",
+    "name": "Microsoft",
+    "role": "other",
+    "issuer": "MSFT",
+    "source": "data/raw/sec-edgar-filings/MSFT/10-K/0000950170-25-100235/full-submission.txt",
+    "filing_type": "10-K",
+    "filing_year": 2025
+  },
+  {
+    "type": "product",
+    "name": "Microsoft 365 Commercial",
+    "issuer": "MSFT",
+    "source": "data/raw/sec-edgar-filings/MSFT/10-K/0000950170-25-100235/full-submission.txt",
+    "filing_type": "10-K",
+    "filing_year": 2025
+  },
+  {
+    "type": "product",
+    "name": "Microsoft 365 Consumer",
+    "issuer": "MSFT",
+    "source": "data/raw/sec-edgar-filings/MSFT/10-K/0000950170-25-100235/full-submission.txt",
+    "filing_type": "10-K",
+    "filing_year": 2025
+  },
+  {
+    "type": "product",
+    "name": "LinkedIn Talent Solutions",
+    "issuer": "MSFT",
+    "source": "data/raw/sec-edgar-filings/MSFT/10-K/0000950170-25-100235/full-submission.txt",
+    "filing_type": "10-K",
+    "filing_year": 2025
+  },
+  {
+    "type": "product",
+    "name": "LinkedIn Marketing Solutions",
+    "issuer": "MSFT",
+    "source": "data/raw/sec-edgar-filings/MSFT/10-K/0000950170-25-100235/full-submission.txt",
+    "filing_type": "10-K",
+    "filing_year": 2025
+  },
+  {
+    "type": "product",
+    "name": "LinkedIn Premium Subscriptions",
+    "issuer": "MSFT",
+    "source": "data/raw/sec-edgar-filings/MSFT/10-K/0000950170-25-100235/full-submission.txt",
+    "filing_type": "10-K",
+    "filing_year": 2025
+  },
+  {
+    "type": "product",
+    "name": "LinkedIn Sales Solutions",
+    "issuer": "MSFT",
+    "source": "data/raw/sec-edgar-filings/MSFT/10-K/0000950170-25-100235/full-submission.txt",
+    "filing_type": "10-K",
+    "filing_year": 2025
+  },
+  {
+    "type": "product",
+    "name": "Dynamics 365",
+    "issuer": "MSFT",
+    "source": "data/raw/sec-edgar-filings/MSFT/10-K/0000950170-25-100235/full-submission.txt",
+    "filing_type": "10-K",
+    "filing_year": 2025
+  },
+  {
+    "type": "product",
+    "name": "Azure",
+    "issuer": "MSFT",
+    "source": "data/raw/sec-edgar-filings/MSFT/10-K/0000950170-25-100235/full-submission.txt",
+    "filing_type": "10-K",
+    "filing_year": 2025
+  },
+  {
+    "type": "product",
+    "name": "Xbox",
+    "issuer": "MSFT",
+    "source": "data/raw/sec-edgar-filings/MSFT/10-K/0000950170-25-100235/full-submission.txt",
+    "filing_type": "10-K",
+    "filing_year": 2025
+  },
+  {
+    "type": "product",
+    "name": "Bing",
+    "issuer": "MSFT",
+    "source": "data/raw/sec-edgar-filings/MSFT/10-K/0000950170-25-100235/full-submission.txt",
+    "filing_type": "10-K",
+    "filing_year": 2025
+  },
+  {
+    "type": "product",
+    "name": "Copilot",
+    "issuer": "MSFT",
+    "source": "data/raw/sec-edgar-filings/MSFT/10-K/0000950170-25-100235/full-submission.txt",
+    "filing_type": "10-K",
+    "filing_year": 2025
+  },
+  {
+    "type": "product",
+    "name": "Microsoft News",
+    "issuer": "MSFT",
+    "source": "data/raw/sec-edgar-filings/MSFT/10-K/0000950170-25-100235/full-submission.txt",
+    "filing_type": "10-K",
+    "filing_year": 2025
+  },
+  {
+    "type": "product",
+    "name": "Microsoft Edge",
+    "issuer": "MSFT",
+    "source": "data/raw/sec-edgar-filings/MSFT/10-K/0000950170-25-100235/full-submission.txt",
+    "filing_type": "10-K",
+    "filing_year": 2025
+  },
+  {
+    "type": "risk_factor",
+    "name": "Competition",
+    "summary": "Competitors to Office include software and global application vendors, web-based and mobile application companies, AI-first application companies, as well as local application developers.",
+    "issuer": "MSFT",
+    "source": "data/raw/sec-edgar-filings/MSFT/10-K/0000950170-25-100235/full-submission.txt",
+    "filing_type": "10-K",
+    "filing_year": 2025
+  },
+  {
+    "type": "organization",
+    "name": "Dell",
+    "role": "other",
+    "issuer": "MSFT",
+    "source": "data/raw/sec-edgar-filings/MSFT/10-K/0000950170-25-100235/full-submission.txt",
+    "filing_type": "10-K",
+    "filing_year": 2025
+  },
+  {
+    "type": "organization",
+    "name": "Hewlett-Packard",
+    "role": "other",
+    "issuer": "MSFT",
+    "source": "data/raw/sec-edgar-filings/MSFT/10-K/0000950170-25-100235/full-submission.txt",
+    "filing_type": "10-K",
+    "filing_year": 2025
+  },
+  {
+    "type": "organization",
+    "name": "Lenovo",
+    "role": "other",
+    "issuer": "MSFT",
+    "source": "data/raw/sec-edgar-filings/MSFT/10-K/0000950170-25-100235/full-submission.txt",
+    "filing_type": "10-K",
+    "filing_year": 2025
+  },
+  {
+    "type": "product",
+    "name": "Microsoft Copilot",
+    "issuer": "MSFT",
+    "source": "data/raw/sec-edgar-filings/MSFT/10-K/0000950170-25-100235/full-submission.txt",
+    "filing_type": "10-K",
+    "filing_year": 2025
+  },
+  {
+    "type": "risk_factor",
+    "name": "Supply Chain & Manufacturing",
+    "summary": "There are few qualified suppliers for certain components of our servers and devices.",
+    "issuer": "MSFT",
+    "source": "data/raw/sec-edgar-filings/MSFT/10-K/0000950170-25-100235/full-submission.txt",
+    "filing_type": "10-K",
+    "filing_year": 2025
+  },
+  {
+    "type": "organization",
+    "name": "Ecolab Inc.",
+    "role": "other",
+    "issuer": "MSFT",
+    "source": "data/raw/sec-edgar-filings/MSFT/10-K/0000950170-25-100235/full-submission.txt",
+    "filing_type": "10-K",
+    "filing_year": 2025,
+    "relationship": "SHAREHOLDER_OF"
+  },
+  {
+    "type": "organization",
+    "name": "Alaska Air Group, Inc.",
+    "role": "other",
+    "issuer": "MSFT",
+    "source": "data/raw/sec-edgar-filings/MSFT/10-K/0000950170-25-100235/full-submission.txt",
+    "filing_type": "10-K",
+    "filing_year": 2025,
+    "relationship": "SHAREHOLDER_OF"
+  },
+  {
+    "type": "organization",
+    "name": "Netflix, Inc.",
+    "role": "other",
+    "issuer": "MSFT",
+    "source": "data/raw/sec-edgar-filings/MSFT/10-K/0000950170-25-100235/full-submission.txt",
+    "filing_type": "10-K",
+    "filing_year": 2025,
+    "relationship": "SHAREHOLDER_OF"
+  },
+  {
+    "type": "organization",
+    "name": "Activision Blizzard, Inc.",
+    "role": "other",
+    "issuer": "MSFT",
+    "source": "data/raw/sec-edgar-filings/MSFT/10-K/0000950170-25-100235/full-submission.txt",
+    "filing_type": "10-K",
+    "filing_year": 2025
+  },
+  {
+    "type": "risk_factor",
+    "name": "Cybersecurity & Data Breaches",
+    "summary": "Cyberattacks and security vulnerabilities could lead to reduced revenue, increased costs, liability claims, or harm to our reputation or competitive position.",
+    "issuer": "MSFT",
+    "source": "data/raw/sec-edgar-filings/MSFT/10-K/0000950170-25-100235/full-submission.txt",
+    "filing_type": "10-K",
+    "filing_year": 2025
+  },
+  {
+    "type": "risk_factor",
+    "name": "Regulatory & Legal Compliance",
+    "summary": "Our data-handling practices across our products and services will continue to be under scrutiny.",
+    "issuer": "MSFT",
+    "source": "data/raw/sec-edgar-filings/MSFT/10-K/0000950170-25-100235/full-submission.txt",
+    "filing_type": "10-K",
+    "filing_year": 2025
+  },
+  {
+    "type": "risk_factor",
+    "name": "Talent & Labor",
+    "summary": "Acquisitions and other transactions and arrangements involve significant challenges and risks, including that we have difficulty integrating and retaining new employees.",
+    "issuer": "MSFT",
+    "source": "data/raw/sec-edgar-filings/MSFT/10-K/0000950170-25-100235/full-submission.txt",
+    "filing_type": "10-K",
+    "filing_year": 2025
+  },
+  {
+    "type": "risk_factor",
+    "name": "Debt & Liquidity",
+    "summary": "We may not achieve significant revenue from new product, service, and distribution channel investments for several years, if at all.",
+    "issuer": "MSFT",
+    "source": "data/raw/sec-edgar-filings/MSFT/10-K/0000950170-25-100235/full-submission.txt",
+    "filing_type": "10-K",
+    "filing_year": 2025
+  },
+  {
+    "type": "risk_factor",
+    "name": "Reputation & Brand",
+    "summary": "Actual or perceived vulnerabilities may lead to claims against us, and improper disclosure or misuse of personal data could harm our reputation.",
+    "issuer": "MSFT",
+    "source": "data/raw/sec-edgar-filings/MSFT/10-K/0000950170-25-100235/full-submission.txt",
+    "filing_type": "10-K",
+    "filing_year": 2025
+  },
+  {
+    "type": "product",
+    "name": "Xbox consoles",
+    "issuer": "MSFT",
+    "source": "data/raw/sec-edgar-filings/MSFT/10-K/0000950170-25-100235/full-submission.txt",
+    "filing_type": "10-K",
+    "filing_year": 2025
+  },
+  {
+    "type": "product",
+    "name": "Surface devices",
+    "issuer": "MSFT",
+    "source": "data/raw/sec-edgar-filings/MSFT/10-K/0000950170-25-100235/full-submission.txt",
+    "filing_type": "10-K",
+    "filing_year": 2025
+  },
+  {
+    "type": "risk_factor",
+    "name": "Product Quality & Liability",
+    "summary": "Our software products and services may experience quality or reliability problems due to the imperfect processes we use to develop our software.",
+    "issuer": "MSFT",
+    "source": "data/raw/sec-edgar-filings/MSFT/10-K/0000950170-25-100235/full-submission.txt",
+    "filing_type": "10-K",
+    "filing_year": 2025
+  },
+  {
+    "type": "risk_factor",
+    "name": "Litigation",
+    "summary": "We have claims and lawsuits against us that may result in adverse outcomes, including significant monetary damages or injunctive relief.",
+    "issuer": "MSFT",
+    "source": "data/raw/sec-edgar-filings/MSFT/10-K/0000950170-25-100235/full-submission.txt",
+    "filing_type": "10-K",
+    "filing_year": 2025
+  },
+  {
+    "type": "organization",
+    "name": "Organisation for Economic Co-operation and Development",
+    "role": "other",
+    "issuer": "MSFT",
+    "source": "data/raw/sec-edgar-filings/MSFT/10-K/0000950170-25-100235/full-submission.txt",
+    "filing_type": "10-K",
+    "filing_year": 2025
+  },
+  {
+    "type": "risk_factor",
+    "name": "Intellectual Property",
+    "summary": "Protecting our intellectual property rights and combating unlicensed copying and use of our software, source code, and other intellectual property on a global basis is difficult.",
+    "issuer": "MSFT",
+    "source": "data/raw/sec-edgar-filings/MSFT/10-K/0000950170-25-100235/full-submission.txt",
+    "filing_type": "10-K",
+    "filing_year": 2025
+  },
+  {
+    "type": "risk_factor",
+    "name": "Macroeconomic & Market Conditions",
+    "summary": "Worsening economic conditions, including inflation, recession, pandemic, or other changes in economic conditions, may cause lower IT spending and adversely affect our results of operations.",
+    "issuer": "MSFT",
+    "source": "data/raw/sec-edgar-filings/MSFT/10-K/0000950170-25-100235/full-submission.txt",
+    "filing_type": "10-K",
+    "filing_year": 2025
+  },
+  {
+    "type": "risk_factor",
+    "name": "Foreign Operations & Geopolitical Risk",
+    "summary": "Abrupt political change, terrorist activity, and armed conflict, such as the ongoing conflict in Ukraine, pose economic and other risks, which may negatively impact our ability to sell to and collect from customers.",
+    "issuer": "MSFT",
+    "source": "data/raw/sec-edgar-filings/MSFT/10-K/0000950170-25-100235/full-submission.txt",
+    "filing_type": "10-K",
+    "filing_year": 2025
+  },
+  {
+    "type": "organization",
+    "name": "National Institute of Standards & Technology",
+    "role": "other",
+    "issuer": "MSFT",
+    "source": "data/raw/sec-edgar-filings/MSFT/10-K/0000950170-25-100235/full-submission.txt",
+    "filing_type": "10-K",
+    "filing_year": 2025
+  },
+  {
+    "type": "organization",
+    "name": "Committee of Sponsoring Organization",
+    "role": "other",
+    "issuer": "MSFT",
+    "source": "data/raw/sec-edgar-filings/MSFT/10-K/0000950170-25-100235/full-submission.txt",
+    "filing_type": "10-K",
+    "filing_year": 2025
+  },
+  {
+    "type": "organization",
+    "name": "International Organization for Standardization",
+    "role": "other",
+    "issuer": "MSFT",
+    "source": "data/raw/sec-edgar-filings/MSFT/10-K/0000950170-25-100235/full-submission.txt",
+    "filing_type": "10-K",
+    "filing_year": 2025
+  },
+  {
+    "type": "product",
+    "name": "Secure Future Initiative",
+    "issuer": "MSFT",
+    "source": "data/raw/sec-edgar-filings/MSFT/10-K/0000950170-25-100235/full-submission.txt",
+    "filing_type": "10-K",
+    "filing_year": 2025
+  },
+  {
+    "type": "product",
+    "name": "Security Development Lifecycle",
+    "issuer": "MSFT",
+    "source": "data/raw/sec-edgar-filings/MSFT/10-K/0000950170-25-100235/full-submission.txt",
+    "filing_type": "10-K",
+    "filing_year": 2025
+  },
+  {
+    "type": "organization",
+    "name": "OpenAI",
+    "role": "other",
+    "issuer": "MSFT",
+    "source": "data/raw/sec-edgar-filings/MSFT/10-K/0000950170-25-100235/full-submission.txt",
+    "filing_type": "10-K",
+    "filing_year": 2025,
+    "relationship": "PARTNERS_WITH"
+  },
+  {
+    "type": "product",
+    "name": "Microsoft Cloud",
+    "issuer": "MSFT",
+    "source": "data/raw/sec-edgar-filings/MSFT/10-K/0000950170-25-100235/full-submission.txt",
+    "filing_type": "10-K",
+    "filing_year": 2025
+  },
+  {
+    "type": "product",
+    "name": "LinkedIn",
+    "issuer": "MSFT",
+    "source": "data/raw/sec-edgar-filings/MSFT/10-K/0000950170-25-100235/full-submission.txt",
+    "filing_type": "10-K",
+    "filing_year": 2025
+  },
+  {
+    "type": "product",
+    "name": "Bing Ads",
+    "issuer": "MSFT",
+    "source": "data/raw/sec-edgar-filings/MSFT/10-K/0000950170-25-100235/full-submission.txt",
+    "filing_type": "10-K",
+    "filing_year": 2025
+  },
+  {
+    "type": "product",
+    "name": "Office 2024",
+    "issuer": "MSFT",
+    "source": "data/raw/sec-edgar-filings/MSFT/10-K/0000950170-25-100235/full-submission.txt",
+    "filing_type": "10-K",
+    "filing_year": 2025
+  },
+  {
+    "type": "product",
+    "name": "Activision Blizzard",
+    "issuer": "MSFT",
+    "source": "data/raw/sec-edgar-filings/MSFT/10-K/0000950170-25-100235/full-submission.txt",
+    "filing_type": "10-K",
+    "filing_year": 2025
+  },
+  {
+    "type": "organization",
+    "name": "Deloitte & Touche LLP",
+    "role": "other",
+    "issuer": "MSFT",
+    "source": "data/raw/sec-edgar-filings/MSFT/10-K/0000950170-25-100235/full-submission.txt",
+    "filing_type": "10-K",
+    "filing_year": 2025
+  },
+  {
+    "type": "product",
+    "name": "Office 365",
+    "issuer": "MSFT",
+    "source": "data/raw/sec-edgar-filings/MSFT/10-K/0000950170-25-100235/full-submission.txt",
+    "filing_type": "10-K",
+    "filing_year": 2025
+  },
+  {
+    "type": "organization",
+    "name": "OpenAI Global, LLC",
+    "role": "other",
+    "issuer": "MSFT",
+    "source": "data/raw/sec-edgar-filings/MSFT/10-K/0000950170-25-100235/full-submission.txt",
+    "filing_type": "10-K",
+    "filing_year": 2025
+  },
+  {
+    "type": "product",
+    "name": "Dynamics business solutions",
+    "issuer": "MSFT",
+    "source": "data/raw/sec-edgar-filings/MSFT/10-K/0000950170-25-100235/full-submission.txt",
+    "filing_type": "10-K",
+    "filing_year": 2025
+  },
+  {
+    "type": "organization",
+    "name": "Inflection AI, Inc.",
+    "role": "other",
+    "issuer": "MSFT",
+    "source": "data/raw/sec-edgar-filings/MSFT/10-K/0000950170-25-100235/full-submission.txt",
+    "filing_type": "10-K",
+    "filing_year": 2025
+  },
+  {
+    "type": "organization",
+    "name": "Reprogrammed Interchange LLC",
+    "role": "institutional_investor",
+    "issuer": "MSFT",
+    "source": "data/raw/sec-edgar-filings/MSFT/10-K/0000950170-25-100235/full-submission.txt",
+    "filing_type": "10-K",
+    "filing_year": 2025
+  },
+  {
+    "type": "organization",
+    "name": "Greylock Ventures",
+    "role": "institutional_investor",
+    "issuer": "MSFT",
+    "source": "data/raw/sec-edgar-filings/MSFT/10-K/0000950170-25-100235/full-submission.txt",
+    "filing_type": "10-K",
+    "filing_year": 2025
+  },
+  {
+    "type": "product",
+    "name": "GitHub",
+    "issuer": "MSFT",
+    "source": "data/raw/sec-edgar-filings/MSFT/10-K/0000950170-25-100235/full-submission.txt",
+    "filing_type": "10-K",
+    "filing_year": 2025
+  },
+  {
+    "type": "product",
+    "name": "Nuance Healthcare",
+    "issuer": "MSFT",
+    "source": "data/raw/sec-edgar-filings/MSFT/10-K/0000950170-25-100235/full-submission.txt",
+    "filing_type": "10-K",
+    "filing_year": 2025
+  },
+  {
+    "type": "product",
+    "name": "Windows",
+    "issuer": "MSFT",
+    "source": "data/raw/sec-edgar-filings/MSFT/10-K/0000950170-25-100235/full-submission.txt",
+    "filing_type": "10-K",
+    "filing_year": 2025
+  },
+  {
+    "type": "organization",
+    "name": "The Bank of New York Mellon Trust Company, N.A.",
+    "role": "other",
+    "issuer": "MSFT",
+    "source": "data/raw/sec-edgar-filings/MSFT/10-K/0000950170-25-100235/full-submission.txt",
+    "filing_type": "10-K",
+    "filing_year": 2025
+  },
+  {
+    "type": "organization",
+    "name": "U.S. Bank National Association",
+    "role": "other",
+    "issuer": "MSFT",
+    "source": "data/raw/sec-edgar-filings/MSFT/10-K/0000950170-25-100235/full-submission.txt",
+    "filing_type": "10-K",
+    "filing_year": 2025
+  },
+  {
+    "type": "organization",
+    "name": "Activision Blizzard, Inc.",
+    "role": "competitor",
+    "issuer": "MSFT",
+    "source": "data/raw/sec-edgar-filings/MSFT/10-K/0000950170-25-100235/full-submission.txt",
+    "filing_type": "10-K",
+    "filing_year": 2025,
+    "relationship": "COMPETES_WITH"
+  },
+  {
+    "type": "issuer",
+    "name": "GOOGL",
+    "ticker": "GOOGL",
+    "issuer": "GOOGL",
+    "source": "data/raw/sec-edgar-filings/GOOGL/10-K/0001652044-26-000018/full-submission.txt",
+    "filing_type": "10-K"
+  },
+  {
+    "type": "organization",
+    "name": "Waymo",
+    "role": "other",
+    "issuer": "GOOGL",
+    "source": "data/raw/sec-edgar-filings/GOOGL/10-K/0001652044-26-000018/full-submission.txt",
+    "filing_type": "10-K",
+    "filing_year": 2026
+  },
+  {
+    "type": "organization",
+    "name": "Isomorphic Labs",
+    "role": "other",
+    "issuer": "GOOGL",
+    "source": "data/raw/sec-edgar-filings/GOOGL/10-K/0001652044-26-000018/full-submission.txt",
+    "filing_type": "10-K",
+    "filing_year": 2026
+  },
+  {
+    "type": "product",
+    "name": "Google Search",
+    "issuer": "GOOGL",
+    "source": "data/raw/sec-edgar-filings/GOOGL/10-K/0001652044-26-000018/full-submission.txt",
+    "filing_type": "10-K",
+    "filing_year": 2026
+  },
+  {
+    "type": "product",
+    "name": "YouTube",
+    "issuer": "GOOGL",
+    "source": "data/raw/sec-edgar-filings/GOOGL/10-K/0001652044-26-000018/full-submission.txt",
+    "filing_type": "10-K",
+    "filing_year": 2026
+  },
+  {
+    "type": "product",
+    "name": "Google Cloud",
+    "issuer": "GOOGL",
+    "source": "data/raw/sec-edgar-filings/GOOGL/10-K/0001652044-26-000018/full-submission.txt",
+    "filing_type": "10-K",
+    "filing_year": 2026
+  },
+  {
+    "type": "product",
+    "name": "Google Gemini",
+    "issuer": "GOOGL",
+    "source": "data/raw/sec-edgar-filings/GOOGL/10-K/0001652044-26-000018/full-submission.txt",
+    "filing_type": "10-K",
+    "filing_year": 2026
+  },
+  {
+    "type": "product",
+    "name": "Google Play",
+    "issuer": "GOOGL",
+    "source": "data/raw/sec-edgar-filings/GOOGL/10-K/0001652044-26-000018/full-submission.txt",
+    "filing_type": "10-K",
+    "filing_year": 2026
+  },
+  {
+    "type": "product",
+    "name": "Android",
+    "issuer": "GOOGL",
+    "source": "data/raw/sec-edgar-filings/GOOGL/10-K/0001652044-26-000018/full-submission.txt",
+    "filing_type": "10-K",
+    "filing_year": 2026
+  },
+  {
+    "type": "product",
+    "name": "Chrome",
+    "issuer": "GOOGL",
+    "source": "data/raw/sec-edgar-filings/GOOGL/10-K/0001652044-26-000018/full-submission.txt",
+    "filing_type": "10-K",
+    "filing_year": 2026
+  },
+  {
+    "type": "product",
+    "name": "Pixel 10 series",
+    "issuer": "GOOGL",
+    "source": "data/raw/sec-edgar-filings/GOOGL/10-K/0001652044-26-000018/full-submission.txt",
+    "filing_type": "10-K",
+    "filing_year": 2026
+  },
+  {
+    "type": "product",
+    "name": "Pixel Watch 4",
+    "issuer": "GOOGL",
+    "source": "data/raw/sec-edgar-filings/GOOGL/10-K/0001652044-26-000018/full-submission.txt",
+    "filing_type": "10-K",
+    "filing_year": 2026
+  },
+  {
+    "type": "risk_factor",
+    "name": "Macroeconomic & Market Conditions",
+    "summary": "Factors that could cause or contribute to differences in actual results include those discussed in this Annual Report on Form 10-K.",
+    "issuer": "GOOGL",
+    "source": "data/raw/sec-edgar-filings/GOOGL/10-K/0001652044-26-000018/full-submission.txt",
+    "filing_type": "10-K",
+    "filing_year": 2026
+  },
+  {
+    "type": "product",
+    "name": "Google One",
+    "issuer": "GOOGL",
+    "source": "data/raw/sec-edgar-filings/GOOGL/10-K/0001652044-26-000018/full-submission.txt",
+    "filing_type": "10-K",
+    "filing_year": 2026
+  },
+  {
+    "type": "product",
+    "name": "Gemini models",
+    "issuer": "GOOGL",
+    "source": "data/raw/sec-edgar-filings/GOOGL/10-K/0001652044-26-000018/full-submission.txt",
+    "filing_type": "10-K",
+    "filing_year": 2026
+  },
+  {
+    "type": "product",
+    "name": "Pixel family of devices",
+    "issuer": "GOOGL",
+    "source": "data/raw/sec-edgar-filings/GOOGL/10-K/0001652044-26-000018/full-submission.txt",
+    "filing_type": "10-K",
+    "filing_year": 2026
+  },
+  {
+    "type": "product",
+    "name": "Google Cloud Platform",
+    "issuer": "GOOGL",
+    "source": "data/raw/sec-edgar-filings/GOOGL/10-K/0001652044-26-000018/full-submission.txt",
+    "filing_type": "10-K",
+    "filing_year": 2026
+  },
+  {
+    "type": "product",
+    "name": "Google Workspace",
+    "issuer": "GOOGL",
+    "source": "data/raw/sec-edgar-filings/GOOGL/10-K/0001652044-26-000018/full-submission.txt",
+    "filing_type": "10-K",
+    "filing_year": 2026
+  },
+  {
+    "type": "product",
+    "name": "Vertex AI",
+    "issuer": "GOOGL",
+    "source": "data/raw/sec-edgar-filings/GOOGL/10-K/0001652044-26-000018/full-submission.txt",
+    "filing_type": "10-K",
+    "filing_year": 2026
+  },
+  {
+    "type": "product",
+    "name": "Gemini Enterprise",
+    "issuer": "GOOGL",
+    "source": "data/raw/sec-edgar-filings/GOOGL/10-K/0001652044-26-000018/full-submission.txt",
+    "filing_type": "10-K",
+    "filing_year": 2026
+  },
+  {
+    "type": "product",
+    "name": "Gemini for Google Workspace",
+    "issuer": "GOOGL",
+    "source": "data/raw/sec-edgar-filings/GOOGL/10-K/0001652044-26-000018/full-submission.txt",
+    "filing_type": "10-K",
+    "filing_year": 2026
+  },
+  {
+    "type": "product",
+    "name": "Waymo",
+    "issuer": "GOOGL",
+    "source": "data/raw/sec-edgar-filings/GOOGL/10-K/0001652044-26-000018/full-submission.txt",
+    "filing_type": "10-K",
+    "filing_year": 2026
+  },
+  {
+    "type": "product",
+    "name": "X",
+    "issuer": "GOOGL",
+    "source": "data/raw/sec-edgar-filings/GOOGL/10-K/0001652044-26-000018/full-submission.txt",
+    "filing_type": "10-K",
+    "filing_year": 2026
+  },
+  {
+    "type": "risk_factor",
+    "name": "Competition",
+    "summary": "We face formidable competition in every aspect of our business, including from general purpose search engines, online advertising platforms, and AI model developers.",
+    "issuer": "GOOGL",
+    "source": "data/raw/sec-edgar-filings/GOOGL/10-K/0001652044-26-000018/full-submission.txt",
+    "filing_type": "10-K",
+    "filing_year": 2026
+  },
+  {
+    "type": "risk_factor",
+    "name": "Debt & Liquidity",
+    "summary": "Adverse macroeconomic conditions have affected, and may in the future affect, the demand for advertising, resulting in fluctuations in the amounts our advertisers spend on advertising.",
+    "issuer": "GOOGL",
+    "source": "data/raw/sec-edgar-filings/GOOGL/10-K/0001652044-26-000018/full-submission.txt",
+    "filing_type": "10-K",
+    "filing_year": 2026
+  },
+  {
+    "type": "risk_factor",
+    "name": "Talent & Labor",
+    "summary": "Our increasing investment in new businesses, products, services, and technologies is inherently risky, and could divert management attention and harm our business.",
+    "issuer": "GOOGL",
+    "source": "data/raw/sec-edgar-filings/GOOGL/10-K/0001652044-26-000018/full-submission.txt",
+    "filing_type": "10-K",
+    "filing_year": 2026
+  },
+  {
+    "type": "product",
+    "name": "TPUs",
+    "issuer": "GOOGL",
+    "source": "data/raw/sec-edgar-filings/GOOGL/10-K/0001652044-26-000018/full-submission.txt",
+    "filing_type": "10-K",
+    "filing_year": 2026
+  },
+  {
+    "type": "risk_factor",
+    "name": "Regulatory & Legal Compliance",
+    "summary": "Our business with financial services, healthcare, and public sector customers may present additional risks, including regulatory compliance risks.",
+    "issuer": "GOOGL",
+    "source": "data/raw/sec-edgar-filings/GOOGL/10-K/0001652044-26-000018/full-submission.txt",
+    "filing_type": "10-K",
+    "filing_year": 2026
+  },
+  {
+    "type": "risk_factor",
+    "name": "Intellectual Property",
+    "summary": "Our intellectual property rights are valuable, and any inability to protect them could reduce the value of our products, services, and brands.",
+    "issuer": "GOOGL",
+    "source": "data/raw/sec-edgar-filings/GOOGL/10-K/0001652044-26-000018/full-submission.txt",
+    "filing_type": "10-K",
+    "filing_year": 2026
+  },
+  {
+    "type": "risk_factor",
+    "name": "Reputation & Brand",
+    "summary": "Our strong brands have significantly contributed to the success of our business, and failing to maintain and enhance them would hurt our ability to expand.",
+    "issuer": "GOOGL",
+    "source": "data/raw/sec-edgar-filings/GOOGL/10-K/0001652044-26-000018/full-submission.txt",
+    "filing_type": "10-K",
+    "filing_year": 2026
+  },
+  {
+    "type": "risk_factor",
+    "name": "Supply Chain & Manufacturing",
+    "summary": "We face a number of manufacturing and supply chain risks that could affect our ability to supply our products and services.",
+    "issuer": "GOOGL",
+    "source": "data/raw/sec-edgar-filings/GOOGL/10-K/0001652044-26-000018/full-submission.txt",
+    "filing_type": "10-K",
+    "filing_year": 2026
+  },
+  {
+    "type": "risk_factor",
+    "name": "Cybersecurity & Data Breaches",
+    "summary": "Our systems are vulnerable to damage, interference, or interruption from various threats, which could harm our ability to provide products and services.",
+    "issuer": "GOOGL",
+    "source": "data/raw/sec-edgar-filings/GOOGL/10-K/0001652044-26-000018/full-submission.txt",
+    "filing_type": "10-K",
+    "filing_year": 2026
+  },
+  {
+    "type": "organization",
+    "name": "US Department of Justice",
+    "role": "other",
+    "issuer": "GOOGL",
+    "source": "data/raw/sec-edgar-filings/GOOGL/10-K/0001652044-26-000018/full-submission.txt",
+    "filing_type": "10-K",
+    "filing_year": 2026
+  },
+  {
+    "type": "organization",
+    "name": "California",
+    "role": "other",
+    "issuer": "GOOGL",
+    "source": "data/raw/sec-edgar-filings/GOOGL/10-K/0001652044-26-000018/full-submission.txt",
+    "filing_type": "10-K",
+    "filing_year": 2026
+  },
+  {
+    "type": "organization",
+    "name": "New York",
+    "role": "other",
+    "issuer": "GOOGL",
+    "source": "data/raw/sec-edgar-filings/GOOGL/10-K/0001652044-26-000018/full-submission.txt",
+    "filing_type": "10-K",
+    "filing_year": 2026
+  },
+  {
+    "type": "organization",
+    "name": "Texas Attorney General",
+    "role": "other",
+    "issuer": "GOOGL",
+    "source": "data/raw/sec-edgar-filings/GOOGL/10-K/0001652044-26-000018/full-submission.txt",
+    "filing_type": "10-K",
+    "filing_year": 2026
+  },
+  {
+    "type": "organization",
+    "name": "EU",
+    "role": "other",
+    "issuer": "GOOGL",
+    "source": "data/raw/sec-edgar-filings/GOOGL/10-K/0001652044-26-000018/full-submission.txt",
+    "filing_type": "10-K",
+    "filing_year": 2026
+  },
+  {
+    "type": "organization",
+    "name": "Brazil",
+    "role": "other",
+    "issuer": "GOOGL",
+    "source": "data/raw/sec-edgar-filings/GOOGL/10-K/0001652044-26-000018/full-submission.txt",
+    "filing_type": "10-K",
+    "filing_year": 2026
+  },
+  {
+    "type": "organization",
+    "name": "India",
+    "role": "other",
+    "issuer": "GOOGL",
+    "source": "data/raw/sec-edgar-filings/GOOGL/10-K/0001652044-26-000018/full-submission.txt",
+    "filing_type": "10-K",
+    "filing_year": 2026
+  },
+  {
+    "type": "organization",
+    "name": "Japan",
+    "role": "other",
+    "issuer": "GOOGL",
+    "source": "data/raw/sec-edgar-filings/GOOGL/10-K/0001652044-26-000018/full-submission.txt",
+    "filing_type": "10-K",
+    "filing_year": 2026
+  },
+  {
+    "type": "organization",
+    "name": "South Korea",
+    "role": "other",
+    "issuer": "GOOGL",
+    "source": "data/raw/sec-edgar-filings/GOOGL/10-K/0001652044-26-000018/full-submission.txt",
+    "filing_type": "10-K",
+    "filing_year": 2026
+  },
+  {
+    "type": "organization",
+    "name": "Singapore",
+    "role": "other",
+    "issuer": "GOOGL",
+    "source": "data/raw/sec-edgar-filings/GOOGL/10-K/0001652044-26-000018/full-submission.txt",
+    "filing_type": "10-K",
+    "filing_year": 2026
+  },
+  {
+    "type": "organization",
+    "name": "Vietnam",
+    "role": "other",
+    "issuer": "GOOGL",
+    "source": "data/raw/sec-edgar-filings/GOOGL/10-K/0001652044-26-000018/full-submission.txt",
+    "filing_type": "10-K",
+    "filing_year": 2026
+  },
+  {
+    "type": "organization",
+    "name": "Florida",
+    "role": "other",
+    "issuer": "GOOGL",
+    "source": "data/raw/sec-edgar-filings/GOOGL/10-K/0001652044-26-000018/full-submission.txt",
+    "filing_type": "10-K",
+    "filing_year": 2026
+  },
+  {
+    "type": "organization",
+    "name": "Australia",
+    "role": "other",
+    "issuer": "GOOGL",
+    "source": "data/raw/sec-edgar-filings/GOOGL/10-K/0001652044-26-000018/full-submission.txt",
+    "filing_type": "10-K",
+    "filing_year": 2026
+  },
+  {
+    "type": "organization",
+    "name": "United Kingdom",
+    "role": "other",
+    "issuer": "GOOGL",
+    "source": "data/raw/sec-edgar-filings/GOOGL/10-K/0001652044-26-000018/full-submission.txt",
+    "filing_type": "10-K",
+    "filing_year": 2026
+  },
+  {
+    "type": "risk_factor",
+    "name": "Litigation",
+    "summary": "The US Department of Justice and various states have filed antitrust lawsuits concerning Google's advertising technologies and practices.",
+    "issuer": "GOOGL",
+    "source": "data/raw/sec-edgar-filings/GOOGL/10-K/0001652044-26-000018/full-submission.txt",
+    "filing_type": "10-K",
+    "filing_year": 2026
+  },
+  {
+    "type": "organization",
+    "name": "S&P",
+    "role": "other",
+    "issuer": "GOOGL",
+    "source": "data/raw/sec-edgar-filings/GOOGL/10-K/0001652044-26-000018/full-submission.txt",
+    "filing_type": "10-K",
+    "filing_year": 2026
+  },
+  {
+    "type": "organization",
+    "name": "The McGraw-Hill Companies Inc.",
+    "role": "other",
+    "issuer": "GOOGL",
+    "source": "data/raw/sec-edgar-filings/GOOGL/10-K/0001652044-26-000018/full-submission.txt",
+    "filing_type": "10-K",
+    "filing_year": 2026
+  },
+  {
+    "type": "organization",
+    "name": "Google",
+    "role": "other",
+    "issuer": "GOOGL",
+    "source": "data/raw/sec-edgar-filings/GOOGL/10-K/0001652044-26-000018/full-submission.txt",
+    "filing_type": "10-K",
+    "filing_year": 2026
+  },
+  {
+    "type": "organization",
+    "name": "Alphabet Inc.",
+    "role": "other",
+    "issuer": "GOOGL",
+    "source": "data/raw/sec-edgar-filings/GOOGL/10-K/0001652044-26-000018/full-submission.txt",
+    "filing_type": "10-K",
+    "filing_year": 2026
+  },
+  {
+    "type": "product",
+    "name": "YouTube TV",
+    "issuer": "GOOGL",
+    "source": "data/raw/sec-edgar-filings/GOOGL/10-K/0001652044-26-000018/full-submission.txt",
+    "filing_type": "10-K",
+    "filing_year": 2026
+  },
+  {
+    "type": "product",
+    "name": "YouTube Music",
+    "issuer": "GOOGL",
+    "source": "data/raw/sec-edgar-filings/GOOGL/10-K/0001652044-26-000018/full-submission.txt",
+    "filing_type": "10-K",
+    "filing_year": 2026
+  },
+  {
+    "type": "product",
+    "name": "Vertex AI platform",
+    "issuer": "GOOGL",
+    "source": "data/raw/sec-edgar-filings/GOOGL/10-K/0001652044-26-000018/full-submission.txt",
+    "filing_type": "10-K",
+    "filing_year": 2026
+  },
+  {
+    "type": "organization",
+    "name": "Wiz",
+    "role": "other",
+    "issuer": "GOOGL",
+    "source": "data/raw/sec-edgar-filings/GOOGL/10-K/0001652044-26-000018/full-submission.txt",
+    "filing_type": "10-K",
+    "filing_year": 2026
+  },
+  {
+    "type": "organization",
+    "name": "Intersect",
+    "role": "other",
+    "issuer": "GOOGL",
+    "source": "data/raw/sec-edgar-filings/GOOGL/10-K/0001652044-26-000018/full-submission.txt",
+    "filing_type": "10-K",
+    "filing_year": 2026
+  },
+  {
+    "type": "organization",
+    "name": "Wiz, Inc.",
+    "role": "other",
+    "issuer": "GOOGL",
+    "source": "data/raw/sec-edgar-filings/GOOGL/10-K/0001652044-26-000018/full-submission.txt",
+    "filing_type": "10-K",
+    "filing_year": 2026
+  },
+  {
+    "type": "product",
+    "name": "YouTube Premium",
+    "issuer": "GOOGL",
+    "source": "data/raw/sec-edgar-filings/GOOGL/10-K/0001652044-26-000018/full-submission.txt",
+    "filing_type": "10-K",
+    "filing_year": 2026
+  },
+  {
+    "type": "product",
+    "name": "NFL Sunday Ticket",
+    "issuer": "GOOGL",
+    "source": "data/raw/sec-edgar-filings/GOOGL/10-K/0001652044-26-000018/full-submission.txt",
+    "filing_type": "10-K",
+    "filing_year": 2026
+  },
+  {
+    "type": "product",
+    "name": "Pixel",
+    "issuer": "GOOGL",
+    "source": "data/raw/sec-edgar-filings/GOOGL/10-K/0001652044-26-000018/full-submission.txt",
+    "filing_type": "10-K",
+    "filing_year": 2026
+  },
+  {
+    "type": "organization",
+    "name": "European Commission",
+    "role": "other",
+    "issuer": "GOOGL",
+    "source": "data/raw/sec-edgar-filings/GOOGL/10-K/0001652044-26-000018/full-submission.txt",
+    "filing_type": "10-K",
+    "filing_year": 2026
+  },
+  {
+    "type": "organization",
+    "name": "Department of Justice (DOJ)",
+    "role": "other",
+    "issuer": "GOOGL",
+    "source": "data/raw/sec-edgar-filings/GOOGL/10-K/0001652044-26-000018/full-submission.txt",
+    "filing_type": "10-K",
+    "filing_year": 2026
+  },
+  {
+    "type": "organization",
+    "name": "Australian Competition and Consumer Commission (ACCC)",
+    "role": "other",
+    "issuer": "GOOGL",
+    "source": "data/raw/sec-edgar-filings/GOOGL/10-K/0001652044-26-000018/full-submission.txt",
+    "filing_type": "10-K",
+    "filing_year": 2026
+  },
+  {
+    "type": "organization",
+    "name": "Japanese Fair Trade Commission (JFTC)",
+    "role": "other",
+    "issuer": "GOOGL",
+    "source": "data/raw/sec-edgar-filings/GOOGL/10-K/0001652044-26-000018/full-submission.txt",
+    "filing_type": "10-K",
+    "filing_year": 2026
+  },
+  {
+    "type": "organization",
+    "name": "Epic Games",
+    "role": "competitor",
+    "issuer": "GOOGL",
+    "source": "data/raw/sec-edgar-filings/GOOGL/10-K/0001652044-26-000018/full-submission.txt",
+    "filing_type": "10-K",
+    "filing_year": 2026,
+    "relationship": "COMPETES_WITH"
+  },
+  {
+    "type": "product",
+    "name": "Google Services",
+    "issuer": "GOOGL",
+    "source": "data/raw/sec-edgar-filings/GOOGL/10-K/0001652044-26-000018/full-submission.txt",
+    "filing_type": "10-K",
+    "filing_year": 2026
+  },
+  {
+    "type": "product",
+    "name": "Other Bets",
+    "issuer": "GOOGL",
+    "source": "data/raw/sec-edgar-filings/GOOGL/10-K/0001652044-26-000018/full-submission.txt",
+    "filing_type": "10-K",
+    "filing_year": 2026
+  },
+  {
+    "type": "organization",
+    "name": "Google LLC",
+    "role": "subsidiary",
+    "issuer": "GOOGL",
+    "source": "data/raw/sec-edgar-filings/GOOGL/10-K/0001652044-26-000018/full-submission.txt",
+    "filing_type": "10-K",
+    "filing_year": 2026
   },
   {
     "type": "issuer",
@@ -1496,6 +2787,23 @@
     "filing_year": 2024
   },
   {
+    "type": "risk_factor",
+    "name": "Macroeconomic & Market Conditions",
+    "summary": "The aggregate market value of the voting stock held by non-affiliates of the registrant as of July 28, 2023 was approximately $1.1 trillion.",
+    "issuer": "NVDA",
+    "source": "data/raw/sec-edgar-filings/NVDA/10-K/0001045810-24-000029/full-submission.txt",
+    "filing_type": "10-K",
+    "filing_year": 2024
+  },
+  {
+    "type": "product",
+    "name": "DGX Cloud",
+    "issuer": "NVDA",
+    "source": "data/raw/sec-edgar-filings/NVDA/10-K/0001045810-24-000029/full-submission.txt",
+    "filing_type": "10-K",
+    "filing_year": 2024
+  },
+  {
     "type": "product",
     "name": "GeForce GPUs",
     "issuer": "NVDA",
@@ -1513,7 +2821,7 @@
   },
   {
     "type": "product",
-    "name": "Quadro/NVIDIA RTX",
+    "name": "Quadro/NVIDIA RTX GPUs",
     "issuer": "NVDA",
     "source": "data/raw/sec-edgar-filings/NVDA/10-K/0001045810-24-000029/full-submission.txt",
     "filing_type": "10-K",
@@ -1521,7 +2829,7 @@
   },
   {
     "type": "product",
-    "name": "DGX Cloud",
+    "name": "vGPU software",
     "issuer": "NVDA",
     "source": "data/raw/sec-edgar-filings/NVDA/10-K/0001045810-24-000029/full-submission.txt",
     "filing_type": "10-K",
@@ -1530,6 +2838,49 @@
   {
     "type": "product",
     "name": "NVIDIA Omniverse",
+    "issuer": "NVDA",
+    "source": "data/raw/sec-edgar-filings/NVDA/10-K/0001045810-24-000029/full-submission.txt",
+    "filing_type": "10-K",
+    "filing_year": 2024
+  },
+  {
+    "type": "product",
+    "name": "DRIVE Hyperion",
+    "issuer": "NVDA",
+    "source": "data/raw/sec-edgar-filings/NVDA/10-K/0001045810-24-000029/full-submission.txt",
+    "filing_type": "10-K",
+    "filing_year": 2024
+  },
+  {
+    "type": "product",
+    "name": "NVIDIA DRIVE Sim",
+    "issuer": "NVDA",
+    "source": "data/raw/sec-edgar-filings/NVDA/10-K/0001045810-24-000029/full-submission.txt",
+    "filing_type": "10-K",
+    "filing_year": 2024
+  },
+  {
+    "type": "risk_factor",
+    "name": "Competition",
+    "summary": "The gaming industry is highly competitive, with many factors propelling its growth, including new high production value games and franchises.",
+    "issuer": "NVDA",
+    "source": "data/raw/sec-edgar-filings/NVDA/10-K/0001045810-24-000029/full-submission.txt",
+    "filing_type": "10-K",
+    "filing_year": 2024
+  },
+  {
+    "type": "risk_factor",
+    "name": "Talent & Labor",
+    "summary": "We work with several hundred partners in the automotive ecosystem including automakers, truck makers, tier-one suppliers, sensor manufacturers, automotive research institutions, HD mapping companies, and startups to develop and deploy AI systems for self-driving vehicles.",
+    "issuer": "NVDA",
+    "source": "data/raw/sec-edgar-filings/NVDA/10-K/0001045810-24-000029/full-submission.txt",
+    "filing_type": "10-K",
+    "filing_year": 2024
+  },
+  {
+    "type": "risk_factor",
+    "name": "Regulatory & Legal Compliance",
+    "summary": "Our unique end-to-end, software-defined approach is designed for continuous innovation and continuous development, enabling cars to receive over-the-air updates to add new features and capabilities throughout the life of a vehicle.",
     "issuer": "NVDA",
     "source": "data/raw/sec-edgar-filings/NVDA/10-K/0001045810-24-000029/full-submission.txt",
     "filing_type": "10-K",
@@ -1560,7 +2911,8 @@
     "issuer": "NVDA",
     "source": "data/raw/sec-edgar-filings/NVDA/10-K/0001045810-24-000029/full-submission.txt",
     "filing_type": "10-K",
-    "filing_year": 2024
+    "filing_year": 2024,
+    "relationship": "PARTNERS_WITH"
   },
   {
     "type": "organization",
@@ -1569,12 +2921,13 @@
     "issuer": "NVDA",
     "source": "data/raw/sec-edgar-filings/NVDA/10-K/0001045810-24-000029/full-submission.txt",
     "filing_type": "10-K",
-    "filing_year": 2024
+    "filing_year": 2024,
+    "relationship": "PARTNERS_WITH"
   },
   {
     "type": "organization",
     "name": "Hon Hai Precision Industry Co., Ltd.",
-    "role": "supplier_partner",
+    "role": "other",
     "issuer": "NVDA",
     "source": "data/raw/sec-edgar-filings/NVDA/10-K/0001045810-24-000029/full-submission.txt",
     "filing_type": "10-K",
@@ -1583,7 +2936,7 @@
   {
     "type": "organization",
     "name": "Wistron Corporation",
-    "role": "supplier_partner",
+    "role": "other",
     "issuer": "NVDA",
     "source": "data/raw/sec-edgar-filings/NVDA/10-K/0001045810-24-000029/full-submission.txt",
     "filing_type": "10-K",
@@ -1592,7 +2945,7 @@
   {
     "type": "organization",
     "name": "Fabrinet",
-    "role": "supplier_partner",
+    "role": "other",
     "issuer": "NVDA",
     "source": "data/raw/sec-edgar-filings/NVDA/10-K/0001045810-24-000029/full-submission.txt",
     "filing_type": "10-K",
@@ -1780,136 +3133,7 @@
   },
   {
     "type": "product",
-    "name": "DRIVE",
-    "issuer": "NVDA",
-    "source": "data/raw/sec-edgar-filings/NVDA/10-K/0001045810-24-000029/full-submission.txt",
-    "filing_type": "10-K",
-    "filing_year": 2024
-  },
-  {
-    "type": "product",
-    "name": "NVIDIA DGX Cloud",
-    "issuer": "NVDA",
-    "source": "data/raw/sec-edgar-filings/NVDA/10-K/0001045810-24-000029/full-submission.txt",
-    "filing_type": "10-K",
-    "filing_year": 2024
-  },
-  {
-    "type": "product",
-    "name": "NVIDIA DGX Cloud services",
-    "issuer": "NVDA",
-    "source": "data/raw/sec-edgar-filings/NVDA/10-K/0001045810-24-000029/full-submission.txt",
-    "filing_type": "10-K",
-    "filing_year": 2024
-  },
-  {
-    "type": "product",
-    "name": "NVIDIA AI Foundations",
-    "issuer": "NVDA",
-    "source": "data/raw/sec-edgar-filings/NVDA/10-K/0001045810-24-000029/full-submission.txt",
-    "filing_type": "10-K",
-    "filing_year": 2024
-  },
-  {
-    "type": "product",
-    "name": "Omniverse platform",
-    "issuer": "NVDA",
-    "source": "data/raw/sec-edgar-filings/NVDA/10-K/0001045810-24-000029/full-submission.txt",
-    "filing_type": "10-K",
-    "filing_year": 2024
-  },
-  {
-    "type": "product",
-    "name": "Grace CPU",
-    "issuer": "NVDA",
-    "source": "data/raw/sec-edgar-filings/NVDA/10-K/0001045810-24-000029/full-submission.txt",
-    "filing_type": "10-K",
-    "filing_year": 2024
-  },
-  {
-    "type": "product",
-    "name": "Grace Hopper Superchips",
-    "issuer": "NVDA",
-    "source": "data/raw/sec-edgar-filings/NVDA/10-K/0001045810-24-000029/full-submission.txt",
-    "filing_type": "10-K",
-    "filing_year": 2024
-  },
-  {
-    "type": "organization",
-    "name": "Micron",
-    "role": "supplier_partner",
-    "issuer": "NVDA",
-    "source": "data/raw/sec-edgar-filings/NVDA/10-K/0001045810-24-000029/full-submission.txt",
-    "filing_type": "10-K",
-    "filing_year": 2024
-  },
-  {
-    "type": "organization",
-    "name": "MediaTek",
-    "role": "other",
-    "issuer": "NVDA",
-    "source": "data/raw/sec-edgar-filings/NVDA/10-K/0001045810-24-000029/full-submission.txt",
-    "filing_type": "10-K",
-    "filing_year": 2024
-  },
-  {
-    "type": "organization",
-    "name": "Foxconn",
-    "role": "other",
-    "issuer": "NVDA",
-    "source": "data/raw/sec-edgar-filings/NVDA/10-K/0001045810-24-000029/full-submission.txt",
-    "filing_type": "10-K",
-    "filing_year": 2024
-  },
-  {
-    "type": "organization",
-    "name": "BYD",
-    "role": "other",
-    "issuer": "NVDA",
-    "source": "data/raw/sec-edgar-filings/NVDA/10-K/0001045810-24-000029/full-submission.txt",
-    "filing_type": "10-K",
-    "filing_year": 2024
-  },
-  {
-    "type": "organization",
-    "name": "XPENG",
-    "role": "other",
-    "issuer": "NVDA",
-    "source": "data/raw/sec-edgar-filings/NVDA/10-K/0001045810-24-000029/full-submission.txt",
-    "filing_type": "10-K",
-    "filing_year": 2024
-  },
-  {
-    "type": "organization",
-    "name": "GWM",
-    "role": "other",
-    "issuer": "NVDA",
-    "source": "data/raw/sec-edgar-filings/NVDA/10-K/0001045810-24-000029/full-submission.txt",
-    "filing_type": "10-K",
-    "filing_year": 2024
-  },
-  {
-    "type": "organization",
-    "name": "Li Auto",
-    "role": "other",
-    "issuer": "NVDA",
-    "source": "data/raw/sec-edgar-filings/NVDA/10-K/0001045810-24-000029/full-submission.txt",
-    "filing_type": "10-K",
-    "filing_year": 2024
-  },
-  {
-    "type": "organization",
-    "name": "ZEEKR",
-    "role": "other",
-    "issuer": "NVDA",
-    "source": "data/raw/sec-edgar-filings/NVDA/10-K/0001045810-24-000029/full-submission.txt",
-    "filing_type": "10-K",
-    "filing_year": 2024
-  },
-  {
-    "type": "organization",
-    "name": "Xiaomi",
-    "role": "other",
+    "name": "DRIVE brand",
     "issuer": "NVDA",
     "source": "data/raw/sec-edgar-filings/NVDA/10-K/0001045810-24-000029/full-submission.txt",
     "filing_type": "10-K",
@@ -1925,7 +3149,7 @@
   },
   {
     "type": "product",
-    "name": "A800",
+    "name": "H100",
     "issuer": "NVDA",
     "source": "data/raw/sec-edgar-filings/NVDA/10-K/0001045810-24-000029/full-submission.txt",
     "filing_type": "10-K",
@@ -1933,7 +3157,15 @@
   },
   {
     "type": "product",
-    "name": "H100",
+    "name": "DGX",
+    "issuer": "NVDA",
+    "source": "data/raw/sec-edgar-filings/NVDA/10-K/0001045810-24-000029/full-submission.txt",
+    "filing_type": "10-K",
+    "filing_year": 2024
+  },
+  {
+    "type": "product",
+    "name": "A800",
     "issuer": "NVDA",
     "source": "data/raw/sec-edgar-filings/NVDA/10-K/0001045810-24-000029/full-submission.txt",
     "filing_type": "10-K",
@@ -1980,8 +3212,138 @@
     "filing_year": 2024
   },
   {
+    "type": "risk_factor",
+    "name": "Supply Chain & Manufacturing",
+    "summary": "Our supply chain is concentrated in the Asia-Pacific region, and new and existing export controls or changes to existing export controls could limit alternative manufacturing locations and negatively impact our business.",
+    "issuer": "NVDA",
+    "source": "data/raw/sec-edgar-filings/NVDA/10-K/0001045810-24-000029/full-submission.txt",
+    "filing_type": "10-K",
+    "filing_year": 2024
+  },
+  {
+    "type": "risk_factor",
+    "name": "Reputation & Brand",
+    "summary": "We believe that diverse teams fuel innovation, and we are committed to creating an inclusive culture that supports all employees.",
+    "issuer": "NVDA",
+    "source": "data/raw/sec-edgar-filings/NVDA/10-K/0001045810-24-000029/full-submission.txt",
+    "filing_type": "10-K",
+    "filing_year": 2024
+  },
+  {
     "type": "product",
-    "name": "AI Foundations",
+    "name": "NVIDIA DGX Cloud",
+    "issuer": "NVDA",
+    "source": "data/raw/sec-edgar-filings/NVDA/10-K/0001045810-24-000029/full-submission.txt",
+    "filing_type": "10-K",
+    "filing_year": 2024
+  },
+  {
+    "type": "risk_factor",
+    "name": "Product Quality & Liability",
+    "summary": "Defects in our products have caused and could cause us to incur significant expenses to remediate and could damage our business.",
+    "issuer": "NVDA",
+    "source": "data/raw/sec-edgar-filings/NVDA/10-K/0001045810-24-000029/full-submission.txt",
+    "filing_type": "10-K",
+    "filing_year": 2024
+  },
+  {
+    "type": "risk_factor",
+    "name": "Cybersecurity & Data Breaches",
+    "summary": "Product, system security and data breaches and cyber-attacks could disrupt our operations and adversely affect our financial condition, stock price and reputation.",
+    "issuer": "NVDA",
+    "source": "data/raw/sec-edgar-filings/NVDA/10-K/0001045810-24-000029/full-submission.txt",
+    "filing_type": "10-K",
+    "filing_year": 2024
+  },
+  {
+    "type": "risk_factor",
+    "name": "Debt & Liquidity",
+    "summary": "Our indebtedness could adversely affect our financial position and cash flows from operations and prevent us from implementing our strategy or fulfilling our contractual obligations.",
+    "issuer": "NVDA",
+    "source": "data/raw/sec-edgar-filings/NVDA/10-K/0001045810-24-000029/full-submission.txt",
+    "filing_type": "10-K",
+    "filing_year": 2024
+  },
+  {
+    "type": "risk_factor",
+    "name": "Intellectual Property",
+    "summary": "Adequately protecting our IP rights could be costly, and our ability to compete could be harmed if we are unsuccessful or if we are prohibited from making or selling our products.",
+    "issuer": "NVDA",
+    "source": "data/raw/sec-edgar-filings/NVDA/10-K/0001045810-24-000029/full-submission.txt",
+    "filing_type": "10-K",
+    "filing_year": 2024
+  },
+  {
+    "type": "product",
+    "name": "NVIDIA DGX Cloud services",
+    "issuer": "NVDA",
+    "source": "data/raw/sec-edgar-filings/NVDA/10-K/0001045810-24-000029/full-submission.txt",
+    "filing_type": "10-K",
+    "filing_year": 2024
+  },
+  {
+    "type": "product",
+    "name": "NVIDIA AI Foundations",
+    "issuer": "NVDA",
+    "source": "data/raw/sec-edgar-filings/NVDA/10-K/0001045810-24-000029/full-submission.txt",
+    "filing_type": "10-K",
+    "filing_year": 2024
+  },
+  {
+    "type": "product",
+    "name": "Omniverse platform",
+    "issuer": "NVDA",
+    "source": "data/raw/sec-edgar-filings/NVDA/10-K/0001045810-24-000029/full-submission.txt",
+    "filing_type": "10-K",
+    "filing_year": 2024
+  },
+  {
+    "type": "product",
+    "name": "Grace CPU",
+    "issuer": "NVDA",
+    "source": "data/raw/sec-edgar-filings/NVDA/10-K/0001045810-24-000029/full-submission.txt",
+    "filing_type": "10-K",
+    "filing_year": 2024
+  },
+  {
+    "type": "product",
+    "name": "Grace Hopper Superchips",
+    "issuer": "NVDA",
+    "source": "data/raw/sec-edgar-filings/NVDA/10-K/0001045810-24-000029/full-submission.txt",
+    "filing_type": "10-K",
+    "filing_year": 2024
+  },
+  {
+    "type": "risk_factor",
+    "name": "Foreign Operations & Geopolitical Risk",
+    "summary": "International sales expose us to risks from geopolitical tensions and regulatory changes that could adversely affect our operations.",
+    "issuer": "NVDA",
+    "source": "data/raw/sec-edgar-filings/NVDA/10-K/0001045810-24-000029/full-submission.txt",
+    "filing_type": "10-K",
+    "filing_year": 2024
+  },
+  {
+    "type": "organization",
+    "name": "Micron",
+    "role": "supplier_partner",
+    "issuer": "NVDA",
+    "source": "data/raw/sec-edgar-filings/NVDA/10-K/0001045810-24-000029/full-submission.txt",
+    "filing_type": "10-K",
+    "filing_year": 2024
+  },
+  {
+    "type": "risk_factor",
+    "name": "Litigation",
+    "summary": "We are defending a securities class action lawsuit from multiple shareholders asserting claims related to false and misleading statements about channel inventory and cryptocurrency mining.",
+    "issuer": "NVDA",
+    "source": "data/raw/sec-edgar-filings/NVDA/10-K/0001045810-24-000029/full-submission.txt",
+    "filing_type": "10-K",
+    "filing_year": 2024
+  },
+  {
+    "type": "organization",
+    "name": "Santa Clara, California",
+    "role": "other",
     "issuer": "NVDA",
     "source": "data/raw/sec-edgar-filings/NVDA/10-K/0001045810-24-000029/full-submission.txt",
     "filing_type": "10-K",
@@ -1996,16 +3358,27 @@
     "filing_year": 2024
   },
   {
-    "type": "product",
-    "name": "DLSS 3.5 Ray Reconstruction",
+    "type": "organization",
+    "name": "OECD",
+    "role": "other",
     "issuer": "NVDA",
     "source": "data/raw/sec-edgar-filings/NVDA/10-K/0001045810-24-000029/full-submission.txt",
     "filing_type": "10-K",
     "filing_year": 2024
   },
   {
-    "type": "product",
-    "name": "TensorRT-LLM",
+    "type": "organization",
+    "name": "European Union",
+    "role": "other",
+    "issuer": "NVDA",
+    "source": "data/raw/sec-edgar-filings/NVDA/10-K/0001045810-24-000029/full-submission.txt",
+    "filing_type": "10-K",
+    "filing_year": 2024
+  },
+  {
+    "type": "organization",
+    "name": "United Kingdom",
+    "role": "other",
     "issuer": "NVDA",
     "source": "data/raw/sec-edgar-filings/NVDA/10-K/0001045810-24-000029/full-submission.txt",
     "filing_type": "10-K",
@@ -2039,63 +3412,7 @@
   },
   {
     "type": "product",
-    "name": "CUDA",
-    "issuer": "NVDA",
-    "source": "data/raw/sec-edgar-filings/NVDA/10-K/0001045810-25-000023/full-submission.txt",
-    "filing_type": "10-K",
-    "filing_year": 2025
-  },
-  {
-    "type": "product",
-    "name": "NVIDIA DRIVE",
-    "issuer": "NVDA",
-    "source": "data/raw/sec-edgar-filings/NVDA/10-K/0001045810-25-000023/full-submission.txt",
-    "filing_type": "10-K",
-    "filing_year": 2025
-  },
-  {
-    "type": "product",
-    "name": "Clara",
-    "issuer": "NVDA",
-    "source": "data/raw/sec-edgar-filings/NVDA/10-K/0001045810-25-000023/full-submission.txt",
-    "filing_type": "10-K",
-    "filing_year": 2025
-  },
-  {
-    "type": "product",
-    "name": "Omniverse",
-    "issuer": "NVDA",
-    "source": "data/raw/sec-edgar-filings/NVDA/10-K/0001045810-25-000023/full-submission.txt",
-    "filing_type": "10-K",
-    "filing_year": 2025
-  },
-  {
-    "type": "product",
-    "name": "NVIDIA AI Enterprise",
-    "issuer": "NVDA",
-    "source": "data/raw/sec-edgar-filings/NVDA/10-K/0001045810-25-000023/full-submission.txt",
-    "filing_type": "10-K",
-    "filing_year": 2025
-  },
-  {
-    "type": "product",
-    "name": "Grace",
-    "issuer": "NVDA",
-    "source": "data/raw/sec-edgar-filings/NVDA/10-K/0001045810-25-000023/full-submission.txt",
-    "filing_type": "10-K",
-    "filing_year": 2025
-  },
-  {
-    "type": "product",
-    "name": "GeForce RTX",
-    "issuer": "NVDA",
-    "source": "data/raw/sec-edgar-filings/NVDA/10-K/0001045810-25-000023/full-submission.txt",
-    "filing_type": "10-K",
-    "filing_year": 2025
-  },
-  {
-    "type": "product",
-    "name": "GeForce GTX",
+    "name": "GeForce GPUs",
     "issuer": "NVDA",
     "source": "data/raw/sec-edgar-filings/NVDA/10-K/0001045810-25-000023/full-submission.txt",
     "filing_type": "10-K",
@@ -2111,7 +3428,7 @@
   },
   {
     "type": "product",
-    "name": "NVIDIA vGPU",
+    "name": "NVIDIA AI Enterprise",
     "issuer": "NVDA",
     "source": "data/raw/sec-edgar-filings/NVDA/10-K/0001045810-25-000023/full-submission.txt",
     "filing_type": "10-K",
@@ -2135,14 +3452,6 @@
   },
   {
     "type": "product",
-    "name": "NVIDIA Blackwell GeForce RTX 50 Series",
-    "issuer": "NVDA",
-    "source": "data/raw/sec-edgar-filings/NVDA/10-K/0001045810-25-000023/full-submission.txt",
-    "filing_type": "10-K",
-    "filing_year": 2025
-  },
-  {
-    "type": "product",
     "name": "NVIDIA Omniverse",
     "issuer": "NVDA",
     "source": "data/raw/sec-edgar-filings/NVDA/10-K/0001045810-25-000023/full-submission.txt",
@@ -2150,24 +3459,27 @@
     "filing_year": 2025
   },
   {
-    "type": "product",
-    "name": "DRIVE Hyperion",
+    "type": "risk_factor",
+    "name": "Competition",
+    "summary": "The market for PC GPUs is expanding because of the burgeoning population of live streamers, broadcasters, artists, and creators.",
     "issuer": "NVDA",
     "source": "data/raw/sec-edgar-filings/NVDA/10-K/0001045810-25-000023/full-submission.txt",
     "filing_type": "10-K",
     "filing_year": 2025
   },
   {
-    "type": "product",
-    "name": "DRIVE AGX",
+    "type": "risk_factor",
+    "name": "Macroeconomic & Market Conditions",
+    "summary": "Gaming is the largest entertainment industry, with PC gaming as the predominant platform.",
     "issuer": "NVDA",
     "source": "data/raw/sec-edgar-filings/NVDA/10-K/0001045810-25-000023/full-submission.txt",
     "filing_type": "10-K",
     "filing_year": 2025
   },
   {
-    "type": "product",
-    "name": "DRIVE OS",
+    "type": "risk_factor",
+    "name": "Talent & Labor",
+    "summary": "We work with several hundred partners in the automotive ecosystem including automakers, truck makers, tier-one suppliers, sensor manufacturers, automotive research institutions, HD mapping companies, and startups to develop and deploy AI systems for self-driving vehicles.",
     "issuer": "NVDA",
     "source": "data/raw/sec-edgar-filings/NVDA/10-K/0001045810-25-000023/full-submission.txt",
     "filing_type": "10-K",
@@ -2212,7 +3524,7 @@
   {
     "type": "organization",
     "name": "Hon Hai Precision Industry Co., Ltd.",
-    "role": "supplier_partner",
+    "role": "other",
     "issuer": "NVDA",
     "source": "data/raw/sec-edgar-filings/NVDA/10-K/0001045810-25-000023/full-submission.txt",
     "filing_type": "10-K",
@@ -2221,7 +3533,7 @@
   {
     "type": "organization",
     "name": "Wistron Corporation",
-    "role": "supplier_partner",
+    "role": "other",
     "issuer": "NVDA",
     "source": "data/raw/sec-edgar-filings/NVDA/10-K/0001045810-25-000023/full-submission.txt",
     "filing_type": "10-K",
@@ -2230,7 +3542,7 @@
   {
     "type": "organization",
     "name": "Fabrinet",
-    "role": "supplier_partner",
+    "role": "other",
     "issuer": "NVDA",
     "source": "data/raw/sec-edgar-filings/NVDA/10-K/0001045810-25-000023/full-submission.txt",
     "filing_type": "10-K",
@@ -2482,6 +3794,14 @@
   },
   {
     "type": "product",
+    "name": "Omniverse",
+    "issuer": "NVDA",
+    "source": "data/raw/sec-edgar-filings/NVDA/10-K/0001045810-25-000023/full-submission.txt",
+    "filing_type": "10-K",
+    "filing_year": 2025
+  },
+  {
+    "type": "product",
     "name": "vGPU",
     "issuer": "NVDA",
     "source": "data/raw/sec-edgar-filings/NVDA/10-K/0001045810-25-000023/full-submission.txt",
@@ -2491,6 +3811,24 @@
   {
     "type": "product",
     "name": "DRIVE",
+    "issuer": "NVDA",
+    "source": "data/raw/sec-edgar-filings/NVDA/10-K/0001045810-25-000023/full-submission.txt",
+    "filing_type": "10-K",
+    "filing_year": 2025
+  },
+  {
+    "type": "risk_factor",
+    "name": "Supply Chain & Manufacturing",
+    "summary": "We have expanded our supplier relationships to build redundancy and resilience in our operations to provide long-term manufacturing capacity aligned with growing customer demand.",
+    "issuer": "NVDA",
+    "source": "data/raw/sec-edgar-filings/NVDA/10-K/0001045810-25-000023/full-submission.txt",
+    "filing_type": "10-K",
+    "filing_year": 2025
+  },
+  {
+    "type": "risk_factor",
+    "name": "Regulatory & Legal Compliance",
+    "summary": "Over the past three years, we have been subject to a series of shifting and expanding export control restrictions, impacting our ability to serve customers outside the United States.",
     "issuer": "NVDA",
     "source": "data/raw/sec-edgar-filings/NVDA/10-K/0001045810-25-000023/full-submission.txt",
     "filing_type": "10-K",
@@ -2593,30 +3931,6 @@
     "filing_year": 2025
   },
   {
-    "type": "product",
-    "name": "NVIDIA DGX",
-    "issuer": "NVDA",
-    "source": "data/raw/sec-edgar-filings/NVDA/10-K/0001045810-25-000023/full-submission.txt",
-    "filing_type": "10-K",
-    "filing_year": 2025
-  },
-  {
-    "type": "product",
-    "name": "HGX",
-    "issuer": "NVDA",
-    "source": "data/raw/sec-edgar-filings/NVDA/10-K/0001045810-25-000023/full-submission.txt",
-    "filing_type": "10-K",
-    "filing_year": 2025
-  },
-  {
-    "type": "product",
-    "name": "MGX",
-    "issuer": "NVDA",
-    "source": "data/raw/sec-edgar-filings/NVDA/10-K/0001045810-25-000023/full-submission.txt",
-    "filing_type": "10-K",
-    "filing_year": 2025
-  },
-  {
     "type": "organization",
     "name": "Cisco Systems, Inc.",
     "role": "other",
@@ -2681,8 +3995,18 @@
   },
   {
     "type": "organization",
-    "name": "Cooley LLP",
-    "role": "institutional_investor",
+    "name": "Sun Microsystems, Inc.",
+    "role": "competitor",
+    "issuer": "NVDA",
+    "source": "data/raw/sec-edgar-filings/NVDA/10-K/0001045810-25-000023/full-submission.txt",
+    "filing_type": "10-K",
+    "filing_year": 2025,
+    "relationship": "COMPETES_WITH"
+  },
+  {
+    "type": "organization",
+    "name": "Booz Allen Hamilton Inc.",
+    "role": "other",
     "issuer": "NVDA",
     "source": "data/raw/sec-edgar-filings/NVDA/10-K/0001045810-25-000023/full-submission.txt",
     "filing_type": "10-K",
@@ -2698,14 +4022,142 @@
     "filing_year": 2025
   },
   {
+    "type": "product",
+    "name": "NVIDIA DRIVE",
+    "issuer": "NVDA",
+    "source": "data/raw/sec-edgar-filings/NVDA/10-K/0001045810-25-000023/full-submission.txt",
+    "filing_type": "10-K",
+    "filing_year": 2025
+  },
+  {
+    "type": "risk_factor",
+    "name": "Cybersecurity & Data Breaches",
+    "summary": "Product, system security and data breaches and cyber-attacks could disrupt our operations and adversely affect our financial condition, stock price and reputation.",
+    "issuer": "NVDA",
+    "source": "data/raw/sec-edgar-filings/NVDA/10-K/0001045810-25-000023/full-submission.txt",
+    "filing_type": "10-K",
+    "filing_year": 2025
+  },
+  {
+    "type": "risk_factor",
+    "name": "Intellectual Property",
+    "summary": "Adequately protecting our IP rights could be costly, and our ability to compete could be harmed if we are unsuccessful or if we are prohibited from making or selling our products.",
+    "issuer": "NVDA",
+    "source": "data/raw/sec-edgar-filings/NVDA/10-K/0001045810-25-000023/full-submission.txt",
+    "filing_type": "10-K",
+    "filing_year": 2025
+  },
+  {
+    "type": "risk_factor",
+    "name": "Litigation",
+    "summary": "Our business is exposed to the burden and risks associated with litigation, investigations, and regulatory proceedings.",
+    "issuer": "NVDA",
+    "source": "data/raw/sec-edgar-filings/NVDA/10-K/0001045810-25-000023/full-submission.txt",
+    "filing_type": "10-K",
+    "filing_year": 2025
+  },
+  {
+    "type": "risk_factor",
+    "name": "Product Quality & Liability",
+    "summary": "Defects in our products have caused and could cause us to incur significant expenses to remediate, which can damage our reputation and cause us to lose market share.",
+    "issuer": "NVDA",
+    "source": "data/raw/sec-edgar-filings/NVDA/10-K/0001045810-25-000023/full-submission.txt",
+    "filing_type": "10-K",
+    "filing_year": 2025
+  },
+  {
     "type": "organization",
-    "name": "Sun Microsystems, Inc.",
-    "role": "competitor",
+    "name": "OEMs",
+    "role": "other",
     "issuer": "NVDA",
     "source": "data/raw/sec-edgar-filings/NVDA/10-K/0001045810-25-000023/full-submission.txt",
     "filing_type": "10-K",
     "filing_year": 2025,
     "relationship": "COMPETES_WITH"
+  },
+  {
+    "type": "organization",
+    "name": "ODMs",
+    "role": "other",
+    "issuer": "NVDA",
+    "source": "data/raw/sec-edgar-filings/NVDA/10-K/0001045810-25-000023/full-submission.txt",
+    "filing_type": "10-K",
+    "filing_year": 2025,
+    "relationship": "COMPETES_WITH"
+  },
+  {
+    "type": "organization",
+    "name": "AIB manufacturers",
+    "role": "other",
+    "issuer": "NVDA",
+    "source": "data/raw/sec-edgar-filings/NVDA/10-K/0001045810-25-000023/full-submission.txt",
+    "filing_type": "10-K",
+    "filing_year": 2025,
+    "relationship": "COMPETES_WITH"
+  },
+  {
+    "type": "organization",
+    "name": "automotive manufacturers",
+    "role": "other",
+    "issuer": "NVDA",
+    "source": "data/raw/sec-edgar-filings/NVDA/10-K/0001045810-25-000023/full-submission.txt",
+    "filing_type": "10-K",
+    "filing_year": 2025,
+    "relationship": "COMPETES_WITH"
+  },
+  {
+    "type": "organization",
+    "name": "tier 1 automotive suppliers",
+    "role": "other",
+    "issuer": "NVDA",
+    "source": "data/raw/sec-edgar-filings/NVDA/10-K/0001045810-25-000023/full-submission.txt",
+    "filing_type": "10-K",
+    "filing_year": 2025,
+    "relationship": "COMPETES_WITH"
+  },
+  {
+    "type": "risk_factor",
+    "name": "Debt & Liquidity",
+    "summary": "Adverse economic conditions may harm our business, including increased costs for wafers, components, logistics, and other supply chain expenses.",
+    "issuer": "NVDA",
+    "source": "data/raw/sec-edgar-filings/NVDA/10-K/0001045810-25-000023/full-submission.txt",
+    "filing_type": "10-K",
+    "filing_year": 2025
+  },
+  {
+    "type": "risk_factor",
+    "name": "Foreign Operations & Geopolitical Risk",
+    "summary": "International sales and operations expose us to risks that could harm our business, including economic and political conditions in countries where we operate.",
+    "issuer": "NVDA",
+    "source": "data/raw/sec-edgar-filings/NVDA/10-K/0001045810-25-000023/full-submission.txt",
+    "filing_type": "10-K",
+    "filing_year": 2025
+  },
+  {
+    "type": "risk_factor",
+    "name": "Reputation & Brand",
+    "summary": "Breaches of our security measures could expose us to risks of loss or misuse of sensitive information, potentially resulting in litigation and damage to our brand.",
+    "issuer": "NVDA",
+    "source": "data/raw/sec-edgar-filings/NVDA/10-K/0001045810-25-000023/full-submission.txt",
+    "filing_type": "10-K",
+    "filing_year": 2025
+  },
+  {
+    "type": "person",
+    "name": "none",
+    "issuer": "NVDA",
+    "source": "data/raw/sec-edgar-filings/NVDA/10-K/0001045810-25-000023/full-submission.txt",
+    "filing_type": "10-K",
+    "filing_year": 2025
+  },
+  {
+    "type": "organization",
+    "name": "Customer B",
+    "role": "other",
+    "issuer": "NVDA",
+    "source": "data/raw/sec-edgar-filings/NVDA/10-K/0001045810-25-000023/full-submission.txt",
+    "filing_type": "10-K",
+    "filing_year": 2025
   },
   {
     "type": "organization",
@@ -2728,16 +4180,7 @@
   {
     "type": "organization",
     "name": "Mellanox",
-    "role": "subsidiary",
-    "issuer": "NVDA",
-    "source": "data/raw/sec-edgar-filings/NVDA/10-K/0001045810-25-000023/full-submission.txt",
-    "filing_type": "10-K",
-    "filing_year": 2025,
-    "relationship": "SUBSIDIARY_OF"
-  },
-  {
-    "type": "product",
-    "name": "L40",
+    "role": "other",
     "issuer": "NVDA",
     "source": "data/raw/sec-edgar-filings/NVDA/10-K/0001045810-25-000023/full-submission.txt",
     "filing_type": "10-K",
@@ -2746,7 +4189,7 @@
   {
     "type": "organization",
     "name": "Micron",
-    "role": "supplier_partner",
+    "role": "other",
     "issuer": "NVDA",
     "source": "data/raw/sec-edgar-filings/NVDA/10-K/0001045810-25-000023/full-submission.txt",
     "filing_type": "10-K",
@@ -2754,23 +4197,7 @@
   },
   {
     "type": "product",
-    "name": "GeForce RTX 40 Series GPUs",
-    "issuer": "NVDA",
-    "source": "data/raw/sec-edgar-filings/NVDA/10-K/0001045810-25-000023/full-submission.txt",
-    "filing_type": "10-K",
-    "filing_year": 2025
-  },
-  {
-    "type": "product",
-    "name": "Ada RTX GPU",
-    "issuer": "NVDA",
-    "source": "data/raw/sec-edgar-filings/NVDA/10-K/0001045810-25-000023/full-submission.txt",
-    "filing_type": "10-K",
-    "filing_year": 2025
-  },
-  {
-    "type": "product",
-    "name": "self-driving platforms",
+    "name": "Stock Split",
     "issuer": "NVDA",
     "source": "data/raw/sec-edgar-filings/NVDA/10-K/0001045810-25-000023/full-submission.txt",
     "filing_type": "10-K",
@@ -2794,6 +4221,78 @@
   },
   {
     "type": "product",
+    "name": "L40",
+    "issuer": "NVDA",
+    "source": "data/raw/sec-edgar-filings/NVDA/10-K/0001045810-25-000023/full-submission.txt",
+    "filing_type": "10-K",
+    "filing_year": 2025
+  },
+  {
+    "type": "product",
+    "name": "GB200 NVL 72",
+    "issuer": "NVDA",
+    "source": "data/raw/sec-edgar-filings/NVDA/10-K/0001045810-25-000023/full-submission.txt",
+    "filing_type": "10-K",
+    "filing_year": 2025
+  },
+  {
+    "type": "product",
+    "name": "NVL 36",
+    "issuer": "NVDA",
+    "source": "data/raw/sec-edgar-filings/NVDA/10-K/0001045810-25-000023/full-submission.txt",
+    "filing_type": "10-K",
+    "filing_year": 2025
+  },
+  {
+    "type": "product",
+    "name": "NVIDIA DGX",
+    "issuer": "NVDA",
+    "source": "data/raw/sec-edgar-filings/NVDA/10-K/0001045810-25-000023/full-submission.txt",
+    "filing_type": "10-K",
+    "filing_year": 2025
+  },
+  {
+    "type": "product",
+    "name": "HGX",
+    "issuer": "NVDA",
+    "source": "data/raw/sec-edgar-filings/NVDA/10-K/0001045810-25-000023/full-submission.txt",
+    "filing_type": "10-K",
+    "filing_year": 2025
+  },
+  {
+    "type": "product",
+    "name": "MGX",
+    "issuer": "NVDA",
+    "source": "data/raw/sec-edgar-filings/NVDA/10-K/0001045810-25-000023/full-submission.txt",
+    "filing_type": "10-K",
+    "filing_year": 2025
+  },
+  {
+    "type": "product",
+    "name": "GeForce RTX 40 Series GPUs",
+    "issuer": "NVDA",
+    "source": "data/raw/sec-edgar-filings/NVDA/10-K/0001045810-25-000023/full-submission.txt",
+    "filing_type": "10-K",
+    "filing_year": 2025
+  },
+  {
+    "type": "product",
+    "name": "Ada RTX GPU workstations",
+    "issuer": "NVDA",
+    "source": "data/raw/sec-edgar-filings/NVDA/10-K/0001045810-25-000023/full-submission.txt",
+    "filing_type": "10-K",
+    "filing_year": 2025
+  },
+  {
+    "type": "product",
+    "name": "self-driving platforms",
+    "issuer": "NVDA",
+    "source": "data/raw/sec-edgar-filings/NVDA/10-K/0001045810-25-000023/full-submission.txt",
+    "filing_type": "10-K",
+    "filing_year": 2025
+  },
+  {
+    "type": "product",
     "name": "Hopper computing platform",
     "issuer": "NVDA",
     "source": "data/raw/sec-edgar-filings/NVDA/10-K/0001045810-25-000023/full-submission.txt",
@@ -2809,13 +4308,14 @@
     "filing_year": 2025
   },
   {
-    "type": "organization",
-    "name": "SoftBank Group Corp",
-    "role": "other",
+    "type": "person",
+    "name": "Huang",
     "issuer": "NVDA",
     "source": "data/raw/sec-edgar-filings/NVDA/10-K/0001045810-25-000023/full-submission.txt",
     "filing_type": "10-K",
-    "filing_year": 2025
+    "filing_year": 2025,
+    "relationship": "EXECUTIVE_OF",
+    "title": "CEO"
   },
   {
     "type": "product",
@@ -2827,7 +4327,7 @@
   },
   {
     "type": "product",
-    "name": "NVIDIA DRIVE",
+    "name": "NVIDIA DRIVE stack",
     "issuer": "NVDA",
     "source": "data/raw/sec-edgar-filings/NVDA/10-K/0001045810-26-000021/full-submission.txt",
     "filing_type": "10-K",
@@ -2867,7 +4367,16 @@
   },
   {
     "type": "product",
-    "name": "Blackwell",
+    "name": "Blackwell architecture",
+    "issuer": "NVDA",
+    "source": "data/raw/sec-edgar-filings/NVDA/10-K/0001045810-26-000021/full-submission.txt",
+    "filing_type": "10-K",
+    "filing_year": 2026
+  },
+  {
+    "type": "risk_factor",
+    "name": "Macroeconomic & Market Conditions",
+    "summary": "The aggregate market value of the voting stock held by non-affiliates of the registrant as of July 25, 2025 was approximately $4.0 trillion.",
     "issuer": "NVDA",
     "source": "data/raw/sec-edgar-filings/NVDA/10-K/0001045810-26-000021/full-submission.txt",
     "filing_type": "10-K",
@@ -2884,14 +4393,6 @@
   {
     "type": "product",
     "name": "NVIDIA Blackwell Ultra platform",
-    "issuer": "NVDA",
-    "source": "data/raw/sec-edgar-filings/NVDA/10-K/0001045810-26-000021/full-submission.txt",
-    "filing_type": "10-K",
-    "filing_year": 2026
-  },
-  {
-    "type": "product",
-    "name": "Dynamo inference software",
     "issuer": "NVDA",
     "source": "data/raw/sec-edgar-filings/NVDA/10-K/0001045810-26-000021/full-submission.txt",
     "filing_type": "10-K",
@@ -2923,7 +4424,7 @@
   },
   {
     "type": "product",
-    "name": "GeForce RTX GPUs",
+    "name": "NVIDIA RTX",
     "issuer": "NVDA",
     "source": "data/raw/sec-edgar-filings/NVDA/10-K/0001045810-26-000021/full-submission.txt",
     "filing_type": "10-K",
@@ -2940,6 +4441,33 @@
   {
     "type": "product",
     "name": "DRIVE Hyperion",
+    "issuer": "NVDA",
+    "source": "data/raw/sec-edgar-filings/NVDA/10-K/0001045810-26-000021/full-submission.txt",
+    "filing_type": "10-K",
+    "filing_year": 2026
+  },
+  {
+    "type": "risk_factor",
+    "name": "Competition",
+    "summary": "The market for PC GPUs is expanding due to the growing population of live streamers, broadcasters, artists, and creators.",
+    "issuer": "NVDA",
+    "source": "data/raw/sec-edgar-filings/NVDA/10-K/0001045810-26-000021/full-submission.txt",
+    "filing_type": "10-K",
+    "filing_year": 2026
+  },
+  {
+    "type": "risk_factor",
+    "name": "Talent & Labor",
+    "summary": "More than half of our engineers work on software.",
+    "issuer": "NVDA",
+    "source": "data/raw/sec-edgar-filings/NVDA/10-K/0001045810-26-000021/full-submission.txt",
+    "filing_type": "10-K",
+    "filing_year": 2026
+  },
+  {
+    "type": "risk_factor",
+    "name": "Regulatory & Legal Compliance",
+    "summary": "We work with industry leaders to help build or transform their applications and data center infrastructure.",
     "issuer": "NVDA",
     "source": "data/raw/sec-edgar-filings/NVDA/10-K/0001045810-26-000021/full-submission.txt",
     "filing_type": "10-K",
@@ -2970,7 +4498,8 @@
     "issuer": "NVDA",
     "source": "data/raw/sec-edgar-filings/NVDA/10-K/0001045810-26-000021/full-submission.txt",
     "filing_type": "10-K",
-    "filing_year": 2026
+    "filing_year": 2026,
+    "relationship": "PARTNERS_WITH"
   },
   {
     "type": "organization",
@@ -2979,7 +4508,8 @@
     "issuer": "NVDA",
     "source": "data/raw/sec-edgar-filings/NVDA/10-K/0001045810-26-000021/full-submission.txt",
     "filing_type": "10-K",
-    "filing_year": 2026
+    "filing_year": 2026,
+    "relationship": "PARTNERS_WITH"
   },
   {
     "type": "organization",
@@ -2988,7 +4518,8 @@
     "issuer": "NVDA",
     "source": "data/raw/sec-edgar-filings/NVDA/10-K/0001045810-26-000021/full-submission.txt",
     "filing_type": "10-K",
-    "filing_year": 2026
+    "filing_year": 2026,
+    "relationship": "PARTNERS_WITH"
   },
   {
     "type": "organization",
@@ -2997,7 +4528,8 @@
     "issuer": "NVDA",
     "source": "data/raw/sec-edgar-filings/NVDA/10-K/0001045810-26-000021/full-submission.txt",
     "filing_type": "10-K",
-    "filing_year": 2026
+    "filing_year": 2026,
+    "relationship": "PARTNERS_WITH"
   },
   {
     "type": "organization",
@@ -3006,7 +4538,8 @@
     "issuer": "NVDA",
     "source": "data/raw/sec-edgar-filings/NVDA/10-K/0001045810-26-000021/full-submission.txt",
     "filing_type": "10-K",
-    "filing_year": 2026
+    "filing_year": 2026,
+    "relationship": "PARTNERS_WITH"
   },
   {
     "type": "organization",
@@ -3180,7 +4713,7 @@
   },
   {
     "type": "organization",
-    "name": "Marvell Technology, Inc.",
+    "name": "Marvell Technology, Inc",
     "role": "competitor",
     "issuer": "NVDA",
     "source": "data/raw/sec-edgar-filings/NVDA/10-K/0001045810-26-000021/full-submission.txt",
@@ -3198,23 +4731,7 @@
   },
   {
     "type": "product",
-    "name": "NVIDIA RTX",
-    "issuer": "NVDA",
-    "source": "data/raw/sec-edgar-filings/NVDA/10-K/0001045810-26-000021/full-submission.txt",
-    "filing_type": "10-K",
-    "filing_year": 2026
-  },
-  {
-    "type": "product",
     "name": "DRIVE",
-    "issuer": "NVDA",
-    "source": "data/raw/sec-edgar-filings/NVDA/10-K/0001045810-26-000021/full-submission.txt",
-    "filing_type": "10-K",
-    "filing_year": 2026
-  },
-  {
-    "type": "product",
-    "name": "A100",
     "issuer": "NVDA",
     "source": "data/raw/sec-edgar-filings/NVDA/10-K/0001045810-26-000021/full-submission.txt",
     "filing_type": "10-K",
@@ -3230,7 +4747,7 @@
   },
   {
     "type": "product",
-    "name": "A800",
+    "name": "A100",
     "issuer": "NVDA",
     "source": "data/raw/sec-edgar-filings/NVDA/10-K/0001045810-26-000021/full-submission.txt",
     "filing_type": "10-K",
@@ -3239,6 +4756,143 @@
   {
     "type": "product",
     "name": "H20",
+    "issuer": "NVDA",
+    "source": "data/raw/sec-edgar-filings/NVDA/10-K/0001045810-26-000021/full-submission.txt",
+    "filing_type": "10-K",
+    "filing_year": 2026
+  },
+  {
+    "type": "risk_factor",
+    "name": "Debt & Liquidity",
+    "summary": "As a result of export licensing requirements, we incurred a $4.5 billion charge in the first quarter of fiscal year 2026 associated with H20 for excess inventory and purchase obligations.",
+    "issuer": "NVDA",
+    "source": "data/raw/sec-edgar-filings/NVDA/10-K/0001045810-26-000021/full-submission.txt",
+    "filing_type": "10-K",
+    "filing_year": 2026
+  },
+  {
+    "type": "product",
+    "name": "H200",
+    "issuer": "NVDA",
+    "source": "data/raw/sec-edgar-filings/NVDA/10-K/0001045810-26-000021/full-submission.txt",
+    "filing_type": "10-K",
+    "filing_year": 2026
+  },
+  {
+    "type": "product",
+    "name": "GB200",
+    "issuer": "NVDA",
+    "source": "data/raw/sec-edgar-filings/NVDA/10-K/0001045810-26-000021/full-submission.txt",
+    "filing_type": "10-K",
+    "filing_year": 2026
+  },
+  {
+    "type": "product",
+    "name": "GB300",
+    "issuer": "NVDA",
+    "source": "data/raw/sec-edgar-filings/NVDA/10-K/0001045810-26-000021/full-submission.txt",
+    "filing_type": "10-K",
+    "filing_year": 2026
+  },
+  {
+    "type": "product",
+    "name": "NVIDIA Omniverse",
+    "issuer": "NVDA",
+    "source": "data/raw/sec-edgar-filings/NVDA/10-K/0001045810-26-000021/full-submission.txt",
+    "filing_type": "10-K",
+    "filing_year": 2026
+  },
+  {
+    "type": "product",
+    "name": "NVIDIA DRIVE",
+    "issuer": "NVDA",
+    "source": "data/raw/sec-edgar-filings/NVDA/10-K/0001045810-26-000021/full-submission.txt",
+    "filing_type": "10-K",
+    "filing_year": 2026
+  },
+  {
+    "type": "risk_factor",
+    "name": "Supply Chain & Manufacturing",
+    "summary": "Long manufacturing lead times and uncertain supply and capacity availability, combined with a failure to estimate customer demand accurately has led and could lead to mismatches between supply and demand.",
+    "issuer": "NVDA",
+    "source": "data/raw/sec-edgar-filings/NVDA/10-K/0001045810-26-000021/full-submission.txt",
+    "filing_type": "10-K",
+    "filing_year": 2026
+  },
+  {
+    "type": "risk_factor",
+    "name": "Product Quality & Liability",
+    "summary": "Defects in our products have caused and could cause us to incur significant expenses to remediate and could damage our business.",
+    "issuer": "NVDA",
+    "source": "data/raw/sec-edgar-filings/NVDA/10-K/0001045810-26-000021/full-submission.txt",
+    "filing_type": "10-K",
+    "filing_year": 2026
+  },
+  {
+    "type": "risk_factor",
+    "name": "Foreign Operations & Geopolitical Risk",
+    "summary": "International sales and operations are a significant part of our business, which exposes us to risks that could harm our business.",
+    "issuer": "NVDA",
+    "source": "data/raw/sec-edgar-filings/NVDA/10-K/0001045810-26-000021/full-submission.txt",
+    "filing_type": "10-K",
+    "filing_year": 2026
+  },
+  {
+    "type": "risk_factor",
+    "name": "Cybersecurity & Data Breaches",
+    "summary": "Product, system security and data protection incidents or breaches, as well as cyber-attacks could disrupt our operations and adversely affect our financial condition, stock price and reputation.",
+    "issuer": "NVDA",
+    "source": "data/raw/sec-edgar-filings/NVDA/10-K/0001045810-26-000021/full-submission.txt",
+    "filing_type": "10-K",
+    "filing_year": 2026
+  },
+  {
+    "type": "risk_factor",
+    "name": "Intellectual Property",
+    "summary": "Adequately protecting our IP rights could be costly, and our ability to compete could be harmed if we are unsuccessful or if we are prohibited from making or selling our products.",
+    "issuer": "NVDA",
+    "source": "data/raw/sec-edgar-filings/NVDA/10-K/0001045810-26-000021/full-submission.txt",
+    "filing_type": "10-K",
+    "filing_year": 2026
+  },
+  {
+    "type": "risk_factor",
+    "name": "Litigation",
+    "summary": "Our business is exposed to the burden and risks associated with litigation, investigations, and regulatory proceedings.",
+    "issuer": "NVDA",
+    "source": "data/raw/sec-edgar-filings/NVDA/10-K/0001045810-26-000021/full-submission.txt",
+    "filing_type": "10-K",
+    "filing_year": 2026
+  },
+  {
+    "type": "risk_factor",
+    "name": "Reputation & Brand",
+    "summary": "Breaches of our security measures could expose us to risks of loss or misuse of sensitive information, resulting in potential litigation and damage to our brand.",
+    "issuer": "NVDA",
+    "source": "data/raw/sec-edgar-filings/NVDA/10-K/0001045810-26-000021/full-submission.txt",
+    "filing_type": "10-K",
+    "filing_year": 2026
+  },
+  {
+    "type": "organization",
+    "name": "USG",
+    "role": "other",
+    "issuer": "NVDA",
+    "source": "data/raw/sec-edgar-filings/NVDA/10-K/0001045810-26-000021/full-submission.txt",
+    "filing_type": "10-K",
+    "filing_year": 2026
+  },
+  {
+    "type": "product",
+    "name": "A800",
+    "issuer": "NVDA",
+    "source": "data/raw/sec-edgar-filings/NVDA/10-K/0001045810-26-000021/full-submission.txt",
+    "filing_type": "10-K",
+    "filing_year": 2026
+  },
+  {
+    "type": "product",
+    "name": "H800",
     "issuer": "NVDA",
     "source": "data/raw/sec-edgar-filings/NVDA/10-K/0001045810-26-000021/full-submission.txt",
     "filing_type": "10-K",
@@ -3285,64 +4939,6 @@
     "filing_year": 2026
   },
   {
-    "type": "product",
-    "name": "H200",
-    "issuer": "NVDA",
-    "source": "data/raw/sec-edgar-filings/NVDA/10-K/0001045810-26-000021/full-submission.txt",
-    "filing_type": "10-K",
-    "filing_year": 2026
-  },
-  {
-    "type": "product",
-    "name": "GB200",
-    "issuer": "NVDA",
-    "source": "data/raw/sec-edgar-filings/NVDA/10-K/0001045810-26-000021/full-submission.txt",
-    "filing_type": "10-K",
-    "filing_year": 2026
-  },
-  {
-    "type": "product",
-    "name": "GB300",
-    "issuer": "NVDA",
-    "source": "data/raw/sec-edgar-filings/NVDA/10-K/0001045810-26-000021/full-submission.txt",
-    "filing_type": "10-K",
-    "filing_year": 2026
-  },
-  {
-    "type": "organization",
-    "name": "Microsoft",
-    "role": "other",
-    "issuer": "NVDA",
-    "source": "data/raw/sec-edgar-filings/NVDA/10-K/0001045810-26-000021/full-submission.txt",
-    "filing_type": "10-K",
-    "filing_year": 2026
-  },
-  {
-    "type": "product",
-    "name": "NVIDIA Omniverse",
-    "issuer": "NVDA",
-    "source": "data/raw/sec-edgar-filings/NVDA/10-K/0001045810-26-000021/full-submission.txt",
-    "filing_type": "10-K",
-    "filing_year": 2026
-  },
-  {
-    "type": "organization",
-    "name": "OpenAI",
-    "role": "other",
-    "issuer": "NVDA",
-    "source": "data/raw/sec-edgar-filings/NVDA/10-K/0001045810-26-000021/full-submission.txt",
-    "filing_type": "10-K",
-    "filing_year": 2026
-  },
-  {
-    "type": "product",
-    "name": "H800",
-    "issuer": "NVDA",
-    "source": "data/raw/sec-edgar-filings/NVDA/10-K/0001045810-26-000021/full-submission.txt",
-    "filing_type": "10-K",
-    "filing_year": 2026
-  },
-  {
     "type": "organization",
     "name": "Microsoft",
     "role": "other",
@@ -3351,22 +4947,6 @@
     "filing_type": "10-K",
     "filing_year": 2026,
     "relationship": "PARTNERS_WITH"
-  },
-  {
-    "type": "product",
-    "name": "Rubin",
-    "issuer": "NVDA",
-    "source": "data/raw/sec-edgar-filings/NVDA/10-K/0001045810-26-000021/full-submission.txt",
-    "filing_type": "10-K",
-    "filing_year": 2026
-  },
-  {
-    "type": "product",
-    "name": "DGX Spark",
-    "issuer": "NVDA",
-    "source": "data/raw/sec-edgar-filings/NVDA/10-K/0001045810-26-000021/full-submission.txt",
-    "filing_type": "10-K",
-    "filing_year": 2026
   },
   {
     "type": "organization",
@@ -3390,6 +4970,22 @@
     "type": "organization",
     "name": "Groq, Inc.",
     "role": "other",
+    "issuer": "NVDA",
+    "source": "data/raw/sec-edgar-filings/NVDA/10-K/0001045810-26-000021/full-submission.txt",
+    "filing_type": "10-K",
+    "filing_year": 2026
+  },
+  {
+    "type": "product",
+    "name": "GeForce GPUs",
+    "issuer": "NVDA",
+    "source": "data/raw/sec-edgar-filings/NVDA/10-K/0001045810-26-000021/full-submission.txt",
+    "filing_type": "10-K",
+    "filing_year": 2026
+  },
+  {
+    "type": "product",
+    "name": "Quadro/NVIDIA RTX GPUs",
     "issuer": "NVDA",
     "source": "data/raw/sec-edgar-filings/NVDA/10-K/0001045810-26-000021/full-submission.txt",
     "filing_type": "10-K",
@@ -3424,908 +5020,6 @@
     "name": "autonomous and electric vehicle solutions",
     "issuer": "NVDA",
     "source": "data/raw/sec-edgar-filings/NVDA/10-K/0001045810-26-000021/full-submission.txt",
-    "filing_type": "10-K",
-    "filing_year": 2026
-  },
-  {
-    "type": "product",
-    "name": "GeForce GPUs",
-    "issuer": "NVDA",
-    "source": "data/raw/sec-edgar-filings/NVDA/10-K/0001045810-26-000021/full-submission.txt",
-    "filing_type": "10-K",
-    "filing_year": 2026
-  },
-  {
-    "type": "product",
-    "name": "Quadro/NVIDIA RTX GPUs",
-    "issuer": "NVDA",
-    "source": "data/raw/sec-edgar-filings/NVDA/10-K/0001045810-26-000021/full-submission.txt",
-    "filing_type": "10-K",
-    "filing_year": 2026
-  },
-  {
-    "type": "issuer",
-    "name": "MSFT",
-    "ticker": "MSFT",
-    "issuer": "MSFT",
-    "source": "data/raw/sec-edgar-filings/MSFT/10-K/0000950170-25-100235/full-submission.txt",
-    "filing_type": "10-K"
-  },
-  {
-    "type": "product",
-    "name": "Microsoft 365",
-    "issuer": "MSFT",
-    "source": "data/raw/sec-edgar-filings/MSFT/10-K/0000950170-25-100235/full-submission.txt",
-    "filing_type": "10-K",
-    "filing_year": 2025
-  },
-  {
-    "type": "product",
-    "name": "Microsoft Teams",
-    "issuer": "MSFT",
-    "source": "data/raw/sec-edgar-filings/MSFT/10-K/0000950170-25-100235/full-submission.txt",
-    "filing_type": "10-K",
-    "filing_year": 2025
-  },
-  {
-    "type": "product",
-    "name": "Microsoft Edge",
-    "issuer": "MSFT",
-    "source": "data/raw/sec-edgar-filings/MSFT/10-K/0000950170-25-100235/full-submission.txt",
-    "filing_type": "10-K",
-    "filing_year": 2025
-  },
-  {
-    "type": "product",
-    "name": "Bing",
-    "issuer": "MSFT",
-    "source": "data/raw/sec-edgar-filings/MSFT/10-K/0000950170-25-100235/full-submission.txt",
-    "filing_type": "10-K",
-    "filing_year": 2025
-  },
-  {
-    "type": "product",
-    "name": "Microsoft 365 Consumer",
-    "issuer": "MSFT",
-    "source": "data/raw/sec-edgar-filings/MSFT/10-K/0000950170-25-100235/full-submission.txt",
-    "filing_type": "10-K",
-    "filing_year": 2025
-  },
-  {
-    "type": "product",
-    "name": "Xbox Game Pass",
-    "issuer": "MSFT",
-    "source": "data/raw/sec-edgar-filings/MSFT/10-K/0000950170-25-100235/full-submission.txt",
-    "filing_type": "10-K",
-    "filing_year": 2025
-  },
-  {
-    "type": "organization",
-    "name": "LinkedIn",
-    "role": "other",
-    "issuer": "MSFT",
-    "source": "data/raw/sec-edgar-filings/MSFT/10-K/0000950170-25-100235/full-submission.txt",
-    "filing_type": "10-K",
-    "filing_year": 2025
-  },
-  {
-    "type": "organization",
-    "name": "Azure",
-    "role": "other",
-    "issuer": "MSFT",
-    "source": "data/raw/sec-edgar-filings/MSFT/10-K/0000950170-25-100235/full-submission.txt",
-    "filing_type": "10-K",
-    "filing_year": 2025
-  },
-  {
-    "type": "organization",
-    "name": "Microsoft",
-    "role": "other",
-    "issuer": "MSFT",
-    "source": "data/raw/sec-edgar-filings/MSFT/10-K/0000950170-25-100235/full-submission.txt",
-    "filing_type": "10-K",
-    "filing_year": 2025
-  },
-  {
-    "type": "product",
-    "name": "Microsoft 365 Commercial",
-    "issuer": "MSFT",
-    "source": "data/raw/sec-edgar-filings/MSFT/10-K/0000950170-25-100235/full-submission.txt",
-    "filing_type": "10-K",
-    "filing_year": 2025
-  },
-  {
-    "type": "product",
-    "name": "LinkedIn Talent Solutions",
-    "issuer": "MSFT",
-    "source": "data/raw/sec-edgar-filings/MSFT/10-K/0000950170-25-100235/full-submission.txt",
-    "filing_type": "10-K",
-    "filing_year": 2025
-  },
-  {
-    "type": "product",
-    "name": "LinkedIn Marketing Solutions",
-    "issuer": "MSFT",
-    "source": "data/raw/sec-edgar-filings/MSFT/10-K/0000950170-25-100235/full-submission.txt",
-    "filing_type": "10-K",
-    "filing_year": 2025
-  },
-  {
-    "type": "product",
-    "name": "LinkedIn Premium Subscriptions",
-    "issuer": "MSFT",
-    "source": "data/raw/sec-edgar-filings/MSFT/10-K/0000950170-25-100235/full-submission.txt",
-    "filing_type": "10-K",
-    "filing_year": 2025
-  },
-  {
-    "type": "product",
-    "name": "LinkedIn Sales Solutions",
-    "issuer": "MSFT",
-    "source": "data/raw/sec-edgar-filings/MSFT/10-K/0000950170-25-100235/full-submission.txt",
-    "filing_type": "10-K",
-    "filing_year": 2025
-  },
-  {
-    "type": "product",
-    "name": "Dynamics 365",
-    "issuer": "MSFT",
-    "source": "data/raw/sec-edgar-filings/MSFT/10-K/0000950170-25-100235/full-submission.txt",
-    "filing_type": "10-K",
-    "filing_year": 2025
-  },
-  {
-    "type": "product",
-    "name": "Power Apps",
-    "issuer": "MSFT",
-    "source": "data/raw/sec-edgar-filings/MSFT/10-K/0000950170-25-100235/full-submission.txt",
-    "filing_type": "10-K",
-    "filing_year": 2025
-  },
-  {
-    "type": "product",
-    "name": "Power Automate",
-    "issuer": "MSFT",
-    "source": "data/raw/sec-edgar-filings/MSFT/10-K/0000950170-25-100235/full-submission.txt",
-    "filing_type": "10-K",
-    "filing_year": 2025
-  },
-  {
-    "type": "product",
-    "name": "Azure",
-    "issuer": "MSFT",
-    "source": "data/raw/sec-edgar-filings/MSFT/10-K/0000950170-25-100235/full-submission.txt",
-    "filing_type": "10-K",
-    "filing_year": 2025
-  },
-  {
-    "type": "product",
-    "name": "GitHub",
-    "issuer": "MSFT",
-    "source": "data/raw/sec-edgar-filings/MSFT/10-K/0000950170-25-100235/full-submission.txt",
-    "filing_type": "10-K",
-    "filing_year": 2025
-  },
-  {
-    "type": "product",
-    "name": "Nuance Healthcare",
-    "issuer": "MSFT",
-    "source": "data/raw/sec-edgar-filings/MSFT/10-K/0000950170-25-100235/full-submission.txt",
-    "filing_type": "10-K",
-    "filing_year": 2025
-  },
-  {
-    "type": "product",
-    "name": "Surface",
-    "issuer": "MSFT",
-    "source": "data/raw/sec-edgar-filings/MSFT/10-K/0000950170-25-100235/full-submission.txt",
-    "filing_type": "10-K",
-    "filing_year": 2025
-  },
-  {
-    "type": "product",
-    "name": "Xbox",
-    "issuer": "MSFT",
-    "source": "data/raw/sec-edgar-filings/MSFT/10-K/0000950170-25-100235/full-submission.txt",
-    "filing_type": "10-K",
-    "filing_year": 2025
-  },
-  {
-    "type": "product",
-    "name": "Copilot",
-    "issuer": "MSFT",
-    "source": "data/raw/sec-edgar-filings/MSFT/10-K/0000950170-25-100235/full-submission.txt",
-    "filing_type": "10-K",
-    "filing_year": 2025
-  },
-  {
-    "type": "organization",
-    "name": "Dell",
-    "role": "other",
-    "issuer": "MSFT",
-    "source": "data/raw/sec-edgar-filings/MSFT/10-K/0000950170-25-100235/full-submission.txt",
-    "filing_type": "10-K",
-    "filing_year": 2025
-  },
-  {
-    "type": "organization",
-    "name": "Hewlett-Packard",
-    "role": "other",
-    "issuer": "MSFT",
-    "source": "data/raw/sec-edgar-filings/MSFT/10-K/0000950170-25-100235/full-submission.txt",
-    "filing_type": "10-K",
-    "filing_year": 2025
-  },
-  {
-    "type": "organization",
-    "name": "Lenovo",
-    "role": "other",
-    "issuer": "MSFT",
-    "source": "data/raw/sec-edgar-filings/MSFT/10-K/0000950170-25-100235/full-submission.txt",
-    "filing_type": "10-K",
-    "filing_year": 2025
-  },
-  {
-    "type": "product",
-    "name": "Microsoft Copilot",
-    "issuer": "MSFT",
-    "source": "data/raw/sec-edgar-filings/MSFT/10-K/0000950170-25-100235/full-submission.txt",
-    "filing_type": "10-K",
-    "filing_year": 2025
-  },
-  {
-    "type": "product",
-    "name": "Windows",
-    "issuer": "MSFT",
-    "source": "data/raw/sec-edgar-filings/MSFT/10-K/0000950170-25-100235/full-submission.txt",
-    "filing_type": "10-K",
-    "filing_year": 2025
-  },
-  {
-    "type": "product",
-    "name": "Office",
-    "issuer": "MSFT",
-    "source": "data/raw/sec-edgar-filings/MSFT/10-K/0000950170-25-100235/full-submission.txt",
-    "filing_type": "10-K",
-    "filing_year": 2025
-  },
-  {
-    "type": "organization",
-    "name": "Ecolab Inc.",
-    "role": "other",
-    "issuer": "MSFT",
-    "source": "data/raw/sec-edgar-filings/MSFT/10-K/0000950170-25-100235/full-submission.txt",
-    "filing_type": "10-K",
-    "filing_year": 2025
-  },
-  {
-    "type": "organization",
-    "name": "Alaska Air Group, Inc.",
-    "role": "other",
-    "issuer": "MSFT",
-    "source": "data/raw/sec-edgar-filings/MSFT/10-K/0000950170-25-100235/full-submission.txt",
-    "filing_type": "10-K",
-    "filing_year": 2025
-  },
-  {
-    "type": "organization",
-    "name": "Netflix, Inc.",
-    "role": "other",
-    "issuer": "MSFT",
-    "source": "data/raw/sec-edgar-filings/MSFT/10-K/0000950170-25-100235/full-submission.txt",
-    "filing_type": "10-K",
-    "filing_year": 2025
-  },
-  {
-    "type": "organization",
-    "name": "Activision Blizzard, Inc.",
-    "role": "other",
-    "issuer": "MSFT",
-    "source": "data/raw/sec-edgar-filings/MSFT/10-K/0000950170-25-100235/full-submission.txt",
-    "filing_type": "10-K",
-    "filing_year": 2025
-  },
-  {
-    "type": "organization",
-    "name": "OpenAI",
-    "role": "other",
-    "issuer": "MSFT",
-    "source": "data/raw/sec-edgar-filings/MSFT/10-K/0000950170-25-100235/full-submission.txt",
-    "filing_type": "10-K",
-    "filing_year": 2025
-  },
-  {
-    "type": "product",
-    "name": "Xbox consoles",
-    "issuer": "MSFT",
-    "source": "data/raw/sec-edgar-filings/MSFT/10-K/0000950170-25-100235/full-submission.txt",
-    "filing_type": "10-K",
-    "filing_year": 2025
-  },
-  {
-    "type": "product",
-    "name": "Surface devices",
-    "issuer": "MSFT",
-    "source": "data/raw/sec-edgar-filings/MSFT/10-K/0000950170-25-100235/full-submission.txt",
-    "filing_type": "10-K",
-    "filing_year": 2025
-  },
-  {
-    "type": "organization",
-    "name": "National Institute of Standards & Technology",
-    "role": "other",
-    "issuer": "MSFT",
-    "source": "data/raw/sec-edgar-filings/MSFT/10-K/0000950170-25-100235/full-submission.txt",
-    "filing_type": "10-K",
-    "filing_year": 2025
-  },
-  {
-    "type": "organization",
-    "name": "Committee of Sponsoring Organization",
-    "role": "other",
-    "issuer": "MSFT",
-    "source": "data/raw/sec-edgar-filings/MSFT/10-K/0000950170-25-100235/full-submission.txt",
-    "filing_type": "10-K",
-    "filing_year": 2025
-  },
-  {
-    "type": "organization",
-    "name": "International Organization for Standardization",
-    "role": "other",
-    "issuer": "MSFT",
-    "source": "data/raw/sec-edgar-filings/MSFT/10-K/0000950170-25-100235/full-submission.txt",
-    "filing_type": "10-K",
-    "filing_year": 2025
-  },
-  {
-    "type": "product",
-    "name": "Secure Future Initiative",
-    "issuer": "MSFT",
-    "source": "data/raw/sec-edgar-filings/MSFT/10-K/0000950170-25-100235/full-submission.txt",
-    "filing_type": "10-K",
-    "filing_year": 2025
-  },
-  {
-    "type": "product",
-    "name": "Security Development Lifecycle",
-    "issuer": "MSFT",
-    "source": "data/raw/sec-edgar-filings/MSFT/10-K/0000950170-25-100235/full-submission.txt",
-    "filing_type": "10-K",
-    "filing_year": 2025
-  },
-  {
-    "type": "organization",
-    "name": "OpenAI",
-    "role": "other",
-    "issuer": "MSFT",
-    "source": "data/raw/sec-edgar-filings/MSFT/10-K/0000950170-25-100235/full-submission.txt",
-    "filing_type": "10-K",
-    "filing_year": 2025,
-    "relationship": "PARTNERS_WITH"
-  },
-  {
-    "type": "product",
-    "name": "Microsoft Cloud",
-    "issuer": "MSFT",
-    "source": "data/raw/sec-edgar-filings/MSFT/10-K/0000950170-25-100235/full-submission.txt",
-    "filing_type": "10-K",
-    "filing_year": 2025
-  },
-  {
-    "type": "product",
-    "name": "LinkedIn",
-    "issuer": "MSFT",
-    "source": "data/raw/sec-edgar-filings/MSFT/10-K/0000950170-25-100235/full-submission.txt",
-    "filing_type": "10-K",
-    "filing_year": 2025
-  },
-  {
-    "type": "product",
-    "name": "Windows OEM",
-    "issuer": "MSFT",
-    "source": "data/raw/sec-edgar-filings/MSFT/10-K/0000950170-25-100235/full-submission.txt",
-    "filing_type": "10-K",
-    "filing_year": 2025
-  },
-  {
-    "type": "product",
-    "name": "Office 2024",
-    "issuer": "MSFT",
-    "source": "data/raw/sec-edgar-filings/MSFT/10-K/0000950170-25-100235/full-submission.txt",
-    "filing_type": "10-K",
-    "filing_year": 2025
-  },
-  {
-    "type": "organization",
-    "name": "Deloitte & Touche LLP",
-    "role": "other",
-    "issuer": "MSFT",
-    "source": "data/raw/sec-edgar-filings/MSFT/10-K/0000950170-25-100235/full-submission.txt",
-    "filing_type": "10-K",
-    "filing_year": 2025
-  },
-  {
-    "type": "product",
-    "name": "Office 365",
-    "issuer": "MSFT",
-    "source": "data/raw/sec-edgar-filings/MSFT/10-K/0000950170-25-100235/full-submission.txt",
-    "filing_type": "10-K",
-    "filing_year": 2025
-  },
-  {
-    "type": "organization",
-    "name": "OpenAI Global, LLC",
-    "role": "other",
-    "issuer": "MSFT",
-    "source": "data/raw/sec-edgar-filings/MSFT/10-K/0000950170-25-100235/full-submission.txt",
-    "filing_type": "10-K",
-    "filing_year": 2025
-  },
-  {
-    "type": "organization",
-    "name": "Inflection AI, Inc.",
-    "role": "other",
-    "issuer": "MSFT",
-    "source": "data/raw/sec-edgar-filings/MSFT/10-K/0000950170-25-100235/full-submission.txt",
-    "filing_type": "10-K",
-    "filing_year": 2025
-  },
-  {
-    "type": "organization",
-    "name": "Reprogrammed Interchange LLC",
-    "role": "institutional_investor",
-    "issuer": "MSFT",
-    "source": "data/raw/sec-edgar-filings/MSFT/10-K/0000950170-25-100235/full-submission.txt",
-    "filing_type": "10-K",
-    "filing_year": 2025,
-    "relationship": "SHAREHOLDER_OF",
-    "pct_owned": 10
-  },
-  {
-    "type": "organization",
-    "name": "Greylock Ventures",
-    "role": "institutional_investor",
-    "issuer": "MSFT",
-    "source": "data/raw/sec-edgar-filings/MSFT/10-K/0000950170-25-100235/full-submission.txt",
-    "filing_type": "10-K",
-    "filing_year": 2025,
-    "relationship": "SHAREHOLDER_OF",
-    "pct_owned": 10
-  },
-  {
-    "type": "product",
-    "name": "Microsoft News",
-    "issuer": "MSFT",
-    "source": "data/raw/sec-edgar-filings/MSFT/10-K/0000950170-25-100235/full-submission.txt",
-    "filing_type": "10-K",
-    "filing_year": 2025
-  },
-  {
-    "type": "organization",
-    "name": "The Bank of New York Mellon Trust Company, N.A.",
-    "role": "other",
-    "issuer": "MSFT",
-    "source": "data/raw/sec-edgar-filings/MSFT/10-K/0000950170-25-100235/full-submission.txt",
-    "filing_type": "10-K",
-    "filing_year": 2025
-  },
-  {
-    "type": "organization",
-    "name": "U.S. Bank National Association",
-    "role": "other",
-    "issuer": "MSFT",
-    "source": "data/raw/sec-edgar-filings/MSFT/10-K/0000950170-25-100235/full-submission.txt",
-    "filing_type": "10-K",
-    "filing_year": 2025
-  },
-  {
-    "type": "issuer",
-    "name": "GOOGL",
-    "ticker": "GOOGL",
-    "issuer": "GOOGL",
-    "source": "data/raw/sec-edgar-filings/GOOGL/10-K/0001652044-26-000018/full-submission.txt",
-    "filing_type": "10-K"
-  },
-  {
-    "type": "organization",
-    "name": "Waymo",
-    "role": "other",
-    "issuer": "GOOGL",
-    "source": "data/raw/sec-edgar-filings/GOOGL/10-K/0001652044-26-000018/full-submission.txt",
-    "filing_type": "10-K",
-    "filing_year": 2026
-  },
-  {
-    "type": "organization",
-    "name": "Isomorphic Labs",
-    "role": "other",
-    "issuer": "GOOGL",
-    "source": "data/raw/sec-edgar-filings/GOOGL/10-K/0001652044-26-000018/full-submission.txt",
-    "filing_type": "10-K",
-    "filing_year": 2026
-  },
-  {
-    "type": "product",
-    "name": "Google Search",
-    "issuer": "GOOGL",
-    "source": "data/raw/sec-edgar-filings/GOOGL/10-K/0001652044-26-000018/full-submission.txt",
-    "filing_type": "10-K",
-    "filing_year": 2026
-  },
-  {
-    "type": "product",
-    "name": "YouTube",
-    "issuer": "GOOGL",
-    "source": "data/raw/sec-edgar-filings/GOOGL/10-K/0001652044-26-000018/full-submission.txt",
-    "filing_type": "10-K",
-    "filing_year": 2026
-  },
-  {
-    "type": "product",
-    "name": "Google Cloud",
-    "issuer": "GOOGL",
-    "source": "data/raw/sec-edgar-filings/GOOGL/10-K/0001652044-26-000018/full-submission.txt",
-    "filing_type": "10-K",
-    "filing_year": 2026
-  },
-  {
-    "type": "product",
-    "name": "Google Gemini",
-    "issuer": "GOOGL",
-    "source": "data/raw/sec-edgar-filings/GOOGL/10-K/0001652044-26-000018/full-submission.txt",
-    "filing_type": "10-K",
-    "filing_year": 2026
-  },
-  {
-    "type": "product",
-    "name": "Google Play",
-    "issuer": "GOOGL",
-    "source": "data/raw/sec-edgar-filings/GOOGL/10-K/0001652044-26-000018/full-submission.txt",
-    "filing_type": "10-K",
-    "filing_year": 2026
-  },
-  {
-    "type": "product",
-    "name": "Android",
-    "issuer": "GOOGL",
-    "source": "data/raw/sec-edgar-filings/GOOGL/10-K/0001652044-26-000018/full-submission.txt",
-    "filing_type": "10-K",
-    "filing_year": 2026
-  },
-  {
-    "type": "product",
-    "name": "Chrome",
-    "issuer": "GOOGL",
-    "source": "data/raw/sec-edgar-filings/GOOGL/10-K/0001652044-26-000018/full-submission.txt",
-    "filing_type": "10-K",
-    "filing_year": 2026
-  },
-  {
-    "type": "product",
-    "name": "Gmail",
-    "issuer": "GOOGL",
-    "source": "data/raw/sec-edgar-filings/GOOGL/10-K/0001652044-26-000018/full-submission.txt",
-    "filing_type": "10-K",
-    "filing_year": 2026
-  },
-  {
-    "type": "product",
-    "name": "Google Drive",
-    "issuer": "GOOGL",
-    "source": "data/raw/sec-edgar-filings/GOOGL/10-K/0001652044-26-000018/full-submission.txt",
-    "filing_type": "10-K",
-    "filing_year": 2026
-  },
-  {
-    "type": "product",
-    "name": "Google Maps",
-    "issuer": "GOOGL",
-    "source": "data/raw/sec-edgar-filings/GOOGL/10-K/0001652044-26-000018/full-submission.txt",
-    "filing_type": "10-K",
-    "filing_year": 2026
-  },
-  {
-    "type": "product",
-    "name": "Google Photos",
-    "issuer": "GOOGL",
-    "source": "data/raw/sec-edgar-filings/GOOGL/10-K/0001652044-26-000018/full-submission.txt",
-    "filing_type": "10-K",
-    "filing_year": 2026
-  },
-  {
-    "type": "organization",
-    "name": "X",
-    "role": "other",
-    "issuer": "GOOGL",
-    "source": "data/raw/sec-edgar-filings/GOOGL/10-K/0001652044-26-000018/full-submission.txt",
-    "filing_type": "10-K",
-    "filing_year": 2026
-  },
-  {
-    "type": "product",
-    "name": "Google One",
-    "issuer": "GOOGL",
-    "source": "data/raw/sec-edgar-filings/GOOGL/10-K/0001652044-26-000018/full-submission.txt",
-    "filing_type": "10-K",
-    "filing_year": 2026
-  },
-  {
-    "type": "product",
-    "name": "Gemini",
-    "issuer": "GOOGL",
-    "source": "data/raw/sec-edgar-filings/GOOGL/10-K/0001652044-26-000018/full-submission.txt",
-    "filing_type": "10-K",
-    "filing_year": 2026
-  },
-  {
-    "type": "product",
-    "name": "Pixel",
-    "issuer": "GOOGL",
-    "source": "data/raw/sec-edgar-filings/GOOGL/10-K/0001652044-26-000018/full-submission.txt",
-    "filing_type": "10-K",
-    "filing_year": 2026
-  },
-  {
-    "type": "product",
-    "name": "Google Cloud Platform",
-    "issuer": "GOOGL",
-    "source": "data/raw/sec-edgar-filings/GOOGL/10-K/0001652044-26-000018/full-submission.txt",
-    "filing_type": "10-K",
-    "filing_year": 2026
-  },
-  {
-    "type": "product",
-    "name": "Google Workspace",
-    "issuer": "GOOGL",
-    "source": "data/raw/sec-edgar-filings/GOOGL/10-K/0001652044-26-000018/full-submission.txt",
-    "filing_type": "10-K",
-    "filing_year": 2026
-  },
-  {
-    "type": "product",
-    "name": "Vertex AI",
-    "issuer": "GOOGL",
-    "source": "data/raw/sec-edgar-filings/GOOGL/10-K/0001652044-26-000018/full-submission.txt",
-    "filing_type": "10-K",
-    "filing_year": 2026
-  },
-  {
-    "type": "product",
-    "name": "Gemini Enterprise",
-    "issuer": "GOOGL",
-    "source": "data/raw/sec-edgar-filings/GOOGL/10-K/0001652044-26-000018/full-submission.txt",
-    "filing_type": "10-K",
-    "filing_year": 2026
-  },
-  {
-    "type": "product",
-    "name": "Gemini for Google Workspace",
-    "issuer": "GOOGL",
-    "source": "data/raw/sec-edgar-filings/GOOGL/10-K/0001652044-26-000018/full-submission.txt",
-    "filing_type": "10-K",
-    "filing_year": 2026
-  },
-  {
-    "type": "product",
-    "name": "TPUs",
-    "issuer": "GOOGL",
-    "source": "data/raw/sec-edgar-filings/GOOGL/10-K/0001652044-26-000018/full-submission.txt",
-    "filing_type": "10-K",
-    "filing_year": 2026
-  },
-  {
-    "type": "organization",
-    "name": "S&P",
-    "role": "other",
-    "issuer": "GOOGL",
-    "source": "data/raw/sec-edgar-filings/GOOGL/10-K/0001652044-26-000018/full-submission.txt",
-    "filing_type": "10-K",
-    "filing_year": 2026
-  },
-  {
-    "type": "organization",
-    "name": "The McGraw-Hill Companies Inc.",
-    "role": "other",
-    "issuer": "GOOGL",
-    "source": "data/raw/sec-edgar-filings/GOOGL/10-K/0001652044-26-000018/full-submission.txt",
-    "filing_type": "10-K",
-    "filing_year": 2026
-  },
-  {
-    "type": "organization",
-    "name": "Google",
-    "role": "other",
-    "issuer": "GOOGL",
-    "source": "data/raw/sec-edgar-filings/GOOGL/10-K/0001652044-26-000018/full-submission.txt",
-    "filing_type": "10-K",
-    "filing_year": 2026
-  },
-  {
-    "type": "organization",
-    "name": "Alphabet Inc.",
-    "role": "other",
-    "issuer": "GOOGL",
-    "source": "data/raw/sec-edgar-filings/GOOGL/10-K/0001652044-26-000018/full-submission.txt",
-    "filing_type": "10-K",
-    "filing_year": 2026
-  },
-  {
-    "type": "product",
-    "name": "Class C capital stock",
-    "issuer": "GOOGL",
-    "source": "data/raw/sec-edgar-filings/GOOGL/10-K/0001652044-26-000018/full-submission.txt",
-    "filing_type": "10-K",
-    "filing_year": 2026
-  },
-  {
-    "type": "product",
-    "name": "AI Overviews",
-    "issuer": "GOOGL",
-    "source": "data/raw/sec-edgar-filings/GOOGL/10-K/0001652044-26-000018/full-submission.txt",
-    "filing_type": "10-K",
-    "filing_year": 2026
-  },
-  {
-    "type": "product",
-    "name": "AI Mode in Search",
-    "issuer": "GOOGL",
-    "source": "data/raw/sec-edgar-filings/GOOGL/10-K/0001652044-26-000018/full-submission.txt",
-    "filing_type": "10-K",
-    "filing_year": 2026
-  },
-  {
-    "type": "product",
-    "name": "YouTube TV",
-    "issuer": "GOOGL",
-    "source": "data/raw/sec-edgar-filings/GOOGL/10-K/0001652044-26-000018/full-submission.txt",
-    "filing_type": "10-K",
-    "filing_year": 2026
-  },
-  {
-    "type": "product",
-    "name": "YouTube Music",
-    "issuer": "GOOGL",
-    "source": "data/raw/sec-edgar-filings/GOOGL/10-K/0001652044-26-000018/full-submission.txt",
-    "filing_type": "10-K",
-    "filing_year": 2026
-  },
-  {
-    "type": "product",
-    "name": "Premium",
-    "issuer": "GOOGL",
-    "source": "data/raw/sec-edgar-filings/GOOGL/10-K/0001652044-26-000018/full-submission.txt",
-    "filing_type": "10-K",
-    "filing_year": 2026
-  },
-  {
-    "type": "product",
-    "name": "NFL Sunday Ticket",
-    "issuer": "GOOGL",
-    "source": "data/raw/sec-edgar-filings/GOOGL/10-K/0001652044-26-000018/full-submission.txt",
-    "filing_type": "10-K",
-    "filing_year": 2026
-  },
-  {
-    "type": "product",
-    "name": "Pixel family of devices",
-    "issuer": "GOOGL",
-    "source": "data/raw/sec-edgar-filings/GOOGL/10-K/0001652044-26-000018/full-submission.txt",
-    "filing_type": "10-K",
-    "filing_year": 2026
-  },
-  {
-    "type": "product",
-    "name": "Vertex AI platform",
-    "issuer": "GOOGL",
-    "source": "data/raw/sec-edgar-filings/GOOGL/10-K/0001652044-26-000018/full-submission.txt",
-    "filing_type": "10-K",
-    "filing_year": 2026
-  },
-  {
-    "type": "organization",
-    "name": "Wiz",
-    "role": "other",
-    "issuer": "GOOGL",
-    "source": "data/raw/sec-edgar-filings/GOOGL/10-K/0001652044-26-000018/full-submission.txt",
-    "filing_type": "10-K",
-    "filing_year": 2026
-  },
-  {
-    "type": "organization",
-    "name": "Intersect",
-    "role": "other",
-    "issuer": "GOOGL",
-    "source": "data/raw/sec-edgar-filings/GOOGL/10-K/0001652044-26-000018/full-submission.txt",
-    "filing_type": "10-K",
-    "filing_year": 2026
-  },
-  {
-    "type": "product",
-    "name": "Google Search & other",
-    "issuer": "GOOGL",
-    "source": "data/raw/sec-edgar-filings/GOOGL/10-K/0001652044-26-000018/full-submission.txt",
-    "filing_type": "10-K",
-    "filing_year": 2026
-  },
-  {
-    "type": "product",
-    "name": "YouTube ads",
-    "issuer": "GOOGL",
-    "source": "data/raw/sec-edgar-filings/GOOGL/10-K/0001652044-26-000018/full-submission.txt",
-    "filing_type": "10-K",
-    "filing_year": 2026
-  },
-  {
-    "type": "product",
-    "name": "Google Network",
-    "issuer": "GOOGL",
-    "source": "data/raw/sec-edgar-filings/GOOGL/10-K/0001652044-26-000018/full-submission.txt",
-    "filing_type": "10-K",
-    "filing_year": 2026
-  },
-  {
-    "type": "product",
-    "name": "Google advertising",
-    "issuer": "GOOGL",
-    "source": "data/raw/sec-edgar-filings/GOOGL/10-K/0001652044-26-000018/full-submission.txt",
-    "filing_type": "10-K",
-    "filing_year": 2026
-  },
-  {
-    "type": "product",
-    "name": "Google subscriptions, platforms, and devices",
-    "issuer": "GOOGL",
-    "source": "data/raw/sec-edgar-filings/GOOGL/10-K/0001652044-26-000018/full-submission.txt",
-    "filing_type": "10-K",
-    "filing_year": 2026
-  },
-  {
-    "type": "organization",
-    "name": "Wiz, Inc.",
-    "role": "other",
-    "issuer": "GOOGL",
-    "source": "data/raw/sec-edgar-filings/GOOGL/10-K/0001652044-26-000018/full-submission.txt",
-    "filing_type": "10-K",
-    "filing_year": 2026
-  },
-  {
-    "type": "product",
-    "name": "YouTube Premium",
-    "issuer": "GOOGL",
-    "source": "data/raw/sec-edgar-filings/GOOGL/10-K/0001652044-26-000018/full-submission.txt",
-    "filing_type": "10-K",
-    "filing_year": 2026
-  },
-  {
-    "type": "product",
-    "name": "Google subscriptions",
-    "issuer": "GOOGL",
-    "source": "data/raw/sec-edgar-filings/GOOGL/10-K/0001652044-26-000018/full-submission.txt",
-    "filing_type": "10-K",
-    "filing_year": 2026
-  },
-  {
-    "type": "product",
-    "name": "Other Bets",
-    "issuer": "GOOGL",
-    "source": "data/raw/sec-edgar-filings/GOOGL/10-K/0001652044-26-000018/full-submission.txt",
-    "filing_type": "10-K",
-    "filing_year": 2026
-  },
-  {
-    "type": "product",
-    "name": "Google Services",
-    "issuer": "GOOGL",
-    "source": "data/raw/sec-edgar-filings/GOOGL/10-K/0001652044-26-000018/full-submission.txt",
-    "filing_type": "10-K",
-    "filing_year": 2026
-  },
-  {
-    "type": "organization",
-    "name": "Google LLC",
-    "role": "subsidiary",
-    "issuer": "GOOGL",
-    "source": "data/raw/sec-edgar-filings/GOOGL/10-K/0001652044-26-000018/full-submission.txt",
     "filing_type": "10-K",
     "filing_year": 2026
   },
@@ -4366,6 +5060,106 @@
     "source": "data/raw/sec-edgar-filings/AAPL/10-K/0000320193-23-000106/full-submission.txt",
     "filing_type": "10-K",
     "filing_year": 2023
+  },
+  {
+    "type": "person",
+    "name": "Timothy D. Cook",
+    "issuer": "AAPL",
+    "source": "data/raw/sec-edgar-filings/AAPL/10-K/0000320193-23-000106/full-submission.txt",
+    "filing_type": "10-K",
+    "filing_year": 2023,
+    "relationship": "EXECUTIVE_OF",
+    "title": "Chief Executive Officer"
+  },
+  {
+    "type": "person",
+    "name": "Chris Kondo",
+    "issuer": "AAPL",
+    "source": "data/raw/sec-edgar-filings/AAPL/10-K/0000320193-23-000106/full-submission.txt",
+    "filing_type": "10-K",
+    "filing_year": 2023,
+    "relationship": "EXECUTIVE_OF",
+    "title": "Senior Director of Corporate Accounting"
+  },
+  {
+    "type": "person",
+    "name": "James A. Bell",
+    "issuer": "AAPL",
+    "source": "data/raw/sec-edgar-filings/AAPL/10-K/0000320193-23-000106/full-submission.txt",
+    "filing_type": "10-K",
+    "filing_year": 2023,
+    "relationship": "BOARD_MEMBER_OF",
+    "title": "Director"
+  },
+  {
+    "type": "person",
+    "name": "Al Gore",
+    "issuer": "AAPL",
+    "source": "data/raw/sec-edgar-filings/AAPL/10-K/0000320193-23-000106/full-submission.txt",
+    "filing_type": "10-K",
+    "filing_year": 2023,
+    "relationship": "BOARD_MEMBER_OF",
+    "title": "Director"
+  },
+  {
+    "type": "person",
+    "name": "Alex Gorsky",
+    "issuer": "AAPL",
+    "source": "data/raw/sec-edgar-filings/AAPL/10-K/0000320193-23-000106/full-submission.txt",
+    "filing_type": "10-K",
+    "filing_year": 2023,
+    "relationship": "BOARD_MEMBER_OF",
+    "title": "Director"
+  },
+  {
+    "type": "person",
+    "name": "Andrea Jung",
+    "issuer": "AAPL",
+    "source": "data/raw/sec-edgar-filings/AAPL/10-K/0000320193-23-000106/full-submission.txt",
+    "filing_type": "10-K",
+    "filing_year": 2023,
+    "relationship": "BOARD_MEMBER_OF",
+    "title": "Director"
+  },
+  {
+    "type": "person",
+    "name": "Arthur D. Levinson",
+    "issuer": "AAPL",
+    "source": "data/raw/sec-edgar-filings/AAPL/10-K/0000320193-23-000106/full-submission.txt",
+    "filing_type": "10-K",
+    "filing_year": 2023,
+    "relationship": "BOARD_MEMBER_OF",
+    "title": "Director and Chair of the Board"
+  },
+  {
+    "type": "person",
+    "name": "Monica Lozano",
+    "issuer": "AAPL",
+    "source": "data/raw/sec-edgar-filings/AAPL/10-K/0000320193-23-000106/full-submission.txt",
+    "filing_type": "10-K",
+    "filing_year": 2023,
+    "relationship": "BOARD_MEMBER_OF",
+    "title": "Director"
+  },
+  {
+    "type": "person",
+    "name": "Ronald D. Sugar",
+    "issuer": "AAPL",
+    "source": "data/raw/sec-edgar-filings/AAPL/10-K/0000320193-23-000106/full-submission.txt",
+    "filing_type": "10-K",
+    "filing_year": 2023,
+    "relationship": "BOARD_MEMBER_OF",
+    "title": "Director"
+  },
+  {
+    "type": "person",
+    "name": "Susan L. Wagner",
+    "issuer": "AAPL",
+    "source": "data/raw/sec-edgar-filings/AAPL/10-K/0000320193-23-000106/full-submission.txt",
+    "filing_type": "10-K",
+    "filing_year": 2023,
+    "relationship": "BOARD_MEMBER_OF",
+    "title": "Director"
   },
   {
     "type": "person",
@@ -4440,6 +5234,46 @@
   {
     "type": "person",
     "name": "Andrea Jung",
+    "issuer": "AAPL",
+    "source": "data/raw/sec-edgar-filings/AAPL/10-K/0000320193-24-000123/full-submission.txt",
+    "filing_type": "10-K",
+    "filing_year": 2024,
+    "relationship": "BOARD_MEMBER_OF",
+    "title": "Director"
+  },
+  {
+    "type": "person",
+    "name": "Arthur D. Levinson",
+    "issuer": "AAPL",
+    "source": "data/raw/sec-edgar-filings/AAPL/10-K/0000320193-24-000123/full-submission.txt",
+    "filing_type": "10-K",
+    "filing_year": 2024,
+    "relationship": "BOARD_MEMBER_OF",
+    "title": "Director and Chair of the Board"
+  },
+  {
+    "type": "person",
+    "name": "Monica Lozano",
+    "issuer": "AAPL",
+    "source": "data/raw/sec-edgar-filings/AAPL/10-K/0000320193-24-000123/full-submission.txt",
+    "filing_type": "10-K",
+    "filing_year": 2024,
+    "relationship": "BOARD_MEMBER_OF",
+    "title": "Director"
+  },
+  {
+    "type": "person",
+    "name": "Ronald D. Sugar",
+    "issuer": "AAPL",
+    "source": "data/raw/sec-edgar-filings/AAPL/10-K/0000320193-24-000123/full-submission.txt",
+    "filing_type": "10-K",
+    "filing_year": 2024,
+    "relationship": "BOARD_MEMBER_OF",
+    "title": "Director"
+  },
+  {
+    "type": "person",
+    "name": "Susan L. Wagner",
     "issuer": "AAPL",
     "source": "data/raw/sec-edgar-filings/AAPL/10-K/0000320193-24-000123/full-submission.txt",
     "filing_type": "10-K",
@@ -4567,6 +5401,367 @@
   },
   {
     "type": "person",
+    "name": "Satya Nadella",
+    "issuer": "MSFT",
+    "source": "data/raw/sec-edgar-filings/MSFT/10-K/0000950170-25-100235/full-submission.txt",
+    "filing_type": "10-K",
+    "filing_year": 2025,
+    "relationship": "EXECUTIVE_OF",
+    "title": "Chairman and Chief Executive Officer"
+  },
+  {
+    "type": "person",
+    "name": "Judson B. Althoff",
+    "issuer": "MSFT",
+    "source": "data/raw/sec-edgar-filings/MSFT/10-K/0000950170-25-100235/full-submission.txt",
+    "filing_type": "10-K",
+    "filing_year": 2025,
+    "relationship": "EXECUTIVE_OF",
+    "title": "Executive Vice President and Chief Commercial Officer"
+  },
+  {
+    "type": "person",
+    "name": "Amy L. Coleman",
+    "issuer": "MSFT",
+    "source": "data/raw/sec-edgar-filings/MSFT/10-K/0000950170-25-100235/full-submission.txt",
+    "filing_type": "10-K",
+    "filing_year": 2025,
+    "relationship": "EXECUTIVE_OF",
+    "title": "Executive Vice President and Chief Human Resources Officer"
+  },
+  {
+    "type": "person",
+    "name": "Kathleen T. Hogan",
+    "issuer": "MSFT",
+    "source": "data/raw/sec-edgar-filings/MSFT/10-K/0000950170-25-100235/full-submission.txt",
+    "filing_type": "10-K",
+    "filing_year": 2025,
+    "relationship": "EXECUTIVE_OF",
+    "title": "Executive Vice President, Office of Strategy and Transformation"
+  },
+  {
+    "type": "person",
+    "name": "Amy E. Hood",
+    "issuer": "MSFT",
+    "source": "data/raw/sec-edgar-filings/MSFT/10-K/0000950170-25-100235/full-submission.txt",
+    "filing_type": "10-K",
+    "filing_year": 2025,
+    "relationship": "EXECUTIVE_OF",
+    "title": "Executive Vice President and Chief Financial Officer"
+  },
+  {
+    "type": "person",
+    "name": "Takeshi Numoto",
+    "issuer": "MSFT",
+    "source": "data/raw/sec-edgar-filings/MSFT/10-K/0000950170-25-100235/full-submission.txt",
+    "filing_type": "10-K",
+    "filing_year": 2025,
+    "relationship": "EXECUTIVE_OF",
+    "title": "Executive Vice President and Chief Marketing Officer"
+  },
+  {
+    "type": "person",
+    "name": "Bradford L. Smith",
+    "issuer": "MSFT",
+    "source": "data/raw/sec-edgar-filings/MSFT/10-K/0000950170-25-100235/full-submission.txt",
+    "filing_type": "10-K",
+    "filing_year": 2025,
+    "relationship": "EXECUTIVE_OF",
+    "title": "Vice Chair and President"
+  },
+  {
+    "type": "person",
+    "name": "Alice L. Jolla",
+    "issuer": "MSFT",
+    "source": "data/raw/sec-edgar-filings/MSFT/10-K/0000950170-25-100235/full-submission.txt",
+    "filing_type": "10-K",
+    "filing_year": 2025,
+    "relationship": "EXECUTIVE_OF",
+    "title": "Corporate Vice President and Chief Accounting Officer"
+  },
+  {
+    "type": "person",
+    "name": "Reid G. Hoffman",
+    "issuer": "MSFT",
+    "source": "data/raw/sec-edgar-filings/MSFT/10-K/0000950170-25-100235/full-submission.txt",
+    "filing_type": "10-K",
+    "filing_year": 2025,
+    "relationship": "BOARD_MEMBER_OF",
+    "title": "Director"
+  },
+  {
+    "type": "person",
+    "name": "Activision Blizzard, Inc.",
+    "issuer": "MSFT",
+    "source": "data/raw/sec-edgar-filings/MSFT/10-K/0000950170-25-100235/full-submission.txt",
+    "filing_type": "10-K",
+    "filing_year": 2025,
+    "title": "none"
+  },
+  {
+    "type": "person",
+    "name": "Hugh F. Johnston",
+    "issuer": "MSFT",
+    "source": "data/raw/sec-edgar-filings/MSFT/10-K/0000950170-25-100235/full-submission.txt",
+    "filing_type": "10-K",
+    "filing_year": 2025,
+    "relationship": "BOARD_MEMBER_OF",
+    "title": "Director"
+  },
+  {
+    "type": "person",
+    "name": "Teri L. List",
+    "issuer": "MSFT",
+    "source": "data/raw/sec-edgar-filings/MSFT/10-K/0000950170-25-100235/full-submission.txt",
+    "filing_type": "10-K",
+    "filing_year": 2025,
+    "relationship": "BOARD_MEMBER_OF",
+    "title": "Director"
+  },
+  {
+    "type": "person",
+    "name": "Catherine MacGregor",
+    "issuer": "MSFT",
+    "source": "data/raw/sec-edgar-filings/MSFT/10-K/0000950170-25-100235/full-submission.txt",
+    "filing_type": "10-K",
+    "filing_year": 2025,
+    "relationship": "BOARD_MEMBER_OF",
+    "title": "Director"
+  },
+  {
+    "type": "person",
+    "name": "Mark A. L. Mason",
+    "issuer": "MSFT",
+    "source": "data/raw/sec-edgar-filings/MSFT/10-K/0000950170-25-100235/full-submission.txt",
+    "filing_type": "10-K",
+    "filing_year": 2025,
+    "relationship": "BOARD_MEMBER_OF",
+    "title": "Director"
+  },
+  {
+    "type": "person",
+    "name": "Sandra E. Peterson",
+    "issuer": "MSFT",
+    "source": "data/raw/sec-edgar-filings/MSFT/10-K/0000950170-25-100235/full-submission.txt",
+    "filing_type": "10-K",
+    "filing_year": 2025,
+    "relationship": "BOARD_MEMBER_OF",
+    "title": "Lead Independent Director"
+  },
+  {
+    "type": "person",
+    "name": "Penny S. Pritzker",
+    "issuer": "MSFT",
+    "source": "data/raw/sec-edgar-filings/MSFT/10-K/0000950170-25-100235/full-submission.txt",
+    "filing_type": "10-K",
+    "filing_year": 2025,
+    "relationship": "BOARD_MEMBER_OF",
+    "title": "Director"
+  },
+  {
+    "type": "person",
+    "name": "Carlos A. Rodriguez",
+    "issuer": "MSFT",
+    "source": "data/raw/sec-edgar-filings/MSFT/10-K/0000950170-25-100235/full-submission.txt",
+    "filing_type": "10-K",
+    "filing_year": 2025,
+    "relationship": "BOARD_MEMBER_OF",
+    "title": "Director"
+  },
+  {
+    "type": "person",
+    "name": "Charles W. Scharf",
+    "issuer": "MSFT",
+    "source": "data/raw/sec-edgar-filings/MSFT/10-K/0000950170-25-100235/full-submission.txt",
+    "filing_type": "10-K",
+    "filing_year": 2025,
+    "relationship": "BOARD_MEMBER_OF",
+    "title": "Director"
+  },
+  {
+    "type": "person",
+    "name": "John W. Stanton",
+    "issuer": "MSFT",
+    "source": "data/raw/sec-edgar-filings/MSFT/10-K/0000950170-25-100235/full-submission.txt",
+    "filing_type": "10-K",
+    "filing_year": 2025,
+    "relationship": "BOARD_MEMBER_OF",
+    "title": "Director"
+  },
+  {
+    "type": "person",
+    "name": "Emma N. Walmsley",
+    "issuer": "MSFT",
+    "source": "data/raw/sec-edgar-filings/MSFT/10-K/0000950170-25-100235/full-submission.txt",
+    "filing_type": "10-K",
+    "filing_year": 2025,
+    "relationship": "BOARD_MEMBER_OF",
+    "title": "Director"
+  },
+  {
+    "type": "person",
+    "name": "Sundar Pichai",
+    "issuer": "GOOGL",
+    "source": "data/raw/sec-edgar-filings/GOOGL/10-K/0001652044-26-000018/full-submission.txt",
+    "filing_type": "10-K",
+    "filing_year": 2026,
+    "relationship": "EXECUTIVE_OF",
+    "title": "CEO"
+  },
+  {
+    "type": "person",
+    "name": "Larry Page",
+    "issuer": "GOOGL",
+    "source": "data/raw/sec-edgar-filings/GOOGL/10-K/0001652044-26-000018/full-submission.txt",
+    "filing_type": "10-K",
+    "filing_year": 2026
+  },
+  {
+    "type": "person",
+    "name": "Sergey Brin",
+    "issuer": "GOOGL",
+    "source": "data/raw/sec-edgar-filings/GOOGL/10-K/0001652044-26-000018/full-submission.txt",
+    "filing_type": "10-K",
+    "filing_year": 2026
+  },
+  {
+    "type": "person",
+    "name": "John L. Hennessy",
+    "issuer": "GOOGL",
+    "source": "data/raw/sec-edgar-filings/GOOGL/10-K/0001652044-26-000018/full-submission.txt",
+    "filing_type": "10-K",
+    "filing_year": 2026,
+    "relationship": "BOARD_MEMBER_OF",
+    "title": "Director, Chair"
+  },
+  {
+    "type": "person",
+    "name": "Ruth M. Porat",
+    "issuer": "GOOGL",
+    "source": "data/raw/sec-edgar-filings/GOOGL/10-K/0001652044-26-000018/full-submission.txt",
+    "filing_type": "10-K",
+    "filing_year": 2026,
+    "relationship": "EXECUTIVE_OF",
+    "title": "President and Chief Investment Officer"
+  },
+  {
+    "type": "person",
+    "name": "Eric E. Schmidt",
+    "issuer": "GOOGL",
+    "source": "data/raw/sec-edgar-filings/GOOGL/10-K/0001652044-26-000018/full-submission.txt",
+    "filing_type": "10-K",
+    "filing_year": 2026
+  },
+  {
+    "type": "person",
+    "name": "Anat Ashkenazi",
+    "issuer": "GOOGL",
+    "source": "data/raw/sec-edgar-filings/GOOGL/10-K/0001652044-26-000018/full-submission.txt",
+    "filing_type": "10-K",
+    "filing_year": 2026
+  },
+  {
+    "type": "person",
+    "name": "Anat Ashkenazi",
+    "issuer": "GOOGL",
+    "source": "data/raw/sec-edgar-filings/GOOGL/10-K/0001652044-26-000018/full-submission.txt",
+    "filing_type": "10-K",
+    "filing_year": 2026,
+    "relationship": "EXECUTIVE_OF",
+    "title": "Senior Vice President and Chief Financial Officer"
+  },
+  {
+    "type": "person",
+    "name": "Amie Thuener O'Toole",
+    "issuer": "GOOGL",
+    "source": "data/raw/sec-edgar-filings/GOOGL/10-K/0001652044-26-000018/full-submission.txt",
+    "filing_type": "10-K",
+    "filing_year": 2026,
+    "relationship": "EXECUTIVE_OF",
+    "title": "Vice President, Corporate Controller and Principal Accounting Officer"
+  },
+  {
+    "type": "person",
+    "name": "Frances H. Arnold",
+    "issuer": "GOOGL",
+    "source": "data/raw/sec-edgar-filings/GOOGL/10-K/0001652044-26-000018/full-submission.txt",
+    "filing_type": "10-K",
+    "filing_year": 2026,
+    "relationship": "BOARD_MEMBER_OF",
+    "title": "Director"
+  },
+  {
+    "type": "person",
+    "name": "Sergey Brin",
+    "issuer": "GOOGL",
+    "source": "data/raw/sec-edgar-filings/GOOGL/10-K/0001652044-26-000018/full-submission.txt",
+    "filing_type": "10-K",
+    "filing_year": 2026,
+    "relationship": "BOARD_MEMBER_OF",
+    "title": "Co-Founder and Director"
+  },
+  {
+    "type": "person",
+    "name": "R. Martin Ch\u00e1vez",
+    "issuer": "GOOGL",
+    "source": "data/raw/sec-edgar-filings/GOOGL/10-K/0001652044-26-000018/full-submission.txt",
+    "filing_type": "10-K",
+    "filing_year": 2026,
+    "relationship": "BOARD_MEMBER_OF",
+    "title": "Director"
+  },
+  {
+    "type": "person",
+    "name": "L. John Doerr",
+    "issuer": "GOOGL",
+    "source": "data/raw/sec-edgar-filings/GOOGL/10-K/0001652044-26-000018/full-submission.txt",
+    "filing_type": "10-K",
+    "filing_year": 2026,
+    "relationship": "BOARD_MEMBER_OF",
+    "title": "Director"
+  },
+  {
+    "type": "person",
+    "name": "Roger W. Ferguson Jr.",
+    "issuer": "GOOGL",
+    "source": "data/raw/sec-edgar-filings/GOOGL/10-K/0001652044-26-000018/full-submission.txt",
+    "filing_type": "10-K",
+    "filing_year": 2026,
+    "relationship": "BOARD_MEMBER_OF",
+    "title": "Director"
+  },
+  {
+    "type": "person",
+    "name": "Larry Page",
+    "issuer": "GOOGL",
+    "source": "data/raw/sec-edgar-filings/GOOGL/10-K/0001652044-26-000018/full-submission.txt",
+    "filing_type": "10-K",
+    "filing_year": 2026,
+    "relationship": "BOARD_MEMBER_OF",
+    "title": "Co-Founder and Director"
+  },
+  {
+    "type": "person",
+    "name": "K. Ram Shriram",
+    "issuer": "GOOGL",
+    "source": "data/raw/sec-edgar-filings/GOOGL/10-K/0001652044-26-000018/full-submission.txt",
+    "filing_type": "10-K",
+    "filing_year": 2026,
+    "relationship": "BOARD_MEMBER_OF",
+    "title": "Director"
+  },
+  {
+    "type": "person",
+    "name": "Robin L. Washington",
+    "issuer": "GOOGL",
+    "source": "data/raw/sec-edgar-filings/GOOGL/10-K/0001652044-26-000018/full-submission.txt",
+    "filing_type": "10-K",
+    "filing_year": 2026,
+    "relationship": "BOARD_MEMBER_OF",
+    "title": "Director"
+  },
+  {
+    "type": "person",
     "name": "Jen-Hsun Huang",
     "issuer": "NVDA",
     "source": "data/raw/sec-edgar-filings/NVDA/10-K/0001045810-24-000029/full-submission.txt",
@@ -4642,6 +5837,136 @@
     "filing_year": 2024,
     "relationship": "EXECUTIVE_OF",
     "title": "Chief Executive Officer"
+  },
+  {
+    "type": "person",
+    "name": "Donald Robertson",
+    "issuer": "NVDA",
+    "source": "data/raw/sec-edgar-filings/NVDA/10-K/0001045810-24-000029/full-submission.txt",
+    "filing_type": "10-K",
+    "filing_year": 2024,
+    "relationship": "EXECUTIVE_OF",
+    "title": "Vice President and Chief Accounting Officer"
+  },
+  {
+    "type": "person",
+    "name": "Robert Burgess",
+    "issuer": "NVDA",
+    "source": "data/raw/sec-edgar-filings/NVDA/10-K/0001045810-24-000029/full-submission.txt",
+    "filing_type": "10-K",
+    "filing_year": 2024,
+    "relationship": "BOARD_MEMBER_OF",
+    "title": "Director"
+  },
+  {
+    "type": "person",
+    "name": "Tench Coxe",
+    "issuer": "NVDA",
+    "source": "data/raw/sec-edgar-filings/NVDA/10-K/0001045810-24-000029/full-submission.txt",
+    "filing_type": "10-K",
+    "filing_year": 2024,
+    "relationship": "BOARD_MEMBER_OF",
+    "title": "Director"
+  },
+  {
+    "type": "person",
+    "name": "Persis Drell",
+    "issuer": "NVDA",
+    "source": "data/raw/sec-edgar-filings/NVDA/10-K/0001045810-24-000029/full-submission.txt",
+    "filing_type": "10-K",
+    "filing_year": 2024,
+    "relationship": "BOARD_MEMBER_OF",
+    "title": "Director"
+  },
+  {
+    "type": "person",
+    "name": "Dawn Hudson",
+    "issuer": "NVDA",
+    "source": "data/raw/sec-edgar-filings/NVDA/10-K/0001045810-24-000029/full-submission.txt",
+    "filing_type": "10-K",
+    "filing_year": 2024,
+    "relationship": "BOARD_MEMBER_OF",
+    "title": "Director"
+  },
+  {
+    "type": "person",
+    "name": "Harvey C. Jones",
+    "issuer": "NVDA",
+    "source": "data/raw/sec-edgar-filings/NVDA/10-K/0001045810-24-000029/full-submission.txt",
+    "filing_type": "10-K",
+    "filing_year": 2024,
+    "relationship": "BOARD_MEMBER_OF",
+    "title": "Director"
+  },
+  {
+    "type": "person",
+    "name": "Melissa B. Lora",
+    "issuer": "NVDA",
+    "source": "data/raw/sec-edgar-filings/NVDA/10-K/0001045810-24-000029/full-submission.txt",
+    "filing_type": "10-K",
+    "filing_year": 2024,
+    "relationship": "BOARD_MEMBER_OF",
+    "title": "Director"
+  },
+  {
+    "type": "person",
+    "name": "Michael McCaffery",
+    "issuer": "NVDA",
+    "source": "data/raw/sec-edgar-filings/NVDA/10-K/0001045810-24-000029/full-submission.txt",
+    "filing_type": "10-K",
+    "filing_year": 2024,
+    "relationship": "BOARD_MEMBER_OF",
+    "title": "Director"
+  },
+  {
+    "type": "person",
+    "name": "Stephen C. Neal",
+    "issuer": "NVDA",
+    "source": "data/raw/sec-edgar-filings/NVDA/10-K/0001045810-24-000029/full-submission.txt",
+    "filing_type": "10-K",
+    "filing_year": 2024,
+    "relationship": "BOARD_MEMBER_OF",
+    "title": "Director"
+  },
+  {
+    "type": "person",
+    "name": "Mark L. Perry",
+    "issuer": "NVDA",
+    "source": "data/raw/sec-edgar-filings/NVDA/10-K/0001045810-24-000029/full-submission.txt",
+    "filing_type": "10-K",
+    "filing_year": 2024,
+    "relationship": "BOARD_MEMBER_OF",
+    "title": "Director"
+  },
+  {
+    "type": "person",
+    "name": "A. Brooke Seawell",
+    "issuer": "NVDA",
+    "source": "data/raw/sec-edgar-filings/NVDA/10-K/0001045810-24-000029/full-submission.txt",
+    "filing_type": "10-K",
+    "filing_year": 2024,
+    "relationship": "BOARD_MEMBER_OF",
+    "title": "Director"
+  },
+  {
+    "type": "person",
+    "name": "Aarti Shah",
+    "issuer": "NVDA",
+    "source": "data/raw/sec-edgar-filings/NVDA/10-K/0001045810-24-000029/full-submission.txt",
+    "filing_type": "10-K",
+    "filing_year": 2024,
+    "relationship": "BOARD_MEMBER_OF",
+    "title": "Director"
+  },
+  {
+    "type": "person",
+    "name": "Mark Stevens",
+    "issuer": "NVDA",
+    "source": "data/raw/sec-edgar-filings/NVDA/10-K/0001045810-24-000029/full-submission.txt",
+    "filing_type": "10-K",
+    "filing_year": 2024,
+    "relationship": "BOARD_MEMBER_OF",
+    "title": "Director"
   },
   {
     "type": "person",
@@ -4885,301 +6210,19 @@
   },
   {
     "type": "person",
-    "name": "Satya Nadella",
-    "issuer": "MSFT",
-    "source": "data/raw/sec-edgar-filings/MSFT/10-K/0000950170-25-100235/full-submission.txt",
-    "filing_type": "10-K",
-    "filing_year": 2025,
-    "relationship": "EXECUTIVE_OF",
-    "title": "Chairman and Chief Executive Officer"
-  },
-  {
-    "type": "person",
-    "name": "Judson B. Althoff",
-    "issuer": "MSFT",
-    "source": "data/raw/sec-edgar-filings/MSFT/10-K/0000950170-25-100235/full-submission.txt",
-    "filing_type": "10-K",
-    "filing_year": 2025,
-    "relationship": "EXECUTIVE_OF",
-    "title": "Executive Vice President and Chief Commercial Officer"
-  },
-  {
-    "type": "person",
-    "name": "Amy L. Coleman",
-    "issuer": "MSFT",
-    "source": "data/raw/sec-edgar-filings/MSFT/10-K/0000950170-25-100235/full-submission.txt",
-    "filing_type": "10-K",
-    "filing_year": 2025,
-    "relationship": "EXECUTIVE_OF",
-    "title": "Executive Vice President and Chief Human Resources Officer"
-  },
-  {
-    "type": "person",
-    "name": "Kathleen T. Hogan",
-    "issuer": "MSFT",
-    "source": "data/raw/sec-edgar-filings/MSFT/10-K/0000950170-25-100235/full-submission.txt",
-    "filing_type": "10-K",
-    "filing_year": 2025,
-    "relationship": "EXECUTIVE_OF",
-    "title": "Executive Vice President, Office of Strategy and Transformation"
-  },
-  {
-    "type": "person",
-    "name": "Amy E. Hood",
-    "issuer": "MSFT",
-    "source": "data/raw/sec-edgar-filings/MSFT/10-K/0000950170-25-100235/full-submission.txt",
-    "filing_type": "10-K",
-    "filing_year": 2025,
-    "relationship": "EXECUTIVE_OF",
-    "title": "Executive Vice President and Chief Financial Officer"
-  },
-  {
-    "type": "person",
-    "name": "Takeshi Numoto",
-    "issuer": "MSFT",
-    "source": "data/raw/sec-edgar-filings/MSFT/10-K/0000950170-25-100235/full-submission.txt",
-    "filing_type": "10-K",
-    "filing_year": 2025,
-    "relationship": "EXECUTIVE_OF",
-    "title": "Executive Vice President and Chief Marketing Officer"
-  },
-  {
-    "type": "person",
-    "name": "Bradford L. Smith",
-    "issuer": "MSFT",
-    "source": "data/raw/sec-edgar-filings/MSFT/10-K/0000950170-25-100235/full-submission.txt",
-    "filing_type": "10-K",
-    "filing_year": 2025,
-    "relationship": "EXECUTIVE_OF",
-    "title": "Vice Chair and President"
-  },
-  {
-    "type": "person",
-    "name": "Alice L. Jolla",
-    "issuer": "MSFT",
-    "source": "data/raw/sec-edgar-filings/MSFT/10-K/0000950170-25-100235/full-submission.txt",
-    "filing_type": "10-K",
-    "filing_year": 2025,
-    "relationship": "EXECUTIVE_OF",
-    "title": "Corporate Vice President and Chief Accounting Officer"
-  },
-  {
-    "type": "person",
-    "name": "Reid G. Hoffman",
-    "issuer": "MSFT",
-    "source": "data/raw/sec-edgar-filings/MSFT/10-K/0000950170-25-100235/full-submission.txt",
-    "filing_type": "10-K",
-    "filing_year": 2025,
-    "relationship": "BOARD_MEMBER_OF",
-    "title": "Director"
-  },
-  {
-    "type": "person",
-    "name": "Hugh F. Johnston",
-    "issuer": "MSFT",
-    "source": "data/raw/sec-edgar-filings/MSFT/10-K/0000950170-25-100235/full-submission.txt",
-    "filing_type": "10-K",
-    "filing_year": 2025,
-    "relationship": "BOARD_MEMBER_OF",
-    "title": "Director"
-  },
-  {
-    "type": "person",
-    "name": "Teri L. List",
-    "issuer": "MSFT",
-    "source": "data/raw/sec-edgar-filings/MSFT/10-K/0000950170-25-100235/full-submission.txt",
-    "filing_type": "10-K",
-    "filing_year": 2025,
-    "relationship": "BOARD_MEMBER_OF",
-    "title": "Director"
-  },
-  {
-    "type": "person",
-    "name": "Catherine MacGregor",
-    "issuer": "MSFT",
-    "source": "data/raw/sec-edgar-filings/MSFT/10-K/0000950170-25-100235/full-submission.txt",
-    "filing_type": "10-K",
-    "filing_year": 2025,
-    "relationship": "BOARD_MEMBER_OF",
-    "title": "Director"
-  },
-  {
-    "type": "person",
-    "name": "Mark A. L. Mason",
-    "issuer": "MSFT",
-    "source": "data/raw/sec-edgar-filings/MSFT/10-K/0000950170-25-100235/full-submission.txt",
-    "filing_type": "10-K",
-    "filing_year": 2025,
-    "relationship": "BOARD_MEMBER_OF",
-    "title": "Director"
-  },
-  {
-    "type": "person",
-    "name": "Sandra E. Peterson",
-    "issuer": "MSFT",
-    "source": "data/raw/sec-edgar-filings/MSFT/10-K/0000950170-25-100235/full-submission.txt",
-    "filing_type": "10-K",
-    "filing_year": 2025,
-    "relationship": "BOARD_MEMBER_OF",
-    "title": "Lead Independent Director"
-  },
-  {
-    "type": "person",
-    "name": "Penny S. Pritzker",
-    "issuer": "MSFT",
-    "source": "data/raw/sec-edgar-filings/MSFT/10-K/0000950170-25-100235/full-submission.txt",
-    "filing_type": "10-K",
-    "filing_year": 2025,
-    "relationship": "BOARD_MEMBER_OF",
-    "title": "Director"
-  },
-  {
-    "type": "person",
-    "name": "Carlos A. Rodriguez",
-    "issuer": "MSFT",
-    "source": "data/raw/sec-edgar-filings/MSFT/10-K/0000950170-25-100235/full-submission.txt",
-    "filing_type": "10-K",
-    "filing_year": 2025,
-    "relationship": "BOARD_MEMBER_OF",
-    "title": "Director"
-  },
-  {
-    "type": "person",
-    "name": "Charles W. Scharf",
-    "issuer": "MSFT",
-    "source": "data/raw/sec-edgar-filings/MSFT/10-K/0000950170-25-100235/full-submission.txt",
-    "filing_type": "10-K",
-    "filing_year": 2025,
-    "relationship": "BOARD_MEMBER_OF",
-    "title": "Director"
-  },
-  {
-    "type": "person",
-    "name": "John W. Stanton",
-    "issuer": "MSFT",
-    "source": "data/raw/sec-edgar-filings/MSFT/10-K/0000950170-25-100235/full-submission.txt",
-    "filing_type": "10-K",
-    "filing_year": 2025,
-    "relationship": "BOARD_MEMBER_OF",
-    "title": "Director"
-  },
-  {
-    "type": "person",
-    "name": "Emma N. Walmsley",
-    "issuer": "MSFT",
-    "source": "data/raw/sec-edgar-filings/MSFT/10-K/0000950170-25-100235/full-submission.txt",
-    "filing_type": "10-K",
-    "filing_year": 2025,
-    "relationship": "BOARD_MEMBER_OF",
-    "title": "Director"
-  },
-  {
-    "type": "person",
-    "name": "Sundar Pichai",
-    "issuer": "GOOGL",
-    "source": "data/raw/sec-edgar-filings/GOOGL/10-K/0001652044-26-000018/full-submission.txt",
+    "name": "Donald Robertson",
+    "issuer": "NVDA",
+    "source": "data/raw/sec-edgar-filings/NVDA/10-K/0001045810-26-000021/full-submission.txt",
     "filing_type": "10-K",
     "filing_year": 2026,
     "relationship": "EXECUTIVE_OF",
-    "title": "CEO"
+    "title": "Vice President and Chief Accounting Officer"
   },
   {
     "type": "person",
-    "name": "Larry Page",
-    "issuer": "GOOGL",
-    "source": "data/raw/sec-edgar-filings/GOOGL/10-K/0001652044-26-000018/full-submission.txt",
-    "filing_type": "10-K",
-    "filing_year": 2026,
-    "relationship": "EXECUTIVE_OF",
-    "title": "Co-founder"
-  },
-  {
-    "type": "person",
-    "name": "Sergey Brin",
-    "issuer": "GOOGL",
-    "source": "data/raw/sec-edgar-filings/GOOGL/10-K/0001652044-26-000018/full-submission.txt",
-    "filing_type": "10-K",
-    "filing_year": 2026,
-    "relationship": "EXECUTIVE_OF",
-    "title": "Co-founder"
-  },
-  {
-    "type": "person",
-    "name": "John L. Hennessy",
-    "issuer": "GOOGL",
-    "source": "data/raw/sec-edgar-filings/GOOGL/10-K/0001652044-26-000018/full-submission.txt",
-    "filing_type": "10-K",
-    "filing_year": 2026,
-    "relationship": "BOARD_MEMBER_OF",
-    "title": "Director, Chair"
-  },
-  {
-    "type": "person",
-    "name": "Ruth M. Porat",
-    "issuer": "GOOGL",
-    "source": "data/raw/sec-edgar-filings/GOOGL/10-K/0001652044-26-000018/full-submission.txt",
-    "filing_type": "10-K",
-    "filing_year": 2026,
-    "relationship": "EXECUTIVE_OF",
-    "title": "President and Chief Investment Officer"
-  },
-  {
-    "type": "person",
-    "name": "Larry Page",
-    "issuer": "GOOGL",
-    "source": "data/raw/sec-edgar-filings/GOOGL/10-K/0001652044-26-000018/full-submission.txt",
-    "filing_type": "10-K",
-    "filing_year": 2026
-  },
-  {
-    "type": "person",
-    "name": "Sergey Brin",
-    "issuer": "GOOGL",
-    "source": "data/raw/sec-edgar-filings/GOOGL/10-K/0001652044-26-000018/full-submission.txt",
-    "filing_type": "10-K",
-    "filing_year": 2026
-  },
-  {
-    "type": "person",
-    "name": "Eric E. Schmidt",
-    "issuer": "GOOGL",
-    "source": "data/raw/sec-edgar-filings/GOOGL/10-K/0001652044-26-000018/full-submission.txt",
-    "filing_type": "10-K",
-    "filing_year": 2026
-  },
-  {
-    "type": "person",
-    "name": "Anat Ashkenazi",
-    "issuer": "GOOGL",
-    "source": "data/raw/sec-edgar-filings/GOOGL/10-K/0001652044-26-000018/full-submission.txt",
-    "filing_type": "10-K",
-    "filing_year": 2026
-  },
-  {
-    "type": "person",
-    "name": "Anat Ashkenazi",
-    "issuer": "GOOGL",
-    "source": "data/raw/sec-edgar-filings/GOOGL/10-K/0001652044-26-000018/full-submission.txt",
-    "filing_type": "10-K",
-    "filing_year": 2026,
-    "relationship": "EXECUTIVE_OF",
-    "title": "Senior Vice President and Chief Financial Officer"
-  },
-  {
-    "type": "person",
-    "name": "Amie Thuener O'Toole",
-    "issuer": "GOOGL",
-    "source": "data/raw/sec-edgar-filings/GOOGL/10-K/0001652044-26-000018/full-submission.txt",
-    "filing_type": "10-K",
-    "filing_year": 2026,
-    "relationship": "EXECUTIVE_OF",
-    "title": "Vice President, Corporate Controller and Principal Accounting Officer"
-  },
-  {
-    "type": "person",
-    "name": "Frances H. Arnold",
-    "issuer": "GOOGL",
-    "source": "data/raw/sec-edgar-filings/GOOGL/10-K/0001652044-26-000018/full-submission.txt",
+    "name": "Tench Coxe",
+    "issuer": "NVDA",
+    "source": "data/raw/sec-edgar-filings/NVDA/10-K/0001045810-26-000021/full-submission.txt",
     "filing_type": "10-K",
     "filing_year": 2026,
     "relationship": "BOARD_MEMBER_OF",
@@ -5187,19 +6230,9 @@
   },
   {
     "type": "person",
-    "name": "Sergey Brin",
-    "issuer": "GOOGL",
-    "source": "data/raw/sec-edgar-filings/GOOGL/10-K/0001652044-26-000018/full-submission.txt",
-    "filing_type": "10-K",
-    "filing_year": 2026,
-    "relationship": "BOARD_MEMBER_OF",
-    "title": "Co-Founder and Director"
-  },
-  {
-    "type": "person",
-    "name": "R. Martin Ch\u00e1vez",
-    "issuer": "GOOGL",
-    "source": "data/raw/sec-edgar-filings/GOOGL/10-K/0001652044-26-000018/full-submission.txt",
+    "name": "Dawn Hudson",
+    "issuer": "NVDA",
+    "source": "data/raw/sec-edgar-filings/NVDA/10-K/0001045810-26-000021/full-submission.txt",
     "filing_type": "10-K",
     "filing_year": 2026,
     "relationship": "BOARD_MEMBER_OF",
@@ -5207,9 +6240,9 @@
   },
   {
     "type": "person",
-    "name": "L. John Doerr",
-    "issuer": "GOOGL",
-    "source": "data/raw/sec-edgar-filings/GOOGL/10-K/0001652044-26-000018/full-submission.txt",
+    "name": "Harvey C. Jones",
+    "issuer": "NVDA",
+    "source": "data/raw/sec-edgar-filings/NVDA/10-K/0001045810-26-000021/full-submission.txt",
     "filing_type": "10-K",
     "filing_year": 2026,
     "relationship": "BOARD_MEMBER_OF",
@@ -5217,9 +6250,9 @@
   },
   {
     "type": "person",
-    "name": "Roger W. Ferguson Jr.",
-    "issuer": "GOOGL",
-    "source": "data/raw/sec-edgar-filings/GOOGL/10-K/0001652044-26-000018/full-submission.txt",
+    "name": "Melissa B. Lora",
+    "issuer": "NVDA",
+    "source": "data/raw/sec-edgar-filings/NVDA/10-K/0001045810-26-000021/full-submission.txt",
     "filing_type": "10-K",
     "filing_year": 2026,
     "relationship": "BOARD_MEMBER_OF",
@@ -5227,19 +6260,9 @@
   },
   {
     "type": "person",
-    "name": "Larry Page",
-    "issuer": "GOOGL",
-    "source": "data/raw/sec-edgar-filings/GOOGL/10-K/0001652044-26-000018/full-submission.txt",
-    "filing_type": "10-K",
-    "filing_year": 2026,
-    "relationship": "BOARD_MEMBER_OF",
-    "title": "Co-Founder and Director"
-  },
-  {
-    "type": "person",
-    "name": "K. Ram Shriram",
-    "issuer": "GOOGL",
-    "source": "data/raw/sec-edgar-filings/GOOGL/10-K/0001652044-26-000018/full-submission.txt",
+    "name": "Stephen C. Neal",
+    "issuer": "NVDA",
+    "source": "data/raw/sec-edgar-filings/NVDA/10-K/0001045810-26-000021/full-submission.txt",
     "filing_type": "10-K",
     "filing_year": 2026,
     "relationship": "BOARD_MEMBER_OF",
@@ -5247,9 +6270,29 @@
   },
   {
     "type": "person",
-    "name": "Robin L. Washington",
-    "issuer": "GOOGL",
-    "source": "data/raw/sec-edgar-filings/GOOGL/10-K/0001652044-26-000018/full-submission.txt",
+    "name": "A. Brooke Seawell",
+    "issuer": "NVDA",
+    "source": "data/raw/sec-edgar-filings/NVDA/10-K/0001045810-26-000021/full-submission.txt",
+    "filing_type": "10-K",
+    "filing_year": 2026,
+    "relationship": "BOARD_MEMBER_OF",
+    "title": "Director"
+  },
+  {
+    "type": "person",
+    "name": "Aarti Shah",
+    "issuer": "NVDA",
+    "source": "data/raw/sec-edgar-filings/NVDA/10-K/0001045810-26-000021/full-submission.txt",
+    "filing_type": "10-K",
+    "filing_year": 2026,
+    "relationship": "BOARD_MEMBER_OF",
+    "title": "Director"
+  },
+  {
+    "type": "person",
+    "name": "Mark A. Stevens",
+    "issuer": "NVDA",
+    "source": "data/raw/sec-edgar-filings/NVDA/10-K/0001045810-26-000021/full-submission.txt",
     "filing_type": "10-K",
     "filing_year": 2026,
     "relationship": "BOARD_MEMBER_OF",
