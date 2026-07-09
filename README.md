@@ -17,6 +17,7 @@ The graph layer extracts entities and relationships once at index time, stores t
 | "Who is on Apple's board?" | 10 names mixing 3 filing years | Exact 7 directors + titles from the filing |
 | "Where is Apple headquartered?" | Depends on retrieval luck | "One Apple Park Way, Cupertino, California 95014" |
 | "Who are Apple's competitors?" | Narrative summary | No fabricated list (modern 10-Ks name no competitors — verified) |
+| "Which companies face cybersecurity risk?" | Can't answer at all — no single filing to retrieve from | Joins across all ingested filings via a shared `RiskFactor` node |
 
 ---
 
@@ -41,7 +42,7 @@ fetch (multi-ticker) → preprocess → chunks.json
                into one GPT-4o prompt)
 ```
 
-**Graph schema** — nodes: `Person`, `Organization` (ticker, legal_name, role, headquarters_address), `Product`, `Filing`. Relationships: `BOARD_MEMBER_OF`, `EXECUTIVE_OF` (title), `COMPETES_WITH`, `SHAREHOLDER_OF` (pct_owned), `PRODUCT_OF`, `SUBSIDIARY_OF`, `PARTNERS_WITH`, `MENTIONED_IN` (provenance).
+**Graph schema** — nodes: `Person`, `Organization` (ticker, legal_name, role, headquarters_address), `Product`, `RiskFactor` (fixed 12-category taxonomy, shared across companies), `Filing`. Relationships: `BOARD_MEMBER_OF`, `EXECUTIVE_OF` (title), `COMPETES_WITH`, `SHAREHOLDER_OF` (pct_owned), `PRODUCT_OF`, `SUBSIDIARY_OF`, `PARTNERS_WITH`, `EXPOSED_TO` (summary, year), `MENTIONED_IN` (provenance).
 
 ---
 
@@ -91,7 +92,7 @@ streamlit run app.py
 Opens at `http://localhost:8501`. From the sidebar you can:
 - **Add company** — type ticker(s) (e.g. `NVDA` or `AAPL, MSFT`), pick filing types and count under "Ingest options", hit **Ingest**. Runs the full pipeline (fetch → preprocess → index → extract entities → build graph) with per-stage progress; the new company appears in the dropdown when done. Graph steps are skipped with a warning if `NEO4J_URI` is unset. Ingestion takes a few minutes per 10-K (EDGAR download + LLM extraction).
 - **Company dropdown** — scope questions to one indexed company ("All companies" = no filter).
-- **Knowledge graph toggle** — Auto/On/Off; graph-backed answers show a "Knowledge Graph Facts" expander.
+- **Knowledge graph toggle** — Auto/On/Off; graph-backed answers show a "Knowledge Graph Facts" expander alongside a "Knowledge Graph Visual" node/edge diagram of the same facts.
 
 **Or from the CLI:**
 ```bash
@@ -107,7 +108,8 @@ Or all at once: `python main.py all --ticker AAPL MSFT GOOGL --types 10-K --limi
 ```bash
 python main.py query --question "Who is on Apple's board of directors?"
 python main.py query --question "Who is Microsoft's CFO?"
-python main.py query --question "What are Apple's main risk factors?"   # pure vector — no graph facts
+python main.py query --question "What are Apple's main risk factors?"        # per-company, graph-routed
+python main.py query --question "Which companies face cybersecurity risk?"  # cross-company, no --company needed
 ```
 Graph-routed answers print a `=== GRAPH FACTS ===` block. Force behavior with `--use-graph {auto,on,off}` (default `auto`); scope to one company with `--company AAPL`.
 
@@ -115,6 +117,7 @@ Graph-routed answers print a `=== GRAPH FACTS ===` block. Force behavior with `-
 ```cypher
 MATCH (o:Organization {ticker:'AAPL'})-[r]-(n) WHERE NOT n:Filing RETURN o, r, n LIMIT 50
 MATCH (p:Person)-[r]->(o:Organization) RETURN p, r, o
+MATCH (o:Organization {role:'issuer'})-[:EXPOSED_TO]->(r:RiskFactor {name:'Cybersecurity & Data Breaches'}) RETURN o, r
 ```
 
 ---
@@ -164,6 +167,7 @@ Access: set `APP_PASSWORD` in secrets to gate the whole UI (skip it locally for 
 - **Keyword intent router** — a simple keyword heuristic (no LLM router) decides when to query the graph; `--use-graph` overrides it.
 - **Known finding** — `COMPETES_WITH` edges are sparse-to-empty because modern 10-Ks deliberately avoid naming competitors (verified directly against MSFT's FY2025 filing). Competitor questions fall back to narrative vector context without fabricating a list.
 - **Accepted gaps** — light name canonicalization only (no full coreference resolution: "Tim Cook" vs "Timothy D. Cook" can coexist).
+- **Fixed risk-factor taxonomy** — `RiskFactor` nodes are keyed by a closed 12-category enum (`RISK_CATEGORIES` in `knowledge_graph.py`), not free text extracted verbatim. This is deliberate: it's what lets two companies' risk factors land on the *same* node, which is what makes the cross-company query possible at all. A wider/looser taxonomy would fragment that overlap.
 
 ---
 

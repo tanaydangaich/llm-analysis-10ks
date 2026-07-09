@@ -145,6 +145,14 @@ fetch (multi-ticker) → preprocess (multi-ticker) → chunks.json
 
 ---
 
+## Post-Phase-6 additions (2026-07-09, not in the original scope above)
+
+**Graph visualization** — the "optional Phase 6 stretch" (line 111) shipped: `app.py` renders each answer's graph facts as a node/edge diagram (`streamlit-agraph`) in a "§ Knowledge graph visual" expander, next to the existing text expander. Built directly from the same intent-scoped `graph_facts` dict already fetched for the text rendering — not a fresh full-neighborhood Cypher query — so it only ever draws what the question actually asked about.
+
+**Risk-factor extension** — a new node type beyond the original schema (person/organization/product/filing): `RiskFactor`, with a fixed 12-category taxonomy (`RISK_CATEGORIES` in `src/knowledge_graph.py`), linked from issuers via `EXPOSED_TO {summary, year}`. Extracted the same way as other entities (added to `extract_entities.py`'s structured-output schema), but the category is a closed enum rather than free text — deliberately, so the same risk from two different companies' filings lands on the *same* node. This is the graph doing something a wider/free-text taxonomy or plain RAG can't: a cross-company query (`query_companies_by_risk`) answers "which companies face cybersecurity risk" by joining across separate filings, bypassing the single-company resolution the rest of the graph intents require. Taxonomy was validated against real AAPL Item 1A text before the full run (an initial 21-category draft was cut to 12 — a wider taxonomy fragments the cross-company overlap that's the entire point).
+
+---
+
 ## Verification
 
 **Neo4j Browser, per phase:** node/edge counts (`MATCH (n) RETURN count(n)`, `MATCH ()-[r]->() RETURN type(r), count(*)`), idempotency re-run, visual subgraph (`MATCH (o:Organization {ticker:'AAPL'})-[r]-(n) RETURN o,r,n LIMIT 50`).
