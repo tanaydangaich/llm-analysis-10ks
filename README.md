@@ -82,7 +82,16 @@ NEO4J_PASSWORD=<password from Neo4j Desktop>
 
 ## Usage
 
-**Full pipeline, multiple companies:**
+**Easiest: everything from the UI**
+```bash
+streamlit run app.py
+```
+Opens at `http://localhost:8501`. From the sidebar you can:
+- **Add company** — type ticker(s) (e.g. `NVDA` or `AAPL, MSFT`), pick filing types and count under "Ingest options", hit **Ingest**. Runs the full pipeline (fetch → preprocess → index → extract entities → build graph) with per-stage progress; the new company appears in the dropdown when done. Graph steps are skipped with a warning if `NEO4J_URI` is unset. Ingestion takes a few minutes per 10-K (EDGAR download + LLM extraction).
+- **Company dropdown** — scope questions to one indexed company ("All companies" = no filter).
+- **Knowledge graph toggle** — Auto/On/Off; graph-backed answers show a "Knowledge Graph Facts" expander.
+
+**Or from the CLI:**
 ```bash
 python main.py fetch --ticker AAPL MSFT GOOGL --types 10-K --limit 1
 python main.py preprocess --ticker AAPL MSFT GOOGL
@@ -98,13 +107,7 @@ python main.py query --question "Who is on Apple's board of directors?"
 python main.py query --question "Who is Microsoft's CFO?"
 python main.py query --question "What are Apple's main risk factors?"   # pure vector — no graph facts
 ```
-Graph-routed answers print a `=== GRAPH FACTS ===` block. Force behavior with `--use-graph {auto,on,off}` (default `auto`).
-
-**Launch the UI:**
-```bash
-streamlit run app.py
-```
-Opens at `http://localhost:8501`. Sidebar has an Auto/On/Off knowledge-graph toggle; graph-backed answers show a "Knowledge Graph Facts" expander.
+Graph-routed answers print a `=== GRAPH FACTS ===` block. Force behavior with `--use-graph {auto,on,off}` (default `auto`); scope to one company with `--company AAPL`.
 
 **Inspect the graph** in Neo4j Browser:
 ```cypher
@@ -151,7 +154,7 @@ MATCH (p:Person)-[r]->(o:Organization) RETURN p, r, o
 ## Project structure
 
 ```
-├── app.py                    # Streamlit UI (graph toggle + facts expander)
+├── app.py                    # Streamlit UI (company picker, in-app ingest, graph toggle)
 ├── main.py                   # CLI entrypoint
 ├── PLAN.md                   # Implementation plan for the graph layer
 ├── src/
